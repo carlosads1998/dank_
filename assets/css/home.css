@@ -2,15 +2,17 @@
     padding: 0;
     margin: 0;
     font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     background: #f4f4f4;
     font-family: 'Manrope', sans-serif;
+    overflow-x: hidden;
 }
 
 .slideshow {
-    width: 1520px;
+    width: 1380px;
     height: 902px;
     position: absolute;
     left: 0;
@@ -35,7 +37,7 @@ body {
     object-fit: cover;
 }
 
-.menu {
+.menu{
     position: absolute;
     height: 48px;
     bottom: 42px;
@@ -131,7 +133,7 @@ body {
     position: absolute;
     left: 53.58px;
     right: 53px;
-    width: 1333.42px;
+    width: 1380px;
 
 }
 
