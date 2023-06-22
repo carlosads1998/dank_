@@ -1,0 +1,444 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.banner-principal{
+    width: auto;
+    height: 992px;
+    position: relative;
+    width: 1459px;
+}
+
+.logo{
+    position: absolute;
+    height: auto;
+    bottom: 42px;
+    left: 71px;
+}
+
+.menu{
+    position: absolute;
+    height: 48px;
+    bottom: 42px;
+    width: 361px;
+    right: 71px;
+    display: flex;
+    list-style: none;
+    padding: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+    backdrop-filter: blur(40px);
+}
+
+.menu:hover{
+    background-color: #fffb00;
+}
+
+.nav-item{
+    height: 20px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.nav-item a{
+    padding: 22px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
+.nav-item a:hover {
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 100px;
+    font-size: 14px;
+}
+
+.container{
+    margin-top: 127px;
+    margin-bottom: 128px;
+    padding: 100px;
+    margin-left: 56px;
+}
+
+.texto{
+    color: black;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 55px;
+    font-style: normal;
+}
+
+.container1{
+    display: flex;
+    background-color: #fffb00;
+    justify-content: center;
+    height: 496px;
+}
+
+.logo2{
+    margin-left: 942px;
+    margin-top: 76px;
+}
+
+.txt{
+    position: absolute;
+    margin-top:197px;
+    margin-bottom: 197px;
+    font-size: 40px; 
+    font-weight: 300;
+    line-height: 55px;
+    font-style: normal;
+}
+
+.foto-sobre{
+    width: 100%;
+    height: 980px;
+    max-width: auto;
+    max-height: auto;
+}
+
+.container-1{
+    background-color: red;
+    margin-top: 100px;
+}
+
+.container2{
+    margin-top: 91px;
+}
+
+.texto2{
+    text-align:left;
+    position: absolute;
+    margin-top:80px;
+    line-height: 55px;
+    left: 360px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.clientes{
+    margin-top: 673px;
+}
+
+
+.client{
+    font-weight:500;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.1em;
+    margin-left: 54px;
+    height: 107px;
+    font-style: normal;
+    color: #000000;
+    
+}
+
+.logos{
+    margin-top: -110px;
+    margin-left: 451px;
+    width: 846px;
+    height: 854px;
+    margin-right: 143px;
+    background-color: #EEEEEE;
+    border-radius: 33px;
+    padding: 30px;
+}
+
+.equipe1{
+    margin-left: 57px;
+    margin-top: 121px;
+    position: absolute;
+
+}
+
+.equipe{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    align-items: center;
+}
+
+.text{
+    margin-left: 720px;
+    margin-top: 121px;
+}
+
+.texto3{
+    background-color: #f4f4f4;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.grid-container {
+    margin-top: 29px;
+    width: 1384px;
+    height: 525px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.grid-container img{
+    width: 430px;
+    height: 525px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    border-radius: 10px;
+    animation: slide 5s infinite;
+
+}
+
+.grid-container p{
+    color:black;
+    font-size: 16px;
+    font-weight: 500;
+    font-weight: 300;
+    animation: slide 5s infinite;
+
+}
+
+.grid-container .mensagem{
+    font-size: 12px;
+    display: flex;
+    color:black;
+    justify-content: right;
+    margin-right: 0px;
+    margin-top: -20px;
+    animation: slide 5s infinite;
+
+}
+
+.container-2{
+    position: absolute;
+}
+
+.texto3{
+    color: black;
+    margin-top: 110px;
+    margin-left: 56px;
+    font-size: 30px;
+    margin-left: 50px;
+    line-height: 41px;
+    font-weight: 300;
+}
+
+.container_servicos{
+    margin-top: 169px;
+    position: absolute;
+    margin-left: 57px;
+}
+
+.services{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    font-style: normal;
+}
+
+
+.servicos{
+    margin-top: 169px;
+    margin-left: 781px;
+    width: 516px;
+    height: 2px;
+    background-color: #C4C4C4;
+}
+.servicos1{
+    margin-top: 169px;
+    margin-left: 781px;
+    width: 516px;
+    height: 2px;
+    background-color: #C4C4C4;
+}.servicos2{
+    margin-top: 169px;
+    margin-left: 781px;
+    width: 516px;
+    height: 2px;
+    background-color: #C4C4C4;
+}
+.servicos3{
+    margin-top: 169px;
+    margin-left: 781px;
+    width: 516px;
+    height: 3px;
+    background-color: #C4C4C4;
+}
+
+
+
+.itens_content{
+    margin-left: 781px;
+    margin-top: 11px;
+    margin-bottom: -120px;
+}
+
+.titulo{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+}
+
+.item{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0.05em; 
+}
+
+.orcamento {
+    margin-top:240px;
+    position: absolute;
+    width: 1334px;
+    height: 332px;
+    left: 116px;
+    right: 115px;
+    background-color: #EEEEEE;
+    border-radius: 33px;
+}
+
+.msg {
+    align-items: center;
+    color: black;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 300;
+    line-height: 55px;
+    margin-left: 116px;
+    margin-top: 84px;
+    margin-bottom: 84px;
+    position: absolute;
+}
+
+.orcamento img {
+    margin-left: 727px;
+    margin-top: -76px;
+    position: absolute;
+    width: 54px;
+    height: 47px;
+}
+
+.meu-botao {
+    margin-left: 838px;
+    font-size: 24px;
+    margin-top: -76px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    background-color:#D9D9D9;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0px 25px;
+    position: absolute;
+}
+
+.contato {
+    position: absolute;
+    width: 1334px;
+    height: 233px;
+    margin-left: 53px;
+    margin-top: 651px;
+}
+
+.frase {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 30px;
+}
+
+.botao-interativo {
+    display: grid;
+    justify-content: right;
+    position: absolute;
+    width: 1244px;
+    height: 154px;
+    margin-left: 160px;
+    margin-top: 701px;
+    grid-gap: 0px;
+}
+
+.botao {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 24px;
+    color: black;
+    text-align: right;
+}
+
+footer {
+    padding: 20px;
+    position: absolute;
+    width: 1450px;
+    margin-top: 850px;
+}
+
+.divider {
+    font-size: 16px;
+    height: 1px;
+    background-color: #1E1E1E;
+}
+
+.left {
+    text-align: left;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-top: 22px;
+}
+
+.right {
+    text-align: right;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-top: -17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* carrosel automatico */
+
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-95%); /* Desloca o carrossel para a esquerda */
+    }
+  }

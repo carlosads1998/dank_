@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #f5f5f5;
+  padding: 40px;
+  margin-top: 0px;
+  margin-left: 54px;
+  width: 100%;  
+}
+
+.container {
+  margin-left: 54px;
+  height: 592px;
+  width: 621px;
+  background-color: #EEEEEE;
+  padding: 20px;
+  border-radius: 33px;
+  box-shadow: #EEEEEE
+}
+
+.form-group {
+  bottom: 102.67px;
+  margin-block-start: -50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.form-group label {
+  line-height: 32.78px;
+  font-weight: 600;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 0px;
+}
+
+input,
+textarea {
+  background-color: #EEEEEE;
+  padding: 20px;
+}
+
+hr {
+  width: 516px;
+  margin-top: 67px;
+  height: 1px;
+  background-color: #C4C4C4;
+  border: none;
+  left: 107px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0px;
+  border:#EEEEEE;
+  border-radius: 4px;
+}
+input[type="image"] {
+  padding-top: 20px;
+  width: 51px;
+  border: none;
+  cursor: pointer;
+}
+
+.botao-interativo {
+  margin-top: -540px;
+  display: grid;
+  justify-content: center;
+  width: 1244px;
+  height: 154px;
+  margin-left: 140px;
+  grid-gap: 0px;
+}
+
+.botao {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 55px;
+  color: #000000;
+  text-align: left;
+}
+
+.contato {
+  display: grid;
+  justify-content: center;
+  width: 1244px;
+  height: 154px;
+  margin-left: 325px;
+  margin-top: -100px;
+}
+
+.contact {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: -65px;
+  align-items: center;
+  font-style: normal;
+  color: #000000;
+}
+
+.rua {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: -250px;
+  align-items: center;
+  font-style: normal;
+  color: #000000;
+}
+
+.danke{
+  margin-top: -55px;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #000000;
+  font-weight: 600;
+}
+
+.logo{
+  margin-left: 60px;
+}
+
+.logo img{
+  width: 621.03px;
+}
+
+.menu{
+  position: absolute;
+  margin-top: -27px;
+  display: flex;
+  height: 48px;
+  margin-bottom: -100px;
+  width: 361px;
+  margin-left: 1050px;
+  list-style: none;
+  padding: 1px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  backdrop-filter: blur(40px);
+}
+
+.menu:hover{
+  background-color: #fffb00;
+  align-items: center;
+  margin-top: -40px;
+  width: 20%;
+}
+
+.nav-item a {
+  padding: 22px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+}
+
+.nav-item a:hover {
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 100px;
+  font-size: 14px;
+}
+
+.esquerda{
+  position: absolute;
+  margin-left: 1249px;
+  margin-top: -895px;
+  width: 100px;
+}
