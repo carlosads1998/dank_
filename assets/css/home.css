@@ -14,11 +14,7 @@ body {
 }
 
 .slideshow {
-<<<<<<< HEAD
-    width: 1350px;
-=======
     width: 1440px;
->>>>>>> e29b1ae3768c681d9a2abcc35b1189bcb69fd917
     height: 902px;
     position: absolute;
     left: 0;
