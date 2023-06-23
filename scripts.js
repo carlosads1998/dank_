@@ -42,3 +42,16 @@ window.addEventListener('scroll', function() {
     logo.style.width = '200px'; // Restaura a largura original da logo
   }
 });
+
+window.addEventListener("scroll", function() {
+  var header = document.querySelector(".logo_");
+  var logo = document.querySelector(".logo_branca");
+  
+  if (window.scrollY > 0) {
+    header.classList.add("scrolled");
+    logo.src = "/assets/img/Logotipo Danke_preto.png";
+  } else {
+    header.classList.remove("scrolled");
+    logo.src = "/assets/img/Logotipo Danke branco 1.png";
+  }
+});

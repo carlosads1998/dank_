@@ -8,26 +8,27 @@
 
 body{
     background-color: #f4f4f4;
+    overflow-x: hidden;
 }
 
 .banner-principal{
     width: auto;
-    height: 992px;
+    height: 902px;
     position: relative;
-    width: 1459px;
+    width: 1320px;
 }
 
 .logo{
     position: absolute;
     height: auto;
-    bottom: 42px;
+    bottom: 0px;
     left: 71px;
 }
 
 .menu{
     position: absolute;
     height: 48px;
-    bottom: 42px;
+    bottom: 0px;
     width: 361px;
     right: 71px;
     display: flex;
@@ -309,9 +310,9 @@ body{
 .orcamento {
     margin-top:240px;
     position: absolute;
-    width: 1334px;
+    width: 1314px;
     height: 332px;
-    left: 116px;
+    left: 20px;
     right: 115px;
     background-color: #EEEEEE;
     border-radius: 33px;
@@ -372,7 +373,7 @@ body{
     display: grid;
     justify-content: right;
     position: absolute;
-    width: 1244px;
+    width: 1165px;
     height: 154px;
     margin-left: 160px;
     margin-top: 701px;
@@ -391,7 +392,7 @@ body{
 footer {
     padding: 20px;
     position: absolute;
-    width: 1450px;
+    width: 1320px;
     margin-top: 850px;
 }
 
