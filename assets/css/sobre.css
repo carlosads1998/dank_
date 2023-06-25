@@ -34,8 +34,6 @@ body{
     opacity: 0;
   }
 
-
-
 .menu{
     z-index: 9999;
     position: fixed;
@@ -83,19 +81,22 @@ body{
 }
 
 .container{
-    margin-top: 127px;
-    margin-bottom: 128px;
+    height: 406px;
     padding: 100px;
-    margin-left: 56px;
+    margin-left: 235px;   
+    margin-bottom: -100px; 
 }
 
 .texto{
+    position: absolute;
+    top: 1090px;
     color: black;
     font-size: 40px;
     font-weight: 400;
     line-height: 55px;
     font-style: normal;
     margin-top: 40px;
+    
 }
 
 .container1{
@@ -106,8 +107,11 @@ body{
 }
 
 .logo2{
-    margin-left: 942px;
+    margin-left: 732px;
     margin-top: 76px;
+    height: 342.23px;
+    width: 343.12px;
+    
 }
 
 .txt{
@@ -118,6 +122,7 @@ body{
     font-weight: 300;
     line-height: 55px;
     font-style: normal;
+    margin-left: 137px;
 }
 
 .banner-sobre{
@@ -126,7 +131,7 @@ body{
 }
 
 .foto-sobre{
-    width: 795px;
+    width: 755px;
     height: 523px;
     max-width: auto;
     max-height: auto;
@@ -157,7 +162,12 @@ body{
 }
 
 .clientes{
-    margin-top: 673px;
+    margin-top: 770px;
+}
+
+.clientes p{
+    position: absolute;
+    bottom: -2755px;
 }
 
 
@@ -188,7 +198,11 @@ body{
     margin-left: 57px;
     margin-top: 121px;
     position: absolute;
+}
 
+.equipe p{
+    position: absolute;
+    margin-top: 10px;
 }
 
 .equipe{
@@ -200,9 +214,13 @@ body{
 }
 
 .text{
-    margin-left: 720px;
     margin-top: 101px;
     margin-bottom: 100px;
+}
+
+.texto3 p{
+    margin-left: 80px;
+
 }
 
 .texto3{
@@ -277,6 +295,11 @@ body{
     margin-left: 57px;
 }
 
+.container_servicos p{
+    position: absolute;
+    top: 85px;
+}
+
 .services{
     font-size: 24px;
     font-weight: 500;
@@ -286,35 +309,35 @@ body{
 
 
 .servicos{
-    margin-top: 169px;
-    margin-left: 781px;
+    margin-top: 269px;
+    margin-left: 681px;
     width: 516px;
     height: 2px;
     background-color: #C4C4C4;
 }
 .servicos1{
     margin-top: 169px;
-    margin-left: 781px;
+    margin-left: 681px;
     width: 516px;
     height: 2px;
     background-color: #C4C4C4;
 }.servicos2{
     margin-top: 169px;
-    margin-left: 781px;
+    margin-left: 681px;
     width: 516px;
     height: 2px;
     background-color: #C4C4C4;
 }
 .servicos3{
     margin-top: 169px;
-    margin-left: 781px;
+    margin-left: 681px;
     width: 516px;
     height: 3px;
     background-color: #C4C4C4;
 }
 
 .itens_content{
-    margin-left: 781px;
+    margin-left: 681px;
     margin-top: 11px;
     margin-bottom: -120px;
 }
@@ -338,14 +361,14 @@ body{
 }
 
 .projetos-banner{
-    margin-top: 250px;
+    margin-top: 285px;
     width: 1320px;
     margin-left: 15px;
     margin-right: 15px;
 }
 
 .orcamento {
-    margin-top:240px;
+    margin-top:130px;
     position: absolute;
     width: 1314px;
     height: 332px;
@@ -396,7 +419,7 @@ body{
     width: 1334px;
     height: 233px;
     margin-left: 53px;
-    margin-top: 651px;
+    margin-top: 581px;
 }
 
 .frase {
@@ -411,9 +434,9 @@ body{
     justify-content: right;
     position: absolute;
     width: 1165px;
-    height: 154px;
+    height: 114px;
     margin-left: 160px;
-    margin-top: 701px;
+    margin-top:651px;
     grid-gap: 0px;
 }
 
@@ -430,12 +453,13 @@ footer {
     padding: 20px;
     position: absolute;
     width: 1320px;
-    margin-top: 850px;
+    margin-top: 760px;
 }
 
 .divider {
+    margin-left: -10px;
     font-size: 16px;
-    height: 1px;
+    height: 2px;
     background-color: #1E1E1E;
 }
 
@@ -444,7 +468,8 @@ footer {
     font-size: 16px;
     line-height: 22px;
     font-weight: 500;
-    margin-top: 22px;
+    margin-top: 10px;
+    margin-bottom: 80px;
 }
 
 .right {
@@ -452,22 +477,8 @@ footer {
     font-size: 16px;
     line-height: 22px;
     font-weight: 500;
-    margin-top: -17px;
+    margin-top: -25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* carrosel automatico */
