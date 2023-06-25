@@ -32,16 +32,7 @@ function ocultarMensagem(elemento) {
   mensagem.style.bottom = "-30px";
 }
 
-window.addEventListener('scroll', function() {
-  var logo = document.querySelector('.logo');
-  var scrollPosition = window.scrollY;
-  
-  if (scrollPosition > 0) {
-    logo.style.width = '100000px'; // Diminui a largura da logo
-  } else {
-    logo.style.width = '200px'; // Restaura a largura original da logo
-  }
-});
+
 
 window.addEventListener("scroll", function() {
   var header = document.querySelector(".logo_");
@@ -55,3 +46,39 @@ window.addEventListener("scroll", function() {
     logo.src = "/assets/img/Logotipo Danke branco 1.png";
   }
 });
+
+
+
+
+
+const carousel = document.querySelector('.conteudo');
+const messages = carousel.querySelectorAll('.conteudo1');
+const totalMessages = messages.length;
+const messageWidth = messages[0].offsetWidth;
+let currentIndex = 0;
+
+function startCarousel() {
+  setInterval(() => {
+    currentIndex++;
+    if (currentIndex >= totalMessages) {
+      currentIndex = 0;
+      carousel.scrollTo({
+        left: 0,
+        behavior: 'smooth'
+      });
+    } else if (currentIndex >= totalMessages - 2) {
+      carousel.scrollTo({
+        left: (totalMessages - 3) * messageWidth,
+        behavior: 'smooth'
+      });
+    } else {
+      carousel.scrollTo({
+        left: currentIndex * messageWidth,
+        behavior: 'smooth'
+      });
+    }
+  }, 3000); // Tempo em milissegundos entre cada transição de mensagem
+}
+
+startCarousel();
+
