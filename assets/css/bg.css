@@ -159,3 +159,242 @@ body {
     top: 1261px;
 
 }
+
+.texto2{
+    position: absolute;
+    width: 836px;
+    height: 140px;
+    display: flex;
+    top: 2282px;
+    left: 360px;
+}
+.texto2 p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.imagens_combo{
+    position: absolute;
+    left: 53px;
+    top: 2541px;
+    border-radius: 10px;
+}
+.imagens_combo1{
+    position: absolute;
+    left: 738px;
+    top: 2541px;
+    right: 52px;
+}
+
+.imagens_combo1 img{
+    width: 650px;
+    border-radius: 10px;
+    height: 974.496px;
+}
+
+.banner{
+    position: absolute;
+    left: 53px;
+    right: 53px;
+    top: 3548px;
+}
+
+.combo2{
+    position: absolute;
+    left: 53px;
+    top: 4339px;
+}
+
+.combo3{
+    position: absolute;
+    left: 737px;
+    top: 4339px;
+}
+
+.combo4{
+    position: absolute;
+    top: 4918px;
+    left: 737px;
+}
+
+.combo5{
+    position: absolute;
+    left: 53px;
+    top: 5356px;
+}
+
+.combo6{
+    position: absolute;
+    left: 737px;
+    top: 5356px;
+}
+
+.combo6 img{
+    width: 650px;
+    height: 433px;
+    border-radius: 10px;
+}
+
+.combo7{
+    position: absolute;
+    left: 53px;
+    top: 5829px;
+}
+
+.combo8{
+    position: absolute;
+    left: 53px;
+    top: 6684px;
+}
+
+.combo8 img{
+    width: 1334px;
+    height: 752px;
+    border-radius: 10px;
+}
+
+.combo9{
+    position: absolute;
+    left: 53px;
+    top: 7476px;
+}
+
+.combo10{
+    position: absolute;
+    left: 53px;
+    top: 8330px;
+}
+
+.combo11{
+    position: absolute;
+    left: 737px;
+    top: 8330px;
+}
+
+.combo12{
+    position: absolute;
+    left: 53px;
+    top: 8803px;
+}
+
+
+.orcamento {
+    top:9594px;
+    position: absolute;
+    width: 1334px;
+    height: 332px;
+    left: 53px;
+    right: 115px;
+    background-color: #EEEEEE;
+    border-radius: 33px;
+}
+
+.msg {
+    align-items: center;
+    color: black;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 300;
+    line-height: 55px;
+    margin-left: 116px;
+    margin-top: 84px;
+    margin-bottom: 84px;
+    position: absolute;
+}
+
+.orcamento img {
+    margin-left: 727px;
+    margin-top: -76px;
+    position: absolute;
+    width: 54px;
+    height: 47px;
+}
+
+.meu-botao {
+    margin-left: 838px;
+    font-size: 24px;
+    margin-top: -76px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    background-color:#D9D9D9;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0px 25px;
+    position: absolute;
+}
+
+
+.contato {
+    position: absolute;
+    width: 1334px;
+    height: 233px;
+    margin-left: 53px;
+    top: 9988px;
+}
+
+.frase {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 30px;
+}
+
+.botao-interativo {
+    display: grid;
+    justify-content: right;
+    position: absolute;
+    width: 1165px;
+    height: 114px;
+    margin-left: 160px;
+    top: 10051px;
+    grid-gap: 0px;
+}
+
+.botao {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 24px;
+    color: black;
+    text-align: right;
+}
+
+footer {
+    position: absolute;
+    padding: 20px;
+    position: absolute;
+    width: 1320px;
+    top: 10178px;
+}
+
+.divider {
+    margin-left: -10px;
+    font-size: 16px;
+    height: 2px;
+    background-color: #1E1E1E;
+}
+
+.left {
+    position: absolute;
+    text-align: left;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    left: 53px;
+    top: 52px;
+    width: 526px;
+    height: 19px;
+}
+
+.right {
+    width: 324px;
+    height: 19px;
+    position: absolute;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-top: -25px;
+    left: 1120px;
+}
