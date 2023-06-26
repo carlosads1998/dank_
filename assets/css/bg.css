@@ -14,11 +14,10 @@ body {
 }
 
 .especificacao {
-    font-family: 'Big Shoulders Display', sans-serif;
     position: absolute;
     background-color: #FFFB00;
     border-radius: 50px;
-    width: 350px;
+    width: 305px;
     height: 31px;
     margin-top: 50px;
     margin-left: 815px;
@@ -26,9 +25,11 @@ body {
 }
 
 .especificacao p {
+    font-family: 'Big Shoulders Display', sans-serif;
     margin-left: 14px;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 4px;
+    letter-spacing: 0.1rem;
 }
 
 .banner_right {
@@ -136,6 +137,8 @@ body {
     font-size: 16px;
     font-family: 'Big Shoulders Display', sans-serif;
     color: #000;
+    letter-spacing: 0.1rem;
+
 }
 
 .texto{
