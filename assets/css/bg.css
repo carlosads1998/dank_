@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #f4f4f4;
+    width: 1443px;
+    height: 10328px;
+    overflow-x: hidden;
+}
+
+.especificacao {
+    position: absolute;
+    background-color: #FFFB00;
+    border-radius: 50px;
+    width: 390px;
+    height: 31px;
+    margin-top: 50px;
+    margin-left: 815px;
+    margin-right: 355px;
+}
+
+.especificacao p {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.banner_right {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 53px;
+    border-radius: 10px;
+}
+
+.titulo {
+    position: absolute;
+    display: flex;
+    width: 299px;
+    height: 43px;
+    margin-left: 828px;
+    margin-top: 428px;
+}
+
+.titulo p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+}
+
+.descricao {
+    position: absolute;
+    margin-left: 828px;
+    margin-top: 471px;
+    width: 493px;
+    height: 137px;
+}
+
+.descricao p {
+    font-size: 56px;
+    color: #000;
+}
+
+.logo_ {
+    position: fixed;
+    z-index: 9999;
+    height: auto;
+    margin-top: 823px;
+    left: 71px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.logo.hidden logo_ {
+    opacity: 0;
+}
+
+.menu {
+    z-index: 9999;
+    position: fixed;
+    height: 48px;
+    margin-top: 823px;
+    width: 361px;
+    right: 71px;
+    display: flex;
+    list-style: none;
+    padding: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+    backdrop-filter: blur(40px);
+}
+
+.menu:hover {
+    background: rgba(255, 251, 0, 0.4);;
+}
+.nav-item {
+    height: 20px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.nav-item a {
+    padding: 22px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
+.nav-item a:hover {
+    font-weight: bold;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
+.content-1{
+    position: absolute;
+    width: 171px;
+    height: 20px;
+    top: 1021px;
+    left: 61px;
+}
+
+.content-1 p{
+    font-size: 16px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: #000;
+}
+
+.texto{
+    width: 836px;
+    height: 121px;
+    position: absolute;
+    top: 1021px;
+    left: 360px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.texto p{
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+    
+}
+
+.capa_meio{
+    position: absolute;
+    top: 1261px;
+
+}
