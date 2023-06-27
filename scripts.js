@@ -21,7 +21,6 @@ function ocultarMensagem(elemento) {
   mensagem.style.bottom = "-30px";
 }
 
-
 function mostrarMensagem(elemento) {
   var mensagem = elemento.querySelector('.mensagem1');
   mensagem.style.bottom = "10px";
@@ -32,6 +31,75 @@ function ocultarMensagem(elemento) {
   mensagem.style.bottom = "-30px";
 }
 
+function mostrarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem2');
+  mensagem.style.bottom = "10px";
+}
+
+function ocultarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem2');
+  mensagem.style.bottom = "-30px";
+}
+
+function mostrarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem3');
+  mensagem.style.bottom = "10px";
+}
+
+function ocultarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem3');
+  mensagem.style.bottom = "-30px";
+}
+
+function mostrarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem4');
+  mensagem.style.bottom = "10px";
+}
+
+function ocultarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem4');
+  mensagem.style.bottom = "-30px";
+}
+
+function mostrarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem5');
+  mensagem.style.bottom = "10px";
+}
+
+function ocultarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem5');
+  mensagem.style.bottom = "-30px";
+}
+
+function mostrarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem6');
+  mensagem.style.bottom = "10px";
+}
+
+function ocultarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem6');
+  mensagem.style.bottom = "-30px";
+}
+
+function mostrarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem7');
+  mensagem.style.bottom = "10px";
+}
+
+function ocultarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem7');
+  mensagem.style.bottom = "-30px";
+}
+
+function mostrarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem8');
+  mensagem.style.bottom = "10px";
+}
+
+function ocultarMensagem(elemento) {
+  var mensagem = elemento.querySelector('.mensagem8');
+  mensagem.style.bottom = "-30px";
+}
 
 
 window.addEventListener("scroll", function() {
