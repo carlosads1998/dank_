@@ -16,7 +16,7 @@ body{
     width: auto;
     height: 902px;
     position: relative;
-    width: 1320px;
+    width: 1440px;
 }
 
 
@@ -83,7 +83,7 @@ body{
 .container{
     height: 406px;
     padding: 100px;
-    margin-left: 235px;   
+    margin-left: 360px;   
     margin-bottom: -100px; 
 }
 
@@ -96,6 +96,8 @@ body{
     line-height: 55px;
     font-style: normal;
     margin-top: 40px;
+    width: 919px;
+    height: 151px;
     
 }
 
@@ -104,14 +106,14 @@ body{
     background-color: #fffb00;
     justify-content: center;
     height: 496px;
+    width: 1540px;
 }
 
 .logo2{
-    margin-left: 732px;
+    margin-left: 924px;
     margin-top: 76px;
-    height: 342.23px;
     width: 343.12px;
-    
+    height: 343.13px;
 }
 
 .txt{
@@ -122,12 +124,15 @@ body{
     font-weight: 300;
     line-height: 55px;
     font-style: normal;
-    margin-left: 137px;
+    margin-left: 320px;
+    width: 515px;
+    height: 160px;
 }
 
 .banner-sobre{
-    margin-top: 53px;
-    margin-left: 25px;
+    position: absolute;
+    top: 1998px;
+    left: 54px;
 }
 
 .foto-sobre{
@@ -138,8 +143,9 @@ body{
 }
 
 .banner-sobre1{
-    margin-top: -528px;
-    margin-left: 850px;
+    position: absolute;
+    top: 1998px;
+    left: 998px;
 }
 
 .container-1{
@@ -148,26 +154,38 @@ body{
 }
 
 .container2{
-    margin-top: 91px;
+    position: absolute;
+    top: 2967px;
+    left: 360px;
 }
 
 .texto2{
-    text-align:left;
+    width: 991px;
+    height: 323px;
     position: absolute;
-    margin-top:80px;
+    text-align:left;
+    top:-200px;
     line-height: 55px;
-    left: 360px;
+    left: 95px;
     font-size: 40px;
     font-weight: 300;
 }
 
 .clientes{
-    margin-top: 770px;
+    position: absolute;
+    top: 3352px;
+    left: 270px;
+}
+
+.clientes img{
+    width: 667px;
+    height: 674px;
 }
 
 .clientes p{
     position: absolute;
-    bottom: -2755px;
+    bottom: 600px;
+    left: -264px;
 }
 
 
@@ -195,8 +213,8 @@ body{
 }
 
 .equipe1{
-    margin-left: 57px;
-    margin-top: 121px;
+    margin-left: 60px;
+    top: 4193px;
     position: absolute;
 }
 
@@ -219,7 +237,9 @@ body{
 }
 
 .texto3 p{
-    margin-left: 80px;
+    left: 721px;
+    position: absolute;
+    top: 4192px;
 
 }
 
@@ -230,7 +250,7 @@ body{
 }
 
 .grid-container {
-    margin-top: 29px;
+    margin-top: 2599px;
     width: 1384px;
     height: 525px;
     display: grid;

@@ -173,7 +173,7 @@ body {
 .capa_meio img{
     width:1443px;
     height: 902px;
-    object-fit: cover;
+    object-fit:;
 }
 
 .texto2{
