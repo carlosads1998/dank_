@@ -384,7 +384,7 @@ body{
     margin-top: 285px;
     width: 1380px;
     height: 1666.85px;
-    margin-left: 75px;
+    margin-left: 30px;
 }
 
 .orcamento {
@@ -392,7 +392,7 @@ body{
     position: absolute;
     width: 1334px;
     height: 332px;
-    left: 100px;
+    left: 53px;
     right: 115px;
     background-color: #EEEEEE;
     border-radius: 33px;
@@ -438,7 +438,7 @@ body{
     position: absolute;
     width: 1334px;
     height: 233px;
-    margin-left: 99px;
+    margin-left: 53px;
     margin-top: 581px;
 }
 
@@ -455,7 +455,7 @@ body{
     position: absolute;
     width: 1165px;
     height: 114px;
-    margin-left: 259px;
+    margin-left: 220px;
     margin-top:651px;
     grid-gap: 0px;
 }
@@ -474,7 +474,7 @@ footer {
     position: absolute;
     width: 1410px;
     margin-top: 760px;
-    left: 50px;
+    left:0px;
 }
 
 .divider {
