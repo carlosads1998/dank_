@@ -9,7 +9,7 @@
 body {
     background-color: #f4f4f4;
     width: 1443px;
-    height: 10328px;
+    height: 13348px;
     overflow-x: hidden;
 }
 
@@ -35,7 +35,7 @@ body {
 .banner_right {
     position: absolute;
     margin-top: 45px;
-    margin-left: 53px;
+    margin-left: 50px;
     border-radius: 10px;
 }
 .banner_right img{
@@ -173,7 +173,7 @@ body {
 .capa_meio img{
     width:1443px;
     height: 902px;
-    object-fit:;
+    border-radius: 10px;
 }
 
 .texto2{
@@ -191,129 +191,147 @@ body {
 
 .imagens_combo{
     position: absolute;
-    left: 53px;
     top: 2541px;
-    border-radius: 10px;
+    left: 50px;
+    right: 50px;
 }
 .imagens_combo img{
-    width: 650px;
-    border-radius: 10px;
+    width: 1340px;
     height: 974.496px;
-    object-fit: cover;
-}
-
-.imagens_combo1{
-    position: absolute;
-    left: 738px;
-    top: 2541px;
-    right: 52px;
-}
-
-.imagens_combo1 img{
-    width: 650px;
     border-radius: 10px;
-    height: 974.496px;
-    object-fit: cover;
 }
 
 .banner{
     position: absolute;
-    left: 53px;
-    right: 53px;
-    top: 3548px;
+    top: 3558px;
+    left: 50px;
+    right: 50px;
 }
 
 .banner img{
-    width: 1334px;
+    width: 1340px;
     height: 751px;
     border-radius: 10px;
 }
 
 .combo2{
     position: absolute;
-    left: 53px;
-    top: 4339px;
+    top: 4352px;
+    left: 50px;
+    right: 50px;
 }
-
-.combo3{
-    position: absolute;
-    left: 737px;
-    top: 4339px;
+.combo2 img{
+    width: 1340px;
+    border-radius: 10px;
 }
 
 .combo4{
     position: absolute;
-    top: 4918px;
-    left: 737px;
+    top: 5146px;
+    left: 50px;
+    right: 50px;
+}
+.combo4 img{
+    width: 1340px;
+    border-radius: 10px;
 }
 
 .combo5{
     position: absolute;
-    left: 53px;
-    top: 5356px;
+    top: 5940px;
+    left: 50px;
+    right: 50px;
+}
+.combo5 img{
+    width: 1340px;
+    border-radius: 10px;
 }
 
 .combo6{
     position: absolute;
-    left: 737px;
-    top: 5356px;
+    top: 6734px;
+    left: 50px;
+    right: 50px;
 }
 
 .combo6 img{
-    width: 650px;
-    height: 433px;
+    width: 1340px;
     border-radius: 10px;
 }
 
 .combo7{
     position: absolute;
-    left: 53px;
-    top: 5829px;
+    top: 7528px;
+    left: 50px;
+    right: 50px;
+}
+.combo7 img{
+    width: 1340px;
+    border-radius: 10px;
 }
 
-.combo8{
+.combo8 {
     position: absolute;
-    left: 53px;
-    top: 6684px;
+    top: 8320px;
+    left: 50px;
+    right: 50px;
 }
-
 .combo8 img{
-    width: 1334px;
-    height: 752px;
+    width: 1340px;
     border-radius: 10px;
 }
 
 .combo9{
     position: absolute;
-    left: 53px;
-    top: 7476px;
+    top: 9254px;
+    left: 50px;
+    right: 50px;
+}
+.combo9 img{
+    width: 1340px;
+    border-radius: 10px;
 }
 
 .combo10{
     position: absolute;
-    left: 53px;
-    top: 8330px;
+    top: 10048px;
+    left: 50px;
+    right: 50px;
+}
+.combo10 img{
+    width: 1340px;
+    border-radius: 10px;
 }
 
 .combo11{
     position: absolute;
-    left: 737px;
-    top: 8330px;
+    top: 10982px;
+    left: 50px;
+    right: 50px;
+}
+.combo11 img{
+    width: 1340px;
+    border-radius: 10px;
 }
 
 .combo12{
     position: absolute;
-    left: 53px;
-    top: 8803px;
+    top: 11776px;
+    left: 50px;
+    right: 50px;
+}
+.combo12 img{
+    width: 1340px;
+    border-radius: 10px;
 }
 
 
 .orcamento {
-    top:9594px;
+    top:12694.50px;
     position: absolute;
     width: 1334px;
     height: 332px;
-    left: 53px;
+    left: 50px;
     right: 115px;
     background-color: #EEEEEE;
     border-radius: 33px;
@@ -360,8 +378,8 @@ body {
     position: absolute;
     width: 1334px;
     height: 233px;
-    margin-left: 53px;
-    top: 9988px;
+    margin-left: 50px;
+    top: 13058px;
 }
 
 .frase {
@@ -378,7 +396,7 @@ body {
     width: 1165px;
     height: 114px;
     margin-left: 160px;
-    top: 10051px;
+    top: 13125px;
     grid-gap: 0px;
 }
 
@@ -395,12 +413,12 @@ footer {
     position: absolute;
     padding: 20px;
     position: absolute;
-    width: 1320px;
-    top: 10178px;
+    width: 1360px;
+    top: 13228px;
 }
 
 .divider {
-    margin-left: -10px;
+    margin-left: 0px;
     font-size: 16px;
     height: 2px;
     background-color: #1E1E1E;
@@ -412,8 +430,8 @@ footer {
     font-size: 16px;
     line-height: 22px;
     font-weight: 500;
-    left: 53px;
-    top: 52px;
+    left: 50px;
+    top: 32px;
     width: 526px;
     height: 19px;
 }
@@ -426,5 +444,5 @@ footer {
     line-height: 22px;
     font-weight: 500;
     margin-top: -25px;
-    left: 1120px;
+    left: 1136px;
 }
