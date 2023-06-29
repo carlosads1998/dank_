@@ -341,14 +341,12 @@
     position: absolute;
     top: 6060px;
     border-radius: 10px;
-    margin-left: 70px;
+    margin-left: 25px;    
 }
 
 .projetos-banner{
-    width: 1380px;
+    width: 1480px;
     height: 1666.85px;
-
-
 }
 
 .msg{
