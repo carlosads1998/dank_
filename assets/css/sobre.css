@@ -79,17 +79,16 @@
 }
 
 .container {
-    position: absolute;
     top: 1029px;
     left: 360px;
-
+    position: absolute;
 }
 
 .texto {
     display: flex;
-    margin-top: 41px;
-    margin-bottom: 127px;
+    margin-top: 111px;
     font-size: 40px;
+    font-weight: 400;
     color: #000;
     width: 919px;
     height: 151px;
@@ -100,7 +99,8 @@
     height: 496px;
     background: #FFFB00;
     position: absolute;
-    top: 1308px;
+    top: 1408px;
+    margin-top: ;
 }
 
 .logo2 {
@@ -125,7 +125,7 @@
 
 .banner-sobre{
     position: absolute;
-    top: 1901px;
+    top: 2101px;
     left: 54px;
 }
 .banner-sobre img{
@@ -135,7 +135,7 @@
 
 .banner-sobre1{
     position: absolute;
-    top:1901px ;
+    top:2101px ;
     left:914px ;
 }
 .banner-sobre1 img{
@@ -148,7 +148,7 @@
     position: absolute;
     width:901px ;
     height: 323px;
-    top:2667px ;
+    top:2917px ;
     left:360px ;
 }
 .texto2{
@@ -159,7 +159,7 @@
 }
 
 .client{
-    top: 3152px;
+    top: 3352px;
     position: absolute;
     left: 54px;
     color: #000;
@@ -170,7 +170,7 @@
 }
 .logos{
     position: absolute;
-    top:3152px;
+    top:3352px;
     left:720px;
     width: 667px;
     height: 674px;
@@ -178,7 +178,7 @@
 
 .equipe{
     position: absolute;
-    top: 3993px;
+    top: 4193px;
     left: 53px;
     width: 335px;
     height: 37px;
@@ -192,7 +192,7 @@
 
 .texto3{
     position: absolute;
-    top:3988px ;
+    top:4188px ;
     left: 720px;
     width: 646px;
     height: 172px;
@@ -206,7 +206,7 @@
 
 .grid-container {
     position: absolute;
-    top: 4242px;
+    top: 4452px;
     left: 56px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -251,7 +251,7 @@
 
 .services{
     position: absolute;
-    top:4889px;
+    top:5149px;
     left: 57px;
     width: 335px;
     height: 37px;
@@ -263,11 +263,9 @@
     font-weight: 500;
 }
 
-
-
 .servicos{
     position: absolute;
-    top: 4889px;
+    top: 5149px;
     margin-left: 721px;
     width: 516px;
     height: 2px;
@@ -275,14 +273,14 @@
 }
 .itens_content{
     position: absolute;
-    top: 4902px;
+    top: 5162px;
     left: 721px;
 
 }
 
 .servicos1{
     position: absolute;
-    top: 5158px;
+    top: 5408px;
     left: 721px;
     width: 516px;
     height: 2px;
@@ -290,13 +288,13 @@
 }
 .itens_content1{
     position: absolute;
-    top: 5171px;
+    top: 5421px;
     left: 721px;
     
 }
 .servicos2{
     position: absolute;
-    top: 5454px;
+    top: 5654px;
     left: 721px;
     width: 516px;
     height: 2px;
@@ -304,12 +302,12 @@
 }
 .itens_content2{
     position: absolute;
-    top: 5467px;
+    top: 5662px;
     left: 721px;
 }
 .servicos3{
     position: absolute;
-    top: 5690px;
+    top: 5870px;
     left: 721px;
     width: 516px;
     height: 3px;
@@ -317,7 +315,7 @@
 }
 .itens_content3{
     position: absolute;
-    top: 5703px;
+    top: 5883px;
     left: 721px;
 }
 
@@ -339,7 +337,7 @@
 
 .banner-projetos{
     position: absolute;
-    top: 6060px;
+    top: 6160px;
     border-radius: 10px;
     left: 30px;
     right: 30px;  
@@ -356,7 +354,7 @@
     left: 80px;
     width: 1334px;
     height: 332px;
-    background-color: #eee;
+    background-color: #EDEDED;
     border-radius: 33px;
 }
 .msg p{

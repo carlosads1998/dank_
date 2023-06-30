@@ -7,9 +7,9 @@
 }
 
 body {
-    background-color:#f4f4f4;
+    background-color:#F4F4F4;
     width: 1443px;
-    height: 13598px;
+    height: 13348px;
     overflow-x: hidden;
 }
 
@@ -64,7 +64,7 @@ body {
     position: absolute;
     margin-left: 828px;
     margin-top: 471px;
-    width: 493px;
+    width: 563px;
     height: 137px;
 }
 
@@ -157,11 +157,10 @@ body {
 }
 
 .texto p{
-    width: 991px;
+    width: 836px;
     font-size: 24px;
     font-weight: 300;
-    color: #000;
-    
+    color: #000
 }
 
 .capa_meio{
@@ -177,7 +176,7 @@ body {
 
 .texto2{
     position: absolute;
-    width: 9366px;
+    width: 832px;
     height: 140px;
     display: flex;
     top: 2282px;
@@ -202,7 +201,7 @@ body {
 
 .banner{
     position: absolute;
-    top: 3554px;
+    top: 3551px;
     left: 50px;
     right: 50px;
 }
@@ -215,7 +214,7 @@ body {
 
 .combo2{
     position: absolute;
-    top: 4340px;
+    top: 4337px;
     left: 50px;
     right: 50px;
 }
@@ -226,7 +225,7 @@ body {
 
 .combo4{
     position: absolute;
-    top: 5129px;
+    top: 5076px;
     left: 50px;
     right: 50px;
 }
@@ -237,7 +236,7 @@ body {
 
 .combo5{
     position: absolute;
-    top: 5918px;
+    top: 6004px;
     left: 50px;
     right: 50px;
 }
@@ -248,7 +247,7 @@ body {
 
 .combo6{
     position: absolute;
-    top: 6707px;
+    top: 6932px;
     left: 50px;
     right: 50px;
 }
@@ -260,7 +259,7 @@ body {
 
 .combo7{
     position: absolute;
-    top: 7636px;
+    top: 7859px;
     left: 50px;
     right: 50px;
 }
@@ -271,7 +270,7 @@ body {
 
 .combo8 {
     position: absolute;
-    top: 8425px;
+    top: 8787px;
     left: 50px;
     right: 50px;
 }
@@ -282,7 +281,7 @@ body {
 
 .combo9{
     position: absolute;
-    top: 9214px;
+    top: 9827px;
     left: 50px;
     right: 50px;
 }
@@ -293,7 +292,7 @@ body {
 
 .combo10{
     position: absolute;
-    top: 10003px;
+    top: 10794px;
     left: 50px;
     right: 50px;
 }
@@ -304,7 +303,7 @@ body {
 
 .combo11{
     position: absolute;
-    top: 11044px;
+    top: 11705px;
     left: 50px;
     right: 50px;
 }
@@ -313,26 +312,14 @@ body {
     border-radius: 10px;
 }
 
-.combo12{
-    position: absolute;
-    top: 11833px;
-    left: 50px;
-    right: 50px;
-}
-.combo12 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-
 .orcamento {
-    top:12927px;
+    top:12590.50px; /*46px*/
     position: absolute;
     width: 1334px;
     height: 332px;
     left: 50px;
     right: 115px;
-    background-color: #EEEEEE;
+    background-color:#EEEEEE;
     border-radius: 33px;
 }
 
@@ -378,7 +365,7 @@ body {
     width: 1334px;
     height: 233px;
     margin-left: 50px;
-    top: 13298px;
+    top: 12942px;
 }
 
 .frase {
@@ -395,7 +382,7 @@ body {
     width: 1165px;
     height: 114px;
     margin-left: 160px;
-    top: 13365px;
+    top: 13009px;
     grid-gap: 0px;
 }
 
@@ -413,7 +400,7 @@ footer {
     padding: 20px;
     position: absolute;
     width: 1360px;
-    top: 13468px;
+    top: 13108px;
 }
 
 .divider {

@@ -9,7 +9,7 @@
 body {
     background-color:#f4f4f4;
     width: 1443px;
-    height: 13598px;
+    height: 11698px;
     overflow-x: hidden;
 }
 
@@ -190,19 +190,18 @@ body {
 
 .imagens_combo{
     position: absolute;
-    top: 2541px;
+    top: 2198px;
     left: 50px;
     right: 50px;
 }
 .imagens_combo img{
     width: 1340px;
-    height: 974.496px;
     border-radius: 10px;
 }
 
 .banner{
     position: absolute;
-    top: 3554px;
+    top: 2987px;
     left: 50px;
     right: 50px;
 }
@@ -215,7 +214,7 @@ body {
 
 .combo2{
     position: absolute;
-    top: 4340px;
+    top: 3773px;
     left: 50px;
     right: 50px;
 }
@@ -224,20 +223,9 @@ body {
     border-radius: 10px;
 }
 
-.combo4{
-    position: absolute;
-    top: 5129px;
-    left: 50px;
-    right: 50px;
-}
-.combo4 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
 .combo5{
     position: absolute;
-    top: 5918px;
+    top: 4692px;
     left: 50px;
     right: 50px;
 }
@@ -248,7 +236,7 @@ body {
 
 .combo6{
     position: absolute;
-    top: 6707px;
+    top: 5744px;
     left: 50px;
     right: 50px;
 }
@@ -260,7 +248,7 @@ body {
 
 .combo7{
     position: absolute;
-    top: 7636px;
+    top: 6165px;
     left: 50px;
     right: 50px;
 }
@@ -271,7 +259,7 @@ body {
 
 .combo8 {
     position: absolute;
-    top: 8425px;
+    top: 6954px;
     left: 50px;
     right: 50px;
 }
@@ -282,7 +270,7 @@ body {
 
 .combo9{
     position: absolute;
-    top: 9214px;
+    top: 8329px;
     left: 50px;
     right: 50px;
 }
@@ -293,7 +281,7 @@ body {
 
 .combo10{
     position: absolute;
-    top: 10003px;
+    top: 9117px;
     left: 50px;
     right: 50px;
 }
@@ -304,7 +292,7 @@ body {
 
 .combo11{
     position: absolute;
-    top: 11044px;
+    top: 9906px;
     left: 50px;
     right: 50px;
 }
@@ -313,20 +301,10 @@ body {
     border-radius: 10px;
 }
 
-.combo12{
-    position: absolute;
-    top: 11833px;
-    left: 50px;
-    right: 50px;
-}
-.combo12 img{
-    width: 1340px;
-    border-radius: 10px;
-}
 
 
 .orcamento {
-    top:12927px;
+    top:11015px;
     position: absolute;
     width: 1334px;
     height: 332px;
@@ -378,7 +356,7 @@ body {
     width: 1334px;
     height: 233px;
     margin-left: 50px;
-    top: 13298px;
+    top: 11398px;
 }
 
 .frase {
@@ -395,7 +373,7 @@ body {
     width: 1165px;
     height: 114px;
     margin-left: 160px;
-    top: 13365px;
+    top: 11465px;
     grid-gap: 0px;
 }
 
@@ -413,7 +391,7 @@ footer {
     padding: 20px;
     position: absolute;
     width: 1360px;
-    top: 13468px;
+    top: 11568px;
 }
 
 .divider {

@@ -7,9 +7,9 @@
 }
 
 body {
-    background-color:#f4f4f4;
+    background-color:black;
     width: 1443px;
-    height: 13598px;
+    height: 13348px;
     overflow-x: hidden;
 }
 
@@ -160,8 +160,7 @@ body {
     width: 991px;
     font-size: 24px;
     font-weight: 300;
-    color: #000;
-    
+    color: #000
 }
 
 .capa_meio{
@@ -193,16 +192,16 @@ body {
     top: 2541px;
     left: 50px;
     right: 50px;
+    object-fit: cover;
 }
 .imagens_combo img{
     width: 1340px;
-    height: 974.496px;
     border-radius: 10px;
 }
 
 .banner{
     position: absolute;
-    top: 3554px;
+    top: 3550px;
     left: 50px;
     right: 50px;
 }
@@ -215,7 +214,7 @@ body {
 
 .combo2{
     position: absolute;
-    top: 4340px;
+    top: 4336px;
     left: 50px;
     right: 50px;
 }
@@ -226,7 +225,7 @@ body {
 
 .combo4{
     position: absolute;
-    top: 5129px;
+    top: 5125px;
     left: 50px;
     right: 50px;
 }
@@ -237,7 +236,7 @@ body {
 
 .combo5{
     position: absolute;
-    top: 5918px;
+    top: 5914px;
     left: 50px;
     right: 50px;
 }
@@ -248,7 +247,7 @@ body {
 
 .combo6{
     position: absolute;
-    top: 6707px;
+    top: 6701px;
     left: 50px;
     right: 50px;
 }
@@ -260,7 +259,7 @@ body {
 
 .combo7{
     position: absolute;
-    top: 7636px;
+    top: 7490px;
     left: 50px;
     right: 50px;
 }
@@ -271,7 +270,7 @@ body {
 
 .combo8 {
     position: absolute;
-    top: 8425px;
+    top: 8279px;
     left: 50px;
     right: 50px;
 }
@@ -282,7 +281,7 @@ body {
 
 .combo9{
     position: absolute;
-    top: 9214px;
+    top: 9069px;
     left: 50px;
     right: 50px;
 }
@@ -293,7 +292,7 @@ body {
 
 .combo10{
     position: absolute;
-    top: 10003px;
+    top: 9859px;
     left: 50px;
     right: 50px;
 }
@@ -304,7 +303,7 @@ body {
 
 .combo11{
     position: absolute;
-    top: 11044px;
+    top: 10649px;
     left: 50px;
     right: 50px;
 }
@@ -315,7 +314,7 @@ body {
 
 .combo12{
     position: absolute;
-    top: 11833px;
+    top: 11439px;
     left: 50px;
     right: 50px;
 }
@@ -326,7 +325,7 @@ body {
 
 
 .orcamento {
-    top:12927px;
+    top:12234.50px; /*46px*/
     position: absolute;
     width: 1334px;
     height: 332px;
@@ -378,7 +377,7 @@ body {
     width: 1334px;
     height: 233px;
     margin-left: 50px;
-    top: 13298px;
+    top: 12662px;
 }
 
 .frase {
@@ -395,7 +394,7 @@ body {
     width: 1165px;
     height: 114px;
     margin-left: 160px;
-    top: 13365px;
+    top: 12725px;
     grid-gap: 0px;
 }
 
@@ -413,7 +412,7 @@ footer {
     padding: 20px;
     position: absolute;
     width: 1360px;
-    top: 13468px;
+    top: 12828px;
 }
 
 .divider {
