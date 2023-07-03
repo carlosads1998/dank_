@@ -335,6 +335,7 @@
 }
 
 .mensagem {
+    color: #000;
     position: absolute;
     display: flex;
     top: 1785px;
@@ -353,6 +354,7 @@
 }
 
 .mensagem1 {
+    color: #000;
     position: absolute;
     display: flex;
     top: 1969px;
@@ -371,6 +373,7 @@
 }
 
 .mensagem2 {
+    color: #000;
     position: absolute;
     display: flex;
     top: 1864px;
@@ -389,6 +392,7 @@
 }
 
 .mensagem3 {
+    color: #000;
     position: absolute;
     display: flex;
     top: 2338px;
@@ -407,6 +411,7 @@
 }
 
 .mensagem4 {
+    color: #000;
     position: absolute;
     display: flex;
     top: 2438px;
@@ -425,6 +430,7 @@
 }
 
 .mensagem5 {
+    color: #000;
     position: absolute;
     display: flex;
     top: 2409px;
@@ -443,6 +449,7 @@
 }
 
 .mensagem6 {
+    color: #000;
     position: absolute;
     display: flex;
     top: 2766px;
@@ -461,6 +468,7 @@
 }
 
 .mensagem7 {
+    color: #000;
     position: absolute;
     display: flex;
     top: 2889px;
@@ -479,6 +487,7 @@
 }
 
 .mensagem8 {
+    color: #000;
     position: absolute;
     display: flex;
     top: 2835px;
@@ -498,15 +507,18 @@
 
 
 .orcamento {
-    top: 3018px;
+    top: 2960px;
     position: absolute;
     width: 1334px;
-    height: 332px;
+    height: 302px;
     left: 53px;
+    background-color: #fcfcfc;
+    border-radius: 33px;
 }
 
 .msg {
     position: absolute;
+    top: 77px;
     left: 169px;
     width: 611px;
     height: 164px;
@@ -521,7 +533,7 @@
     position: absolute;
     bottom: 125px;
     left: 838px;
-    top: 60px;
+    top: 139px;
 
 }
 
@@ -533,7 +545,7 @@
     border-radius: 50px;
     position: absolute;
     left: 975px;
-    top: 60px;
+    top: 139px;
 }
 
 .meu-botao{
@@ -553,7 +565,7 @@
 
 .ft img {
     left:-55px;
-    top: 330px;
+    top: 360px;
     position: absolute;
     width: 1440px;
     height: 693px;
@@ -644,10 +656,10 @@ footer {
 @media screen and (max-width:360px) {
 
     .body{
-        width: 360px;
+        width: 100%;
     }
     .slide {
-        width: 360px;
+        width: 100%;
         height: 720px;
         opacity: 0;
         position: absolute;

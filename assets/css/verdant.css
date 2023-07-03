@@ -135,7 +135,7 @@ body {
     position: absolute;
     width: 171px;
     height: 20px;
-    top: 1021px;
+    top: 999px;
     left: 61px;
 }
 
@@ -150,7 +150,7 @@ body {
 .texto{
     height: 121px;
     position: absolute;
-    top: 1021px;
+    top: 999px;
     left: 360px;
     flex-direction: column;
     flex-shrink: 0;

@@ -100,7 +100,6 @@
     background: #FFFB00;
     position: absolute;
     top: 1408px;
-    margin-top: ;
 }
 
 .logo2 {
@@ -230,6 +229,7 @@
 
 }
 
+
 .grid-container .mensagem{
     font-size: 12px;
     display: flex;
@@ -268,54 +268,54 @@
     top: 5149px;
     margin-left: 721px;
     width: 516px;
-    height: 2px;
+    height: 2.5px;
     background-color: #C4C4C4;
 }
 .itens_content{
     position: absolute;
-    top: 5162px;
+    top: 5167px;
     left: 721px;
 
 }
 
 .servicos1{
     position: absolute;
-    top: 5408px;
+    top: 5368px;
     left: 721px;
     width: 516px;
-    height: 2px;
+    height: 2.5px;
     background-color: #C4C4C4;
 }
 .itens_content1{
     position: absolute;
-    top: 5421px;
+    top: 5386px;
     left: 721px;
     
 }
 .servicos2{
     position: absolute;
-    top: 5654px;
+    top: 5616px;
     left: 721px;
     width: 516px;
-    height: 2px;
+    height: 2.2px;
     background-color: #C4C4C4;
 }
 .itens_content2{
     position: absolute;
-    top: 5662px;
+    top: 5637px;
     left: 721px;
 }
 .servicos3{
     position: absolute;
-    top: 5870px;
+    top: 5812px;
     left: 721px;
     width: 516px;
-    height: 3px;
+    height: 2.2px;
     background-color: #C4C4C4;
 }
 .itens_content3{
     position: absolute;
-    top: 5883px;
+    top: 5837px;
     left: 721px;
 }
 
@@ -354,7 +354,7 @@
     left: 80px;
     width: 1334px;
     height: 332px;
-    background-color: #EDEDED;
+    background-color: #fcfcfc;
     border-radius: 33px;
 }
 .msg p{
