@@ -14,7 +14,7 @@ body {
   margin-left: -px;
   width: 1440px;  
   overflow: hidden;
-  height: 1520px;
+  height: 902px;
 
 }
 
@@ -31,7 +31,7 @@ body {
 
 .form-group {
   bottom: 109.67px;
-  margin-block-start: -100px;
+  margin-block-start: -1900px;
   margin-top: -25px;
   margin-left: 20px;
 }
@@ -68,20 +68,22 @@ hr {
   border-radius: 4px;
 }
 input[type="image"] {
-  padding-top: 120px;
+  top: 430px;
   width: 51px;
   border: none;
   cursor: pointer;
+  position: absolute;
 }
 
 .botao-interativo {
-  margin-top: -520px;
   display: grid;
   justify-content: center;
   width: 1244px;
   height: 154px;
   margin-left: 140px;
   grid-gap: 0px;
+  position: absolute;
+  top: 20px;
 }
 
 .botao {
@@ -135,7 +137,7 @@ input[type="image"] {
   z-index: 9999;
   position: fixed;
   height: 48px;
-  bottom: -0px;
+  bottom: 0px;
   width: 361px;
   right: 71px;
   display: flex;
@@ -147,15 +149,20 @@ input[type="image"] {
 }
 
 .menu:hover{
-  background-color: #fffb00;
-  align-items: center;
-  margin-top: 20px;
-  width: 22%;
+  background: rgba(255, 251, 0, 0.4);
+}
+
+.nav-item {
+  height: 20px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 24px;
 }
 
 .nav-item a {
   padding: 22px;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.1em;
   font-size: 14px;
   line-height: 24px;
@@ -166,15 +173,15 @@ input[type="image"] {
 
 .nav-item a:hover {
   font-weight: bold;
-  font-style: italic;
   border-radius: 100px;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .esquerda{
   position: absolute;
   margin-left: 1147px;
-  margin-top: -165px;
+  top: -165px;
   width: 100px;
 }
 
@@ -184,8 +191,8 @@ input[type="image"] {
   background-color: #1E1E1E;
   margin-bottom: -10px;
   padding: 1px;
-  margin-top: 20px;
-  width: 1360px;
+  top: 20px;
+  width: 1515px;
   margin-left: -39px;
 }
 .rodape1{
@@ -194,7 +201,7 @@ input[type="image"] {
   background-color: #1E1E1E;
   margin-top: -70px;
   padding: 1px;
-  width: 1360px;
+  width: 1515px;
   margin-left: -39px;
 }
 
@@ -202,27 +209,21 @@ input[type="image"] {
   display: flex;
   height: 108px;
   margin-top: 20px;
-  gap: 85px;
-  margin-left: -36px;
-}
+  gap: 750px;
 
+}
 .conteudo1{
+  margin-right:-730px;
   line-height: 20px;
-  animation: scroll 5s infinite;
+  animation: carousel-animation 10s infinite linear; /* Define a animação do carrossel */
 
 }
 
-@keyframes scroll {
+@keyframes carousel-animation {
   0% {
-    transform: translateX(0);
-  }
-  33.33% {
-    transform: translateX(-50%);
-  }
-  66.66% {
-    transform: translateX(-100%);
+    transform: translateX(0); /* Inicia no ponto inicial */
   }
   100% {
-    transform: translateX(0);
+    transform: translateX(-100%); /* Desloca para a esquerda */
   }
 }

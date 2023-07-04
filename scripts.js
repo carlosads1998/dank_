@@ -115,38 +115,22 @@ window.addEventListener("scroll", function() {
   }
 });
 
-
-
-
-
 const carousel = document.querySelector('.conteudo');
-const messages = carousel.querySelectorAll('.conteudo1');
-const totalMessages = messages.length;
-const messageWidth = messages[0].offsetWidth;
-let currentIndex = 0;
+const message = carousel.querySelector('.conteudo1');
 
-function startCarousel() {
-  setInterval(() => {
-    currentIndex++;
-    if (currentIndex >= totalMessages) {
-      currentIndex = 0;
-      carousel.scrollTo({
-        left: 0,
-        behavior: 'smooth'
-      });
-    } else if (currentIndex >= totalMessages - 2) {
-      carousel.scrollTo({
-        left: (totalMessages - 3) * messageWidth,
-        behavior: 'smooth'
-      });
-    } else {
-      carousel.scrollTo({
-        left: currentIndex * messageWidth,
-        behavior: 'smooth'
-      });
-    }
-  }, 3000); // Tempo em milissegundos entre cada transição de mensagem
+let carouselWidth = 0;
+
+function cloneMessages() {
+  const carouselWidth = carousel.offsetWidth;
+  const messageWidth = message.offsetWidth;
+  const numClones = Math.ceil(carouselWidth / messageWidth) + 1;
+
+  for (let i = 0; i < numClones; i++) {
+    const clone = message.cloneNode(true);
+    carousel.appendChild(clone);
+  }
+
+  carousel.style.width = `${messageWidth * numClones}px`;
 }
 
-startCarousel();
-
+cloneMessages();
