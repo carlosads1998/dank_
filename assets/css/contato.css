@@ -8,7 +8,7 @@
 
 body {
   position: absolute;
-  background-color: #f5f5f5;
+  background-color: #f4f4f4;
   padding: 40px;
   margin-top: 0px;
   margin-left: -px;
@@ -137,7 +137,7 @@ input[type="image"] {
   z-index: 9999;
   position: fixed;
   height: 48px;
-  bottom: 0px;
+  top: 682px;
   width: 361px;
   right: 71px;
   display: flex;
@@ -150,6 +150,13 @@ input[type="image"] {
 
 .menu:hover{
   background: rgba(255, 251, 0, 0.4);
+}
+
+.logo_{
+  width: 585px;
+  height: 178.28px;
+  position: absolute;
+  top: 682px;
 }
 
 .nav-item {
