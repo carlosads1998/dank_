@@ -9,6 +9,7 @@
     width: 1440px;
     height: 4584px;
     background-color: #f4f4f4;
+    overflow-y: hidden;
 }
 
 
@@ -21,8 +22,8 @@
 }
 
 .slide {
-    width: 100%;
-    height: 100%;
+    width: 1440px;
+    height: 902px;
     opacity: 0;
     position: absolute;
     transition: opacity 0.5s ease-in-out;
@@ -33,8 +34,8 @@
 }
 
 .slide img {
-    width: 100%;
-    height: 100%;
+    width: 1440px;
+    height: 902px;
     object-fit: cover;
 }
 
@@ -109,7 +110,7 @@
     margin-top: 114px;
     margin-bottom: 115.77px;
     display: flex;
-    width: 100%;
+    width: 1420px;
 }
 
 .container img {
@@ -138,7 +139,7 @@
 }
 
 .grid-container {
-    width: 1333.42px;
+    width: 1290.42px;
     height: 1444px;
 }
 
@@ -565,7 +566,7 @@
     left:-55px;
     top: 360px;
     position: absolute;
-    width: 1440px;
+    width: 1420px;
     height: 693px;
     object-fit: cover;
     margin-bottom: 500px;

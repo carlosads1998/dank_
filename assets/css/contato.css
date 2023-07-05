@@ -152,13 +152,6 @@ input[type="image"] {
   background: rgba(255, 251, 0, 0.4);
 }
 
-.logo_{
-  width: 585px;
-  height: 178.28px;
-  position: absolute;
-  top: 682px;
-}
-
 .nav-item {
   height: 20px;
   padding: 10px;
