@@ -7,7 +7,7 @@
 }
 
 .body {
-    width: 1440px;
+    width: 1540px;
     height: 8654px;
     background-color: #f0f0f0;
 }
@@ -48,7 +48,6 @@
 
 .menu:hover {
     background: rgba(255, 251, 0, 0.4);
-    ;
 }
 
 .nav-item {
@@ -121,42 +120,45 @@
     font-weight: 300;
 }
 
-.banner-sobre{
+.banner-sobre {
     position: absolute;
     top: 2101px;
     left: 54px;
 }
-.banner-sobre img{
+
+.banner-sobre img {
     width: 785px;
     height: 523px;
 }
 
-.banner-sobre1{
+.banner-sobre1 {
     position: absolute;
-    top:2101px ;
-    left:914px ;
+    top: 2101px;
+    left: 914px;
 }
-.banner-sobre1 img{
+
+.banner-sobre1 img {
     width: 480px;
     height: 680px;
     left: 75px;
 }
 
-.container2{
+.container2 {
     position: absolute;
-    width:901px ;
+    width: 901px;
     height: 323px;
-    top:2917px ;
-    left:360px ;
+    top: 2917px;
+    left: 360px;
 }
-.texto2{
+
+.texto2 {
     color: #000;
     font-size: 40px;
     font-family: Manrope;
     font-weight: 300;
 }
 
-.client{
+.client {
     top: 3352px;
     position: absolute;
     left: 54px;
@@ -166,36 +168,39 @@
     font-weight: 500;
     letter-spacing: 2.4px;
 }
-.logos{
+
+.logos {
     position: absolute;
-    top:3352px;
-    left:720px;
+    top: 3352px;
+    left: 720px;
     width: 667px;
     height: 674px;
 }
 
-.equipe{
+.equipe {
     position: absolute;
     top: 4193px;
     left: 53px;
     width: 335px;
     height: 37px;
 }
-.equipe p{
+
+.equipe p {
     color: #000;
     font-size: 24px;
     font-family: Manrope;
     font-weight: 500;
 }
 
-.texto3{
+.texto3 {
     position: absolute;
-    top:4188px ;
+    top: 4188px;
     left: 720px;
     width: 646px;
     height: 172px;
 }
-.texto3 p{
+
+.texto3 p {
     color: #000;
     font-size: 30px;
     font-family: Manrope;
@@ -207,70 +212,65 @@
     top: 4452px;
     left: 56px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 40px;
 }
 
-.grid-container img{
+.grid-container img {
     width: 434px;
     height: 477px;
     object-fit: cover;
     border-radius: 10px;
-    animation: carousel-animation 16s infinite;
+    animation: scroll 20s linear infinite;
 
 }
-.grid-container p{
-    color:black;
+
+.grid-container p {
+    color: black;
     font-size: 16px;
     font-weight: 500;
-    animation: carousel-animation 16s infinite;
+    animation: scroll 20s linear infinite;
 
 }
 
-
-.grid-container .mensagem{
+.grid-container .mensagem {
     font-size: 12px;
     display: flex;
-    color:black;
+    color: black;
     justify-content: right;
     margin-right: 0px;
     margin-top: -20px;
-    animation: carousel-animation 16s infinite;
+    animation: scroll 20s linear infinite;
 
 }
-@keyframes carousel-animation {
-    0% {
-      transform: translateX(0);
-    }
-    25% {
-      transform: translateX(-100%);
-    }
-    50% {
-      transform: translateX(-200%);
-    }
-    75% {
-      transform: translateX(-300%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
 
-.services{
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% * 4));
+    }
+}
+
+
+.services {
     position: absolute;
-    top:5149px;
+    top: 5149px;
     left: 57px;
     width: 335px;
     height: 37px;
 }
-.services p{
+
+.services p {
     color: #000;
     font-size: 24px;
     font-family: Manrope;
     font-weight: 500;
 }
 
-.servicos{
+.servicos {
     position: absolute;
     top: 5149px;
     margin-left: 721px;
@@ -278,14 +278,15 @@
     height: 2.5px;
     background-color: #C4C4C4;
 }
-.itens_content{
+
+.itens_content {
     position: absolute;
     top: 5167px;
     left: 721px;
 
 }
 
-.servicos1{
+.servicos1 {
     position: absolute;
     top: 5368px;
     left: 721px;
@@ -293,13 +294,15 @@
     height: 2.5px;
     background-color: #C4C4C4;
 }
-.itens_content1{
+
+.itens_content1 {
     position: absolute;
     top: 5386px;
     left: 721px;
-    
+
 }
-.servicos2{
+
+.servicos2 {
     position: absolute;
     top: 5616px;
     left: 721px;
@@ -307,12 +310,14 @@
     height: 2.2px;
     background-color: #C4C4C4;
 }
-.itens_content2{
+
+.itens_content2 {
     position: absolute;
     top: 5637px;
     left: 721px;
 }
-.servicos3{
+
+.servicos3 {
     position: absolute;
     top: 5812px;
     left: 721px;
@@ -320,13 +325,14 @@
     height: 2.2px;
     background-color: #C4C4C4;
 }
-.itens_content3{
+
+.itens_content3 {
     position: absolute;
     top: 5837px;
     left: 721px;
 }
 
-.titulo{
+.titulo {
     color: #000;
     font-size: 20px;
     font-family: Manrope;
@@ -334,7 +340,7 @@
     letter-spacing: 1px;
 }
 
-.item{
+.item {
     color: #000;
     font-size: 20px;
     font-family: Manrope;
@@ -342,20 +348,20 @@
     letter-spacing: 1px;
 }
 
-.banner-projetos{
+.banner-projetos {
     position: absolute;
     top: 6160px;
     border-radius: 10px;
     left: 30px;
-    right: 30px;  
+    right: 30px;
 }
 
-.projetos-banner{
+.projetos-banner {
     width: 1380px;
     height: 1666.85px;
 }
 
-.msg{
+.msg {
     position: absolute;
     top: 7890px;
     left: 53px;
@@ -364,16 +370,18 @@
     background-color: #f7f7f7f3;
     border-radius: 33px;
 }
-.msg p{
+
+.msg p {
     position: absolute;
-    left:116px ;
+    left: 116px;
     top: 84px;
     color: #000;
     font-size: 40px;
     font-family: Manrope;
     font-weight: 300;
 }
-.seta_{
+
+.seta_ {
     position: absolute;
     left: 838px;
     top: 160px;
@@ -381,17 +389,17 @@
     height: 47px;
 }
 
-.botao{
+.botao {
     width: 297px;
     height: 51px;
     position: absolute;
-    left:922px ;
-    top:157px ;
+    left: 922px;
+    top: 157px;
     border-radius: 50px;
     background: #D9D9D9;
 }
 
-.meu-botao{
+.meu-botao {
     top: 7px;
     left: 25px;
     position: relative;
@@ -408,17 +416,17 @@
     width: 1334px;
     height: 233px;
     margin-left: 53px;
-    top:8343px;
+    top: 8343px;
 }
 
-.frase{
+.frase {
     color: #000;
     font-size: 24px;
     font-family: Manrope;
     font-weight: 800;
 }
 
-.contact{
+.contact {
     color: #000;
     font-size: 24px;
     font-family: Manrope;
@@ -426,27 +434,29 @@
     margin-bottom: 28.91px;
 }
 
-.rua{
+.rua {
     color: #000;
     font-size: 24px;
     font-family: Manrope;
     font-weight: 300;
 }
+
 .botao-interativo {
     position: absolute;
     top: 8379px;
-    left: 1244px;
+    left: 1204px;
     width: 216px;
     height: 154px;
 }
-.botao_{
+
+.botao_ {
     color: #000;
     text-align: right;
     font-size: 32px;
     font-weight: 800;
 }
 
-footer{
+footer {
     position: absolute;
     top: 8526px;
     left: 53px;

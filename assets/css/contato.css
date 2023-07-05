@@ -192,24 +192,14 @@ input[type="image"] {
   width: 100px;
 }
 
-.rodape{
-  font-size: 16px;
-  height: 1px;
-  background-color: #1E1E1E;
-  margin-bottom: -10px;
-  padding: 1px;
-  top: 20px;
-  width: 1515px;
-  margin-left: -39px;
-}
-.rodape1{
-  font-size: 16px;
-  height: 1px;
-  background-color: #1E1E1E;
-  margin-top: -70px;
-  padding: 1px;
-  width: 1515px;
-  margin-left: -39px;
+
+.back_{
+  background: rgb(253, 248, 0);
+  width: 1540px;
+  height:50px;
+  position: absolute;
+  left: 0px;
+  top: 611px;
 }
 
 .conteudo{
@@ -217,9 +207,9 @@ input[type="image"] {
   height: 108px;
   margin-top: 20px;
   gap: 750px;
-
 }
 .conteudo1{
+  margin-top: -5px;
   margin-right:-730px;
   line-height: 20px;
   animation: carousel-animation 10s infinite linear; /* Define a animação do carrossel */
