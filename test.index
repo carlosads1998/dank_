@@ -1,206 +1,135 @@
+.imagens_combo{
+    position: absolute;
+    top: 2541px;
+    left: 50px;
+    right: 50px;
+}
+.imagens_combo img{
+    width: 1340px;
+    border-radius: 10px;
+}
 
-    <div class="banner-projetos">
-        <img class="board1" src="/assets/img/aboards/Comit1.png">
-        <img class="board2" src="/assets/img/aboards/bbcpost1.png">
-        <img class="board3" src="/assets/img/aboards/IZZ1.png">
-        <img class="board4" src="/assets/img/aboards/bmfIMG_4300.png">
-        <img class="board5" src="/assets/img/aboards/DZ1.png"> 
-        <img class="board6" src="/assets/img/aboards/sereno2ok.png">
-        <img class="board7" src="/assets/img/aboards/ASS2.png">
-        <img class="board8" src="/assets/img/aboards/sweet cookies capa.png">
-        <img class="board9" src="/assets/img/aboards/c2.png">
-        <img class="board10" src="/assets/img/aboards/s1.png">
-        <img class="board11" src="/assets/img/aboards/Nise3.png">
-        <img class="board12" src="/assets/img/aboards/PANDOC_10.png">
-        <img class="board13" src="/assets/img/aboards/AR2.png">
-        <img class="board14" src="/assets/img/aboards/y3.png">
-        <img class="board15" src="/assets/img/aboards/petalo26.png">
-        <img class="board16" src="/assets/img/aboards/salpetrier20.png">
-        <img class="board17" src="/assets/img/aboards/medita3.png">
-        <img class="board18" src="/assets/img/aboards/dpg5.png">
-        <img class="board19" src="/assets/img/aboards/Anbro1.png">
-        <img class="board20" src="/assets/img/aboards/dule4.png">
-        <img class="board21" src="/assets/img/aboards/Consulab3.png">
-        <img class="board22" src="/assets/img/aboards/X3.png">
-        <img class="board23" src="/assets/img/aboards/LU3.png">
-        <img class="board24" src="/assets/img/aboards/th2.png">
-        <img class="board25" src="/assets/img/aboards/Lendas4.png">
+.banner{
+    position: absolute;
+    top: 3553px;
+    left: 50px;
+    right: 50px;
+}
 
+.banner img{
+    width: 1340px;
+    height: 751px;
+    border-radius: 10px;
+}
 
-        
-.board1{
+.combo2{
     position: absolute;
-    top: 6060px;
-    left: 30px;
-    width: 374.153px;
-    height: 249.397px;
+    top: 4347px;
+    left: 50px;
+    right: 50px;
 }
-.board2{
+.combo2 img{
+    width: 1340px;
+    border-radius: 10px;
+}
+
+.combo4{
     position: absolute;
-    top:6060px ;
-    left:423.57px;
-    width: 279.081px;
-    height:274.742px ;
+    top: 5141px;
+    left: 50px;
+    right: 50px;
 }
-.board3{
+.combo4 img{
+    width: 1340px;
+    border-radius: 10px;
+}
+
+.combo5{
     position: absolute;
-    top: 6060px;
-    left:722.08px ;
-    width: 394.598px;
-    height: 262.242px;
+    top: 5935px;
+    left: 50px;
+    right: 50px;
 }
-.board4{
+.combo5 img{
+    width: 1340px;
+    border-radius: 10px;
+}
+
+.combo6{
     position: absolute;
-    top: 6060px;
-    left: 1136.29px;
-    width: 273.71px;
-    height: 406.648px;
+    top: 6729px;
+    left: 50px;
+    right: 50px;
 }
-.board5{
+
+.combo6 img{
+    width: 1340px;
+    border-radius: 10px;
+}
+
+.combo7{
     position: absolute;
-    top: 6328.66px;
-    left: 30px;
-    width: 374.153px;
-    height: 249.397px;
+    top: 7523px;
+    left: 50px;
+    right: 50px;
 }
-.board6{
+.combo7 img{
+    width: 1340px;
+    border-radius: 10px;
+}
+
+.combo8 {
     position: absolute;
-    top: 6354px;
-    left: 423.57px;
-    width: 279.081px;
-    height: 185.527px;
+    top: 8315px;
+    left: 50px;
+    right: 50px;
 }
-.board7{
+.combo8 img{
+    width: 1340px;
+    border-radius: 10px;
+}
+
+.combo9{
     position: absolute;
-    top: 6341.95px;
-    left: 722.08px;
-    width: 393.576px;
-    height: 261.563px;
+    top: 9249px;
+    left: 50px;
+    right: 50px;
 }
-.board8{
+.combo9 img{
+    width: 1340px;
+    border-radius: 10px;
+}
+
+.combo10{
     position: absolute;
-    top: 6486.26px;
-    left: 1136.29px;
-    width: 273.71px;
-    height: 264.218px;
-    flex-shrink: 0;
+    top: 10043px;
+    left: 50px;
+    right: 50px;
 }
-.board9{
+.combo10 img{
+    width: 1340px;
+    border-radius: 10px;
+}
+
+.combo11{
     position: absolute;
-    top: 6597.32px;
-    left: 30px;
-    width: 373.131px;
-    height: 247.369px;
+    top: 10977px;
+    left: 50px;
+    right: 50px;
 }
-.board10{
+.combo11 img{
+    width: 1340px;
+    border-radius: 10px;
+}
+
+.combo12{
     position: absolute;
-    top: 6588.79px;
-    left: 423.57px;
-    width: 279.081px;
-    height: 185.527px;
+    top: 11771px;
+    left: 50px;
+    right: 50px;
 }
-.board11{
-    position: absolute;
-    top: 6621.83px;
-    left: 722.08px;
-    width: 394.598px;
-    height: 262.576px;
+.combo12 img{
+    width: 1340px;
+    border-radius: 10px;
 }
-.board12{
-    position: absolute;
-    top: 6770.09px;
-    left: 1136.29px;
-    width: 273.71px;
-    height: 245.64px;
-}
-.board13{
-    position: absolute;
-    top: 6863.95px;
-    left: 30px;
-    width: 373.131px;
-    height: 259.535px;
-}
-.board14{
-    position: absolute;
-    top: 6763.58px;
-    left: 432.57px;
-    width: 279.081px;
-    height: 282.853px;
-}
-.board15{
-    position: absolute;
-    top: 6904.5px;
-    left: 722.08px;
-    width: 394.598px;
-    height: 276.77px;
-}
-.board16{
-    position: absolute;
-    top: 7025.24px;
-    left: 1136.29px;
-    width: 273.71px;
-    height: 191.971px;
-}
-.board17{
-    position: absolute;
-    top: 7142.75px;
-    left: 30px;
-    width: 373.131px;
-    height: 248.383px;
-}
-.board18{
-    position: absolute;
-    top: 7065.7px;
-    left:422.55px;
-    width: 279.081px;
-    height: 192.535px;
-}
-.board19{
-    position: absolute;
-    top: 7200.54px;
-    left: 722.08px;
-    width: 393.576px;
-    height: 261.563px;
-}
-.board20{
-    position: absolute;
-    top: 7246.92px;
-    left: 1136.29px;
-    width: 273.71px;
-    height: 222.934px;
-}
-.board21{
-    position: absolute;
-    top: 7273.53px;
-    left: 423.57px;
-    width: 278.059px;
-    height: 185.527px;
-}
-.board22{
-    position: absolute;
-    top:7411.71px ;
-    left:30px;
-    width: 373.131px;
-    height: 315.295px;
-}
-.board23{
-    position: absolute;
-    top: 7474.26px;
-    left: 423.57px;
-    width: 278.059px;
-    height: 252.438px;
-}
-.board24{
-    position: absolute;
-    top:7481.36px ;
-    left: 722.08px;
-    width: 393.576px;
-    height: 245.342px;
-}
-.board25{
-    position: absolute;
-    top: 7489.46px;
-    left: 1136.29px;
-    width: 273.71px;
-    height: 237.384px;
-}
+

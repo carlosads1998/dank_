@@ -9,7 +9,7 @@
 body {
     background-color:#f4f4f4;
     width: 1443px;
-    height: 11698px;
+    height: 12098px;
     overflow-x: hidden;
 }
 
@@ -187,126 +187,20 @@ body {
     font-size: 24px;
     font-weight: 300;
 }
-
-.imagens_combo{
+.grid-fotos{
     position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 35px;
     top: 2198px;
-    left: 50px;
-    right: 50px;
+    left: 53px;
+    right: 53px;
 }
-.imagens_combo img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.banner{
-    position: absolute;
-    top: 2987px;
-    left: 50px;
-    right: 50px;
-}
-
-.banner img{
-    width: 1340px;
-    height: 751px;
-    border-radius: 10px;
-}
-
-.combo2{
-    position: absolute;
-    top: 3773px;
-    left: 50px;
-    right: 50px;
-}
-.combo2 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo5{
-    position: absolute;
-    top: 4692px;
-    left: 50px;
-    right: 50px;
-}
-.combo5 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo6{
-    position: absolute;
-    top: 5744px;
-    left: 50px;
-    right: 50px;
-}
-
-.combo6 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo7{
-    position: absolute;
-    top: 6165px;
-    left: 50px;
-    right: 50px;
-}
-.combo7 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo8 {
-    position: absolute;
-    top: 6954px;
-    left: 50px;
-    right: 50px;
-}
-.combo8 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo9{
-    position: absolute;
-    top: 8329px;
-    left: 50px;
-    right: 50px;
-}
-.combo9 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo10{
-    position: absolute;
-    top: 9117px;
-    left: 50px;
-    right: 50px;
-}
-.combo10 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo11{
-    position: absolute;
-    top: 9906px;
-    left: 50px;
-    right: 50px;
-}
-.combo11 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-
 
 .orcamento {
-    top:11015px;
+    top:11459px;
     position: absolute;
-    width: 1334px;
+    width: 1400px;
     height: 332px;
     left: 50px;
     right: 115px;
@@ -356,7 +250,7 @@ body {
     width: 1334px;
     height: 233px;
     margin-left: 50px;
-    top: 11398px;
+    top: 11802px;
 }
 
 .frase {
@@ -372,8 +266,8 @@ body {
     position: absolute;
     width: 1165px;
     height: 114px;
-    margin-left: 160px;
-    top: 11465px;
+    margin-left: 210px;
+    top: 11865px;
     grid-gap: 0px;
 }
 
@@ -390,8 +284,8 @@ footer {
     position: absolute;
     padding: 20px;
     position: absolute;
-    width: 1360px;
-    top: 11568px;
+    width: 1410px;
+    top: 11968px;
 }
 
 .divider {

@@ -188,142 +188,15 @@ body {
     font-weight: 300;
 }
 
-.imagens_combo{
+.grid-fotos{
     position: absolute;
-    top: 2541px;
-    left: 50px;
-    right: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 35px;
+    top: 2510px;
+    left: 53px;
+    right: 53px;
 }
-.imagens_combo img{
-    width: 1340px;
-    height: 974.496px;
-    border-radius: 10px;
-}
-
-.banner{
-    position: absolute;
-    top: 3554px;
-    left: 50px;
-    right: 50px;
-}
-
-.banner img{
-    width: 1340px;
-    height: 751px;
-    border-radius: 10px;
-}
-
-.combo2{
-    position: absolute;
-    top: 4340px;
-    left: 50px;
-    right: 50px;
-}
-.combo2 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo4{
-    position: absolute;
-    top: 5129px;
-    left: 50px;
-    right: 50px;
-}
-.combo4 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo5{
-    position: absolute;
-    top: 5918px;
-    left: 50px;
-    right: 50px;
-}
-.combo5 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo6{
-    position: absolute;
-    top: 6707px;
-    left: 50px;
-    right: 50px;
-}
-
-.combo6 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo7{
-    position: absolute;
-    top: 7636px;
-    left: 50px;
-    right: 50px;
-}
-.combo7 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo8 {
-    position: absolute;
-    top: 8425px;
-    left: 50px;
-    right: 50px;
-}
-.combo8 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo9{
-    position: absolute;
-    top: 9214px;
-    left: 50px;
-    right: 50px;
-}
-.combo9 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo10{
-    position: absolute;
-    top: 10003px;
-    left: 50px;
-    right: 50px;
-}
-.combo10 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo11{
-    position: absolute;
-    top: 11044px;
-    left: 50px;
-    right: 50px;
-}
-.combo11 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo12{
-    position: absolute;
-    top: 11833px;
-    left: 50px;
-    right: 50px;
-}
-.combo12 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
 
 .orcamento {
     top:12927px;

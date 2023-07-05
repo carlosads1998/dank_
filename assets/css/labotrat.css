@@ -9,7 +9,7 @@
 body {
     background-color: #f4f4f4;
     width: 1443px;
-    height: 13348px;
+    height: 13578px;
     overflow-x: hidden;
 }
 
@@ -135,7 +135,7 @@ body {
     position: absolute;
     width: 171px;
     height: 20px;
-    top: 1021px;
+    top: 1071px;
     left: 61px;
 }
 
@@ -151,7 +151,7 @@ body {
     width: 806px;
     height: 121px;
     position: absolute;
-    top: 1021px;
+    top: 1071px;
     left: 360px;
     flex-direction: column;
     flex-shrink: 0;
@@ -189,149 +189,23 @@ body {
     font-weight: 300;
 }
 
-.imagens_combo{
+.grid-fotos{
     position: absolute;
-    top: 2541px;
-    left: 50px;
-    right: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 35px;
+    top: 2540px;
+    left: 53px;
+    right: 53px;
 }
-.imagens_combo img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.banner{
-    position: absolute;
-    top: 3553px;
-    left: 50px;
-    right: 50px;
-}
-
-.banner img{
-    width: 1340px;
-    height: 751px;
-    border-radius: 10px;
-}
-
-.combo2{
-    position: absolute;
-    top: 4347px;
-    left: 50px;
-    right: 50px;
-}
-.combo2 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo4{
-    position: absolute;
-    top: 5141px;
-    left: 50px;
-    right: 50px;
-}
-.combo4 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo5{
-    position: absolute;
-    top: 5935px;
-    left: 50px;
-    right: 50px;
-}
-.combo5 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo6{
-    position: absolute;
-    top: 6729px;
-    left: 50px;
-    right: 50px;
-}
-
-.combo6 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo7{
-    position: absolute;
-    top: 7523px;
-    left: 50px;
-    right: 50px;
-}
-.combo7 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo8 {
-    position: absolute;
-    top: 8315px;
-    left: 50px;
-    right: 50px;
-}
-.combo8 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo9{
-    position: absolute;
-    top: 9249px;
-    left: 50px;
-    right: 50px;
-}
-.combo9 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo10{
-    position: absolute;
-    top: 10043px;
-    left: 50px;
-    right: 50px;
-}
-.combo10 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo11{
-    position: absolute;
-    top: 10977px;
-    left: 50px;
-    right: 50px;
-}
-.combo11 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo12{
-    position: absolute;
-    top: 11771px;
-    left: 50px;
-    right: 50px;
-}
-.combo12 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
 
 .orcamento {
-    top:12694.50px; /*46px*/
+    top:12889.50px; /*46px*/
     position: absolute;
-    width: 1334px;
+    width: 1405px;
     height: 332px;
     left: 50px;
-    right: 115px;
+    right: 15px;
     background-color: #EEEEEE;
     border-radius: 33px;
 }
@@ -378,7 +252,7 @@ body {
     width: 1334px;
     height: 233px;
     margin-left: 50px;
-    top: 13058px;
+    top: 13298px;
 }
 
 .frase {
@@ -394,8 +268,8 @@ body {
     position: absolute;
     width: 1165px;
     height: 114px;
-    margin-left: 160px;
-    top: 13125px;
+    margin-left: 240px;
+    top: 13355px;
     grid-gap: 0px;
 }
 
@@ -412,8 +286,8 @@ footer {
     position: absolute;
     padding: 20px;
     position: absolute;
-    width: 1360px;
-    top: 13228px;
+    width: 1460px;
+    top: 13468px;
 }
 
 .divider {
@@ -443,5 +317,5 @@ footer {
     line-height: 22px;
     font-weight: 500;
     margin-top: -25px;
-    left: 1136px;
+    left: 1206px;
 }

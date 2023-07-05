@@ -9,7 +9,7 @@
 body {
     background-color:#F4F4F4;
     width: 1443px;
-    height: 13348px;
+    height: 13758px;
     overflow-x: hidden;
 }
 
@@ -179,7 +179,7 @@ body {
     width: 832px;
     height: 140px;
     display: flex;
-    top: 2282px;
+    top: 2245px;
     left: 360px;
 }
 .texto2 p{
@@ -187,135 +187,20 @@ body {
     font-weight: 300;
 }
 
-.imagens_combo{
+.grid-fotos{
     position: absolute;
-    top: 2541px;
-    left: 50px;
-    right: 50px;
-}
-.imagens_combo img{
-    width: 1340px;
-    height: 974.496px;
-    border-radius: 10px;
-}
-
-.banner{
-    position: absolute;
-    top: 3551px;
-    left: 50px;
-    right: 50px;
-}
-
-.banner img{
-    width: 1340px;
-    height: 751px;
-    border-radius: 10px;
-}
-
-.combo2{
-    position: absolute;
-    top: 4337px;
-    left: 50px;
-    right: 50px;
-}
-.combo2 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo4{
-    position: absolute;
-    top: 5076px;
-    left: 50px;
-    right: 50px;
-}
-.combo4 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo5{
-    position: absolute;
-    top: 6004px;
-    left: 50px;
-    right: 50px;
-}
-.combo5 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo6{
-    position: absolute;
-    top: 6932px;
-    left: 50px;
-    right: 50px;
-}
-
-.combo6 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo7{
-    position: absolute;
-    top: 7859px;
-    left: 50px;
-    right: 50px;
-}
-.combo7 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo8 {
-    position: absolute;
-    top: 8787px;
-    left: 50px;
-    right: 50px;
-}
-.combo8 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo9{
-    position: absolute;
-    top: 9827px;
-    left: 50px;
-    right: 50px;
-}
-.combo9 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo10{
-    position: absolute;
-    top: 10794px;
-    left: 50px;
-    right: 50px;
-}
-.combo10 img{
-    width: 1340px;
-    border-radius: 10px;
-}
-
-.combo11{
-    position: absolute;
-    top: 11705px;
-    left: 50px;
-    right: 50px;
-}
-.combo11 img{
-    width: 1340px;
-    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 35px;
+    top: 2510px;
+    left: 53px;
+    right: 53px;
 }
 
 .orcamento {
-    top:12590.50px; /*46px*/
+    top:13076.50px; /*46px*/
     position: absolute;
-    width: 1334px;
+    width: 1404px;
     height: 332px;
     left: 50px;
     right: 115px;
@@ -365,7 +250,7 @@ body {
     width: 1334px;
     height: 233px;
     margin-left: 50px;
-    top: 12942px;
+    top: 13445px;
 }
 
 .frase {
@@ -381,8 +266,8 @@ body {
     position: absolute;
     width: 1165px;
     height: 114px;
-    margin-left: 160px;
-    top: 13009px;
+    margin-left: 220px;
+    top: 13503px;
     grid-gap: 0px;
 }
 
@@ -399,8 +284,8 @@ footer {
     position: absolute;
     padding: 20px;
     position: absolute;
-    width: 1360px;
-    top: 13108px;
+    width: 1420px;
+    top: 13618px;
 }
 
 .divider {

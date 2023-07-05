@@ -209,7 +209,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 40px;
-
 }
 
 .grid-container img{
@@ -217,14 +216,14 @@
     height: 477px;
     object-fit: cover;
     border-radius: 10px;
-    animation: slide 5s infinite;
+    animation: carousel-animation 16s infinite;
 
 }
 .grid-container p{
     color:black;
     font-size: 16px;
     font-weight: 500;
-    animation: slide 5s infinite;
+    animation: carousel-animation 16s infinite;
 
 }
 
@@ -236,15 +235,24 @@
     justify-content: right;
     margin-right: 0px;
     margin-top: -20px;
-    animation: slide 5s infinite;
+    animation: carousel-animation 16s infinite;
 
 }
-@keyframes slide {
+@keyframes carousel-animation {
     0% {
       transform: translateX(0);
     }
+    25% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(-200%);
+    }
+    75% {
+      transform: translateX(-300%);
+    }
     100% {
-      transform: translateX(-95%); /* Desloca o carrossel para a esquerda */
+      transform: translateX(0);
     }
   }
 
