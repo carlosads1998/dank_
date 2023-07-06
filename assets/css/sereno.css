@@ -9,7 +9,7 @@
 body {
     background-color:#F4F4F4;
     width: 1443px;
-    height: 13758px;
+    height: 13298px;
     overflow-x: hidden;
 }
 
@@ -17,7 +17,7 @@ body {
     position: absolute;
     background-color: #FFFB00;
     border-radius: 50px;
-    width: 305px;
+    width: 385px;
     height: 31px;
     margin-top: 50px;
     margin-left: 815px;
@@ -30,6 +30,7 @@ body {
     font-size: 16px;
     margin-top: 4px;
     letter-spacing: 0.1rem;
+    width: 390px;
 }
 
 .banner_right {
@@ -197,8 +198,13 @@ body {
     right: 53px;
 }
 
+.grid-fotos img{
+    width: 1334px;
+    border-radius: 33px;
+}
+
 .orcamento {
-    top:13076.50px; /*46px*/
+    top:12598.50px; /*46px*/
     position: absolute;
     width: 1404px;
     height: 332px;
@@ -250,7 +256,7 @@ body {
     width: 1334px;
     height: 233px;
     margin-left: 50px;
-    top: 13445px;
+    top: 12980px;
 }
 
 .frase {
@@ -267,7 +273,7 @@ body {
     width: 1165px;
     height: 114px;
     margin-left: 220px;
-    top: 13503px;
+    top: 13049px;
     grid-gap: 0px;
 }
 
@@ -285,7 +291,7 @@ footer {
     padding: 20px;
     position: absolute;
     width: 1420px;
-    top: 13618px;
+    top: 13148px;
 }
 
 .divider {
@@ -315,5 +321,5 @@ footer {
     line-height: 22px;
     font-weight: 500;
     margin-top: -25px;
-    left: 1136px;
+    left: 1189px;
 }

@@ -199,14 +199,25 @@ input[type="image"] {
   display: flex;
   height: 108px;
   margin-top: 20px;
-  gap: 750px;
+  gap: 1990px;
 }
 .conteudo1{
   margin-top: -5px;
-  margin-right:-730px;
+  margin-right:-1880px;
   line-height: 20px;
+  font-size: 22px;
   animation: carousel-animation 10s infinite linear; /* Define a animação do carrossel */
 
+}
+
+.logo_{
+  position: absolute;
+  top: 690px;
+}
+
+.logo_ img{
+  width: 102px;
+  height: 30px;
 }
 
 @keyframes carousel-animation {

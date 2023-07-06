@@ -10,6 +10,7 @@
     width: 1440px;
     height: 8654px;
     background-color: #f0f0f0;
+
 }
 
 .banner-principal {
@@ -214,9 +215,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 40px;
-    overflow-x: hidden;
     overflow-y: hidden;
     width: 1440px;
+    overflow: visible;
 
 }
 
@@ -325,7 +326,7 @@
     color: #000;
     font-size: 20px;
     font-family: Manrope;
-    font-weight: 600;
+    font-weight: bold;
     letter-spacing: 1px;
 }
 
@@ -477,5 +478,5 @@ footer {
     line-height: 22px;
     font-weight: 500;
     margin-top: -25px;
-    margin-right: 15px;
+    margin-right: 55px;
 }

@@ -9,7 +9,7 @@
 body {
     background-color:#f4f4f4;
     width: 1443px;
-    height: 13108px;
+    height: 12708px;
     overflow-x: hidden;
 }
 
@@ -17,7 +17,7 @@ body {
     position: absolute;
     background-color: #FFFB00;
     border-radius: 50px;
-    width: 305px;
+    width: 245px;
     height: 31px;
     margin-top: 50px;
     margin-left: 815px;
@@ -188,7 +188,7 @@ body {
 }
 
 .orcamento {
-    top:12452.50px; /*46px*/
+    top:12007.50px; /*46px*/
     position: absolute;
     width: 1404px;
     height: 332px;
@@ -206,6 +206,11 @@ body {
     top: 2510px;
     left: 53px;
     right: 53px;
+}
+
+.grid-fotos img{
+    width: 1334px;
+    border-radius: 33px;
 }
 
 .msg {
@@ -250,7 +255,7 @@ body {
     width: 1334px;
     height: 233px;
     margin-left: 50px;
-    top: 12802px;
+    top: 12402px;
 }
 
 .frase {
@@ -267,7 +272,7 @@ body {
     width: 1165px;
     height: 114px;
     margin-left: 240px;
-    top: 12875px;
+    top: 12475px;
     grid-gap: 0px;
 }
 
@@ -285,7 +290,7 @@ footer {
     padding: 20px;
     position: absolute;
     width: 1460px;
-    top: 12978px;
+    top: 12578px;
 }
 
 .divider {
@@ -315,5 +320,5 @@ footer {
     line-height: 22px;
     font-weight: 500;
     margin-top: -25px;
-    left: 1136px;
+    left: 1216px;
 }
