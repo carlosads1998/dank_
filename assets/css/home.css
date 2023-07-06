@@ -511,7 +511,7 @@
     width: 1334px;
     height: 302px;
     left: 53px;
-    background-color: #f7f7f7f3;
+    background-color: #eee;
     border-radius: 33px;
 }
 
@@ -589,6 +589,10 @@
     height: 233px;
     left: 53px;
     top: 1161px;
+}
+
+.contato p{
+    color: black;
 }
 
 .frase {
