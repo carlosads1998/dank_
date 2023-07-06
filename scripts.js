@@ -135,3 +135,27 @@ function cloneMessages() {
 
 cloneMessages();
 
+
+document.addEventListener("DOMContentLoaded", function() {
+  const carrossel = document.querySelector(".grid-container");
+  const imagens = carrossel.querySelectorAll("item");
+  const intervalo = 3000; // Intervalo de 3 segundos entre as imagens
+
+  let indice = 0;
+
+  function alternarImagens() {
+    imagens.forEach((img, index) => {
+      img.classList.remove("active");
+      if (index === indice) {
+        img.classList.add("active");
+      }
+    });
+
+    indice++;
+    if (indice >= imagens.length) {
+      indice = 0;
+    }
+  }
+
+  setInterval(alternarImagens, intervalo);
+});

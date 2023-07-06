@@ -215,18 +215,37 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 40px;
-    overflow-y: hidden;
     width: 1440px;
-    overflow: visible;
+    animation: carrosselAnimacao 12s infinite;
+    justify-content: flex-end; /* ou flex-end */
 
 }
 
-.grid-container img {
+@keyframes carrosselAnimacao {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(30%);
+    }
+    50% {
+      transform: translateX(30%);
+    }
+    75% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+
+.grid-container img{
     width: 434px;
     height: 477px;
     object-fit: cover;
     border-radius: 10px;
-
+    opacity: 1;
 }
 
 .grid-container p {
