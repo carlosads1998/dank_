@@ -211,34 +211,12 @@
 .grid-container {
     position: absolute;
     top: 4452px;
-    left: 56px;
+    left: 361px;
+    right: 74px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 40px;
-    width: 1440px;
-    animation: carrosselAnimacao 12s infinite;
-    justify-content: flex-end; /* ou flex-end */
-
+    grid-template-columns: 1fr 1fr;
+    width: 1005px;
 }
-
-@keyframes carrosselAnimacao {
-    0% {
-      transform: translateX(0);
-    }
-    25% {
-      transform: translateX(30%);
-    }
-    50% {
-      transform: translateX(30%);
-    }
-    75% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  
 
 .grid-container img{
     width: 434px;
@@ -249,10 +227,13 @@
 }
 
 .grid-container p {
+    font-family: Big Shoulders Display;
     color: black;
-    font-size: 16px;
-    font-weight: 500;
-
+    font-size: 24px;
+    font-weight: 550;
+    margin-bottom: 40px;
+    letter-spacing: 0rem;
+    width: 205px;
 }
 
 .grid-container .mensagem {
@@ -260,13 +241,14 @@
     display: flex;
     color: black;
     justify-content: right;
-    margin-right: 0px;
-    margin-top: -20px;
+    margin-right: 75px;
+    margin-top: -63px;
+    margin-bottom: 40px;
 }
 
 .services {
     position: absolute;
-    top: 5149px;
+    top: 5649px;
     left: 57px;
     width: 335px;
     height: 37px;
@@ -281,7 +263,7 @@
 
 .servicos {
     position: absolute;
-    top: 5149px;
+    top: 5649px;
     margin-left: 721px;
     width: 516px;
     height: 2.5px;
@@ -290,14 +272,14 @@
 
 .itens_content {
     position: absolute;
-    top: 5167px;
+    top: 5657px;
     left: 721px;
 
 }
 
 .servicos1 {
     position: absolute;
-    top: 5368px;
+    top: 5878px;
     left: 721px;
     width: 516px;
     height: 2.5px;
@@ -306,14 +288,14 @@
 
 .itens_content1 {
     position: absolute;
-    top: 5386px;
+    top: 5885px;
     left: 721px;
 
 }
 
 .servicos2 {
     position: absolute;
-    top: 5616px;
+    top: 6116px;
     left: 721px;
     width: 516px;
     height: 2.2px;
@@ -322,13 +304,13 @@
 
 .itens_content2 {
     position: absolute;
-    top: 5637px;
+    top: 6125px;
     left: 721px;
 }
 
 .servicos3 {
     position: absolute;
-    top: 5812px;
+    top: 6352px;
     left: 721px;
     width: 516px;
     height: 2.2px;
@@ -337,15 +319,15 @@
 
 .itens_content3 {
     position: absolute;
-    top: 5837px;
+    top: 6360px;
     left: 721px;
 }
 
 .titulo {
     color: #000;
     font-size: 20px;
-    font-family: Manrope;
-    font-weight: bold;
+    font-family: Big Shoulders Display;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
@@ -359,7 +341,7 @@
 
 .banner-projetos {
     position: absolute;
-    top: 6160px;
+    top: 6660px;
     border-radius: 10px;
     left: 30px;
     right: 30px;
@@ -372,7 +354,7 @@
 
 .msg {
     position: absolute;
-    top: 7890px;
+    top: 8430px;
     left: 53px;
     width: 1334px;
     height: 332px;
@@ -425,7 +407,7 @@
     width: 1334px;
     height: 233px;
     margin-left: 53px;
-    top: 8343px;
+    top: 8843px;
 }
 
 .frase {
@@ -452,7 +434,7 @@
 
 .botao-interativo {
     position: absolute;
-    top: 8379px;
+    top: 8879px;
     left: 1204px;
     width: 216px;
     height: 154px;
@@ -467,7 +449,7 @@
 
 footer {
     position: absolute;
-    top: 8526px;
+    top: 9026px;
     left: 53px;
     color: black;
 }

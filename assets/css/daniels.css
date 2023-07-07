@@ -136,7 +136,7 @@ body {
     position: absolute;
     width: 171px;
     height: 20px;
-    top: 1071px;
+    top: 1051px;
     left: 61px;
 }
 
@@ -151,7 +151,7 @@ body {
     width: 806px;
     height: 121px;
     position: absolute;
-    top: 1071px;
+    top: 1051px;
     left: 360px;
     flex-direction: column;
     flex-shrink: 0;
@@ -167,7 +167,7 @@ body {
 
 .capa_meio{
     position: absolute;
-    top: 1261px;
+    top: 1377px;
 }
 
 .capa_meio img{
