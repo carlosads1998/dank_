@@ -78,7 +78,7 @@ body {
     position: fixed;
     z-index: 9999;
     height: auto;
-    margin-top: 770px;
+    margin-top: 771px;
     left: 71px;
     transition: opacity 0.3s ease-in-out;
 }
@@ -212,7 +212,7 @@ body {
     height: 332px;
     left: 50px;
     right: 15px;
-    background-color: #EEE;
+    background-color: #EEEEEE;
     border-radius: 33px;
 }
 
