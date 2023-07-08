@@ -703,7 +703,8 @@ footer {
         height: 34px;
         top: 751px;
         width: 215px;
-        right: 390px;
+        right:1090px;
+        
         display: flex;
         list-style: none;
         background: rgba(255, 255, 255, 0.3);
@@ -716,9 +717,9 @@ footer {
     }
 
     .nav-item {
-        width: 50px;
+        width: 41px;
         margin-top: -7px;
-        margin-left: -7px;
+        margin-left: -2px;
     }
 
     .nav-item a {
