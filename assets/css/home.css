@@ -661,7 +661,7 @@ footer {
     margin-top: -17px;
 }
 
-@media screen and (min-width: 360px) and (max-width: 768px) {
+@media screen and (min-width: 359px) and (max-width: 768px) {
 
     * {
         padding: 0;
