@@ -3,13 +3,13 @@
     margin: 0;
     font-family: 'Manrope', sans-serif;
     text-decoration: none;
+
 }
 
-.body {
+body{
     width: 1440px;
     height: 4584px;
     background-color: #f4f4f4;
-    overflow-y: hidden;
 }
 
 
@@ -268,6 +268,10 @@
     font-size: 16px;
     font-weight: 500;
     color: #000;
+}
+
+.ver-mais{
+    display: none;
 }
 
 .foto7 {
@@ -667,7 +671,7 @@ footer {
     }
 
     .body {
-        width: 360px;
+        width: 100%;
         height: 5902px;
     }
 
@@ -680,7 +684,7 @@ footer {
     }
 
     .slide {
-        width: 360px;
+        width: 420px;
         height: 800px;
         opacity: 0;
         position: absolute;
@@ -798,11 +802,11 @@ footer {
     }
 
     .foto1{
-        width:340px;
+        width:95%;
         height: 249px;
         object-fit: cover;
-        left: 10px;
-        right: 10px;
+        left: 2.5%;
+        right: 2.5%;
     }
 
     .txt{
@@ -810,22 +814,24 @@ footer {
         width: 72px;
         height: 21px;
         top: 1725px;
-        left:12px;
+        left:3%;
     }
     .mensagem{
         position: absolute;
         top: 1726px;
         width:174px;
         height: 21px;
-        left: 277px;
+        left: 78%;
         opacity: 1;
+        font-weight: 000;
     }
 
     .foto2{
         position: absolute;
-        width: 340px;
+        width: 95%;
         height: 494px;
-        left: 10px;
+        left: 2.5%;
+        right: 2.5%;
         top: 1770px;
     }
 
@@ -833,7 +839,7 @@ footer {
         position: absolute;
         width: 127px;
         height: 27px;
-        left: 12px;
+        left: 3%;
         top: 2270px;
 
     }
@@ -841,50 +847,105 @@ footer {
     .mensagem1{
         position: absolute;
         opacity: 1;
-        left: 240px;
+        left: 67%;
         top:2270px ;
+        font-weight: 000;
     }
 
     .foto3{
-        width: 340px;
+        width: 95%;
         height: 305;
         position: absolute;
-        left: 10px;
+        left: 2.5%;
+        right: 2.5%;
         top:2310px;
 
     }
     .txt2{
         position: absolute;
         top: 2695px;
-        left: 11px;
+        left: 3%;
     }
     .mensagem2{
         position: absolute;
         top: 2700px;
-        left: 220px;
+        left: 61%;
         opacity: 1;
+        font-weight: 000;
     }
+
     .foto4{
         position: absolute;
         top: 2735px;
-        left: 10px;
-        width: 340px;
+        left: 2.5%;
+        right: 2.5%;
+        width: 95%;
         height: 413px;
     }
     .txt3{
         top: 3150px;
-        left: 11px;
+        left: 3%;
     }
     .mensagem3{
         opacity: 1;
         top: 3155px;
-        left: 290px;
+        left: 82%;
     }
 
+    .foto5{
+        top:3190px;
+        left: 2.5%;
+        width:95%;
+        height:350px;
+    }
+    .txt4{
+        top: 3540px;
+        left: 3%;
+    }
+    .mensagem4{
+        opacity: 1;
+        top: 3545px;
+        left: 61%;
+        font-weight: 000;
+    }
+
+    .foto6{
+        width: 95%;
+        height: 390px;
+        top: 3580px;
+        left: 2.5%;
+        position: absolute;
+    }
+    .txt5{
+        position: absolute;
+        top: 3970px;
+        left: 3%;
+    }
+    .mensagem5{
+        position: absolute;
+        left: 82%;
+        opacity: 1;
+        top: 3975px;
+        font-weight: 000;
+    }
 
     .foto7{
         position: absolute;
-        top: 9000px;
+        top: 4010px;
+        width: 95%;
+        height: 320px;
+        left: 2.5%;
+    }
+    .txt6{
+        position: absolute;
+        top: 4335px;
+        left: 3%;
+    }
+    .mensagem6{
+        position: absolute;
+        top: 4340px;
+        left: 78%;
+        opacity: 1;
     }
 
 
