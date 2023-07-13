@@ -8,7 +8,7 @@
 
 .body {
     width: 1440px;
-    height: 8654px;
+    height: 8854px;
     background-color: #f4F4F4;
 
 }
@@ -178,9 +178,37 @@
     height: 674px;
 }
 
+
+.titu{
+    width: 334px;
+    height: 37px;
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    left: -305px;
+    top: 20px;
+
+}
+
+.mapa{
+    position: absolute;
+    top: 4200px;
+    left: 362px;
+}
+
+.map-txt{
+    position: absolute;
+    left: 360px;
+    width: 646px;
+    height: 169px;
+    font-size: 30px;
+    font-weight: 300;
+    top: -5px;
+}
+
 .equipe {
     position: absolute;
-    top: 4193px;
+    top: 5299px;
     left: 53px;
     width: 335px;
     height: 37px;
@@ -195,7 +223,7 @@
 
 .texto3 {
     position: absolute;
-    top: 4188px;
+    top:5298px;
     left: 720px;
     width: 646px;
     height: 172px;
@@ -210,7 +238,7 @@
 
 .grid-container {
     position: absolute;
-    top: 4452px;
+    top: 5552px;
     left: 361px;
     right: 74px;
     display: grid;
@@ -248,7 +276,7 @@
 
 .services {
     position: absolute;
-    top: 5649px;
+    top: 6710px;
     left: 57px;
     width: 335px;
     height: 37px;
@@ -263,7 +291,7 @@
 
 .servicos {
     position: absolute;
-    top: 5649px;
+    top: 6711px;
     margin-left: 721px;
     width: 516px;
     height: 2.5px;
@@ -272,14 +300,14 @@
 
 .itens_content {
     position: absolute;
-    top: 5657px;
+    top: 6722px;
     left: 721px;
 
 }
 
 .servicos1 {
     position: absolute;
-    top: 5878px;
+    top: 6935px;
     left: 721px;
     width: 516px;
     height: 2.5px;
@@ -288,14 +316,14 @@
 
 .itens_content1 {
     position: absolute;
-    top: 5885px;
+    top: 6946px;
     left: 721px;
 
 }
 
 .servicos2 {
     position: absolute;
-    top: 6116px;
+    top: 7185px;
     left: 721px;
     width: 516px;
     height: 2.2px;
@@ -304,13 +332,13 @@
 
 .itens_content2 {
     position: absolute;
-    top: 6125px;
+    top: 7200px;
     left: 721px;
 }
 
 .servicos3 {
     position: absolute;
-    top: 6352px;
+    top: 7385px;
     left: 721px;
     width: 516px;
     height: 2.8px;
@@ -319,7 +347,7 @@
 
 .itens_content3 {
     position: absolute;
-    top: 6360px;
+    top: 7396px;
     left: 721px;
 }
 
@@ -341,7 +369,7 @@
 
 .banner-projetos {
     position: absolute;
-    top: 6660px;
+    top: 7640px;
     border-radius: 10px;
     left: 30px;
     right: 30px;
@@ -354,7 +382,7 @@
 
 .msg {
     position: absolute;
-    top: 8430px;
+    top: 9399px;
     left: 53px;
     width: 1334px;
     height: 332px;
@@ -407,7 +435,7 @@
     width: 1334px;
     height: 233px;
     margin-left: 53px;
-    top: 8843px;
+    top: 9843px;
 }
 
 .frase {
@@ -434,7 +462,7 @@
 
 .botao-interativo {
     position: absolute;
-    top: 8879px;
+    top: 9873px;
     left: 1204px;
     width: 216px;
     height: 154px;
@@ -449,7 +477,7 @@
 
 footer {
     position: absolute;
-    top: 9026px;
+    top: 10011px;
     left: 53px;
     color: black;
 }

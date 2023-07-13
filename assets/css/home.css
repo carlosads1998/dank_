@@ -676,7 +676,7 @@ footer {
     }
 
     .slideshow {
-        width: 360px;
+        width: 100%;
         height: 800px;
         position: absolute;
         left: 0;
@@ -684,7 +684,7 @@ footer {
     }
 
     .slide {
-        width: 420px;
+        width: 100%;
         height: 800px;
         opacity: 0;
         position: absolute;
@@ -708,7 +708,6 @@ footer {
         top: 751px;
         width: 215px;
         right:1090px;
-        
         display: flex;
         list-style: none;
         background: rgba(255, 255, 255, 0.3);
