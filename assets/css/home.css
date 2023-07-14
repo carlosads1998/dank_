@@ -672,12 +672,12 @@ footer {
 
     .body {
         width: 100%;
-        height: 5902px;
+        height: 51%;
     }
 
     .slideshow {
         width: 100%;
-        height: 800px;
+        height: 67%;
         position: absolute;
         left: 0;
         top: 0;
@@ -685,7 +685,7 @@ footer {
 
     .slide {
         width: 100%;
-        height: 800px;
+        height: 67%;
         opacity: 0;
         position: absolute;
         transition: opacity 0.5s ease-in-out;
@@ -696,8 +696,8 @@ footer {
     }
 
     .slide img {
-        width: 360px;
-        height: 900px;
+        width: 100%;
+        height: 410%;
         object-fit: cover;
     }
 
@@ -705,9 +705,9 @@ footer {
         z-index: 9999;
         position: fixed;
         height: 34px;
-        top: 751px;
+        top: 38.30%;
         width: 215px;
-        right:1090px;
+        right:75.13%;
         display: flex;
         list-style: none;
         background: rgba(255, 255, 255, 0.3);
@@ -754,8 +754,8 @@ footer {
         position: fixed;
         z-index: 9999;
         height: auto;
-        top: 751px;
-        left: 20px;
+        top: 38.30%;
+        left: 1%;
         transition: opacity 0.3s ease-in-out;
     }
 
@@ -766,14 +766,14 @@ footer {
 
     .container{
         position: absolute;
-        top: -195px;
+        top: -55%;
         left:-250px;
     }
     .container img {
         position: absolute;
-        width: 320.12px;
+        width: 22.50%;
         height: 320.23px;
-        left: 258px;
+        left: 18.70%;
         top: 1016px;
     }
 
