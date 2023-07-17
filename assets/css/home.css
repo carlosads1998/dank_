@@ -672,12 +672,12 @@ footer {
 
     .body {
         width: 100%;
-        height: 51%;
+        height: 5902px;
     }
 
     .slideshow {
         width: 100%;
-        height: 67%;
+        height: 800px;
         position: absolute;
         left: 0;
         top: 0;
@@ -685,7 +685,7 @@ footer {
 
     .slide {
         width: 100%;
-        height: 67%;
+        height: 800px;
         opacity: 0;
         position: absolute;
         transition: opacity 0.5s ease-in-out;
@@ -697,7 +697,7 @@ footer {
 
     .slide img {
         width: 100%;
-        height: 410%;
+        height: 800px;
         object-fit: cover;
     }
 
@@ -766,7 +766,7 @@ footer {
 
     .container{
         position: absolute;
-        top: -65% ;
+        top: -279px ;
         left: -65%;
     }
     .container img {
@@ -794,7 +794,7 @@ footer {
 
     .grid-container {
         position: absolute;
-        top: -30%;
+        top: -160px;
         width: 95%;
         height: 100%;
     }
@@ -825,10 +825,9 @@ footer {
 
     .foto2{
         position: absolute;
-        width: 95%;
+        width: 97.5%;
         height: 494px;
-        left: 2.5%;
-        right: 2.5%;
+        left: 3.5%;
         top: 1770px;
     }
 
@@ -850,11 +849,10 @@ footer {
     }
 
     .foto3{
-        width: 95%;
+        width: 97.5%;
         height: 305;
         position: absolute;
-        left: 2.5%;
-        right: 2.5%;
+        left: 3.5%;
         top:2310px;
 
     }
