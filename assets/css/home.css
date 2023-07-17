@@ -766,7 +766,7 @@ footer {
 
     .container{
         position: absolute;
-        top: -55%;
+        top: -65%;
         left:-250px;
     }
     .container img {
@@ -774,7 +774,6 @@ footer {
         width: 22.50%;
         height: 320.23px;
         left: 18.70%;
-        top: 1016px;
     }
 
     .texto li {
@@ -790,7 +789,7 @@ footer {
         width: 239px;
         height: 70px;
         left: 316px;
-        top: 1367px;
+        margin-top: 17%;
     }
 
     .grid-container {
