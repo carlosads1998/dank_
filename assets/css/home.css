@@ -661,7 +661,7 @@ footer {
     margin-top: -17px;
 }
 
-@media screen and (min-width: 359px) and (max-width: 768px) {
+@media(max-width: 768px) {
 
     * {
         padding: 0;
@@ -766,8 +766,8 @@ footer {
 
     .container{
         position: absolute;
-        top: -210px;
-        left:-250px;
+        top: -65% ;
+        left: -65%;
     }
     .container img {
         position: absolute;
@@ -795,16 +795,15 @@ footer {
     .grid-container {
         position: absolute;
         top: -30%;
-        width: 100%;
+        width: 95%;
         height: 100%;
     }
 
     .foto1{
-        width:95%;
+        width:97.5%;
         height: 249px;
         object-fit: cover;
-        left: 3.5%;
-        right: 2.5%;
+        left: 4.0%;
     }
 
     .txt{
