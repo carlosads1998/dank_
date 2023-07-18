@@ -661,13 +661,13 @@ footer {
     margin-top: -17px;
 }
 
-@media (min-width:360px) and (max-width: 576px) {
+@media (max-width:760px){
 
     * {
         padding: 0;
         margin: 0;
         font-family: 'Manrope', sans-serif;
-        text-decoration: none;        
+        text-decoration: none;   
     }
 
     .body {
@@ -1024,12 +1024,12 @@ footer {
     .ft img{
         width: 119%;
         height: 138%;
+        top: 130%;
     }
 
     .ft p{
-        top: 279%;
+        top: 249%;
         position: absolute;
-        left: 8%;
         font-size:10px;
         color: #FFF;
         font-weight: 500;
@@ -1038,7 +1038,7 @@ footer {
 
     .contato{
         left: 5%;
-        top: 285%;
+        top: 264%;
     }
     
     .contato p{
@@ -1052,8 +1052,11 @@ footer {
 
     .botao-interativo{
         top: 345%;
-        left: -230.5%;
         height: 40%;
+        left: -241%;
+        right: 60%;
+        gap: 9%;
+
     }
 
     .botao-interativo a{
@@ -1064,7 +1067,7 @@ footer {
 
     footer{
         width: 100%;
-        top: 385%;
+        top: 392%;
         left: -9%;
         height: 50%;
     }
@@ -1078,8 +1081,8 @@ footer {
         font-weight: 500;
         width: 330%;
         color: black;
-        top: 29%;
-        left: -282%;
+        top: 33%;
+        left: -281%;
     }
 
     .left1{
@@ -1094,13 +1097,14 @@ footer {
     }
 }
 
-@media (min-width:413px) and (max-width: 576px) {
+@media (max-width: 375px) {
     .container{
         left: -45%;
     }
 
     .botao-interativo{
-        left: -209%;
+        left: -231%;
+        top: 325%;
     }
 
     .logo_{
@@ -1109,5 +1113,80 @@ footer {
 
     .menu{
         left: 11.50%;
+    }
+
+    .right{
+        left:-285%;
+    }
+    
+    footer{
+        top: 365%;
+    }
+
+    .right{
+        left: -282%;
+    }
+
+    .container{
+        left: -53%;
+    }
+}
+
+@media (min-width: 414px) {
+
+    .logo_{
+        left: 3%;
+    }
+    .menu{
+        left: 12%;
+    }
+
+    .container{
+        left: -42%;
+    }
+
+    .foto1,.foto2,.foto3, .foto4,.foto5,.foto6,.foto7,.foto8,.foto9{
+        width: 95%;
+        left: 2.5%;
+        right: 2.5%;
+    }
+    .mensagem,.mensagem5{
+        left:80%;
+    }
+
+    .mensagem1{
+        left: 71%;
+    }
+    .mensagem2{
+        left: 65%;
+    }
+    .mensagem3{
+        left: 83%;
+    }
+    .mensagem4{
+        left: 65%;
+    }
+    .mensagem5{
+        left: 83%;
+    }
+    .mensagem6{
+        left: 80%;
+    }
+
+
+    .botao-interativo{
+        left: -209%;
+        top: 310%;
+    }
+
+    footer{
+        top: 345%;
+    }
+    .right{
+        left: -285%;
+        top: 26%;
+    }
+    .left1{
+        top: 32%;
     }
 }
