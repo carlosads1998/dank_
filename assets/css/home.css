@@ -661,7 +661,7 @@ footer {
     margin-top: -17px;
 }
 
-@media(max-width: 768px) {
+@media (min-width:360px) and (max-width: 576px) {
 
     * {
         padding: 0;
@@ -1051,7 +1051,6 @@ footer {
     }
 
     .botao-interativo{
-        left: -225%;
         top: 345%;
         left: -230.5%;
         height: 40%;
@@ -1092,5 +1091,23 @@ footer {
         width: 44%;
         top: 43%;
 
+    }
+}
+
+@media (min-width:413px) and (max-width: 576px) {
+    .container{
+        left: -45%;
+    }
+
+    .botao-interativo{
+        left: -209%;
+    }
+
+    .logo_{
+        left: 3%;
+    }
+
+    .menu{
+        left: 11.50%;
     }
 }
