@@ -1132,7 +1132,7 @@ footer {
     }
 }
 
-@media (min-width: 414px) {
+@media (min-width: 414px) and (max-width:415px){
 
     .logo_{
         left: 3%;
@@ -1170,7 +1170,7 @@ footer {
         left: 83%;
     }
     .mensagem6{
-        left: 80%;
+        left: 83%;
     }
 
 
