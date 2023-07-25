@@ -325,3 +325,13 @@ footer {
     margin-top: -25px;
     left: 1206px;
 }
+
+@media (min-width:359px) and (max-width:361px){
+
+    .body{
+        width: 100%;
+    }
+    .especificacao{
+        font-size: 12px;
+    }
+}

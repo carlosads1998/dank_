@@ -159,3 +159,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   setInterval(alternarImagens, intervalo);
 });
+
+
+
+
+
+
+
+
