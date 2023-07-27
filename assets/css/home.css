@@ -1173,8 +1173,8 @@ footer {
 
     .nav-item a:hover {
         font-weight: bold;
-        border-radius: 33px;
-        font-size: 14px;
+        border-radius: 100px;
+        font-size: 9px;
     }
 
 
