@@ -1139,11 +1139,11 @@ footer {
 
     .menu {
         z-index: 9999;
-        position: fixed;
+        position: absolute;
         height: 34px;
-        top: 38.30%;
+        top: -0.15%;
         width: 215px;
-        right:75.13%;
+        right:-244.13%;
         display: flex;
         list-style: none;
         background: rgba(255, 255, 255, 0.3);
@@ -1187,11 +1187,11 @@ footer {
     }
 
     .logo_ {
-        position: fixed;
+        position: absolute;
         z-index: 9999;
         height: auto;
-        top: 38.30%;
-        left: 1%;
+        top: 78.50%;
+        left: 5%;
         transition: opacity 0.3s ease-in-out;
     }
 
