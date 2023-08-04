@@ -704,11 +704,11 @@ footer {
 
     .menu {
         z-index: 9999;
-        position: fixed;
+        position:absolute;
         height: 34px;
-        top: 55%;
-        width: 50%;
-        right:4.13%;
+        top: 0;
+        width: 190%;
+        left:130.13%;
         display: flex;
         list-style: none;
         background: rgba(255, 255, 255, 0.3);
@@ -723,6 +723,8 @@ footer {
     .nav-item {
         width: 19%;
         margin-top: -3%;
+        margin-left: -20px;
+        margin-right: 24px;
     }
 
     .nav-item a {
@@ -733,7 +735,6 @@ footer {
         text-decoration: none;
         color: black;
         font-style: normal;
-        margin-left: -14px;
     }
 
     .nav-item a:hover {
@@ -752,10 +753,10 @@ footer {
     }
 
     .logo_ {
-        position: fixed;
+        position: absolute;
         z-index: 9999;
         height: auto;
-        top: 55%;
+        top: 85%;
         left: 6%;
         transition: opacity 0.3s ease-in-out;
     }
