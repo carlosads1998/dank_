@@ -825,7 +825,7 @@ footer {
         height: 21px;
         left: 78%;
         opacity: 1;
-        font-weight: 000;
+        font-weight: 300;
     }
 
     .foto2{
@@ -851,7 +851,7 @@ footer {
         opacity: 1;
         left: 67%;
         top:2270px ;
-        font-weight: 000;
+        font-weight: 300;
     }
 
     .foto3{
@@ -873,7 +873,7 @@ footer {
         top: 2700px;
         left: 61%;
         opacity: 1;
-        font-weight: 000;
+        font-weight: 300;
     }
 
     .foto4{
@@ -892,6 +892,7 @@ footer {
         opacity: 1;
         top: 3155px;
         left: 82%;
+        font-weight: 300;
     }
 
     .foto5{
@@ -908,7 +909,7 @@ footer {
         opacity: 1;
         top: 3545px;
         left: 61%;
-        font-weight: 000;
+        font-weight: 300;
     }
 
     .foto6{
@@ -928,7 +929,7 @@ footer {
         left: 82%;
         opacity: 1;
         top: 3975px;
-        font-weight: 000;
+        font-weight: 300;
     }
 
     .foto7{
@@ -948,6 +949,7 @@ footer {
         top: 4340px;
         left: 78%;
         opacity: 1;
+        font-weight: 300;
     }
 
     .foto8{
@@ -968,6 +970,7 @@ footer {
         top: 4780px;
         left: 78%;
         opacity: 1;
+        font-weight: 300;
     }
 
     .foto9{
@@ -988,6 +991,7 @@ footer {
         top: 5190px;
         left: 78%;
         opacity: 1;
+        font-weight: 300;
     }
     .orcamento{
         top: 5100px;
@@ -1071,7 +1075,7 @@ footer {
 
     footer{
         width: 100%;
-        top: 340%;
+        top: 363%;
         right: 0;
         height: 40%;
     }
@@ -1085,7 +1089,7 @@ footer {
         font-size:16px;
         font-weight: 500;
         color: black;
-        top: 25%;
+        top: 27%;
         left: 9.5%;
     }
 
