@@ -170,8 +170,8 @@
 }
 
 .mobile,
-.mobile1 {
-    opacity: 0;
+.mobile2 {
+    display: block
 }
 
 .client {
@@ -397,7 +397,7 @@
 }
 
 .mobile-boards, .mobile-boards1{
-    opacity: 0;
+    display: none;
 }
 
 .msg {
@@ -558,9 +558,9 @@ footer {
         z-index: 9999;
         position: fixed;
         height: 34px;
-        top: 47.95%;
+        top: 15.95%;
         width: 215px;
-        right:2.13%;
+        right:76.13%;
         display: flex;
         list-style: none;
         background: rgba(255, 255, 255, 0.3);
@@ -607,8 +607,8 @@ footer {
         position: fixed;
         z-index: 9999;
         height: auto;
-        top: 47.95%;
-        left: 5%;
+        top:15.95%;
+        left: 1%;
         transition: opacity 0.3s ease-in-out;
     }
 
@@ -622,14 +622,14 @@ footer {
 
     .container {
         position: absolute;
-        top: 26%;
-        left: 19%;
+        top: 46%;
+        left: 18%;
     }
 
     .texto {
         position: absolute;
         width: 257px;
-        top: 200px;
+        top: 154px;
         height: 18px;
         flex-shrink: 0;
     }
@@ -648,7 +648,7 @@ footer {
         display: flex;
         width: 300px;
         bottom: 120%;
-        left: 9.4%;
+        left: 7.4%;
         height: 320px;
         flex-direction: column;
         justify-content: center;
@@ -661,7 +661,7 @@ footer {
     .container1 {
         height: 584px;
         width: 100%;
-        top: 83%;
+        top: 123%;
     }
 
     .txt {
@@ -994,29 +994,32 @@ footer {
     }
 
     .projetos-banner{
-        position: absolute;
-        top: -9010px;
         display: none;
+        margin-top: 1200px;
     }
     .mobile-boards{
         position: absolute;
-        top: -2740px;
+        bottom: 1920px;
         left: -19px;
         opacity: 1;
+        display: block;
+
     }
 
     .mobile-boards1{
         position: absolute;
-        opacity: 1;
-        top: -1887px;
+        height: 823px;
+        bottom: 1085px;
         left: -19px;
+        display:block;
     }
     .orcamento{
-        top: 4100px;
+        top: 100px;
         width: 95%;
-        left: 11opx;
+        left: 11px;
         right: 2.5%;
-        height: 35%;
+        height:823px;
+        display:block;
     }
 
     .msg{
@@ -1068,7 +1071,7 @@ footer {
 
     .contato{
         margin-left: 3%;
-        top: 750%;
+        top: 1130%;
         gap: 20px;
 
     }
@@ -1089,7 +1092,7 @@ footer {
     
     .botao-interativo{
         position: absolute;
-        top: 758%;
+        top: 1143%;
         height: 15%;
         left: 3%;
         right: 60%;
@@ -1109,7 +1112,7 @@ footer {
         width: 310px;
         height: 2px;
         flex-shrink: 0;
-        top: 770%;
+        top: 1160%;
         left: 0;
     }
 
