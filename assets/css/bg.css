@@ -37,7 +37,8 @@ body {
     margin-top: 45px;
     margin-left: 53px;
 }
-.banner_right img{
+
+.banner_right img {
     border-radius: 10px;
 }
 
@@ -99,8 +100,10 @@ body {
 }
 
 .menu:hover {
-    background: rgba(255, 251, 0, 0.4);;
+    background: rgba(255, 251, 0, 0.4);
+    ;
 }
+
 .nav-item {
     height: 20px;
     padding: 10px;
@@ -127,7 +130,7 @@ body {
     font-size: 14px;
 }
 
-.content-1{
+.content-1 {
     position: absolute;
     width: 171px;
     height: 20px;
@@ -135,7 +138,7 @@ body {
     left: 61px;
 }
 
-.content-1 p{
+.content-1 p {
     font-size: 16px;
     font-family: 'Big Shoulders Display', sans-serif;
     color: #000;
@@ -143,7 +146,7 @@ body {
 
 }
 
-.texto{
+.texto {
     width: 836px;
     height: 121px;
     position: absolute;
@@ -153,24 +156,24 @@ body {
     flex-shrink: 0;
 }
 
-.texto p{
+.texto p {
     font-size: 24px;
     font-weight: 300;
     color: #000;
-    
+
 }
 
-.capa_meio{
+.capa_meio {
     position: absolute;
     top: 1261px;
 }
 
-.capa_meio img{
-    width:1443px ;
-    height:902px ;
+.capa_meio img {
+    width: 1443px;
+    height: 902px;
 }
 
-.texto2{
+.texto2 {
     position: absolute;
     width: 836px;
     height: 140px;
@@ -178,170 +181,172 @@ body {
     top: 2282px;
     left: 360px;
 }
-.texto2 p{
+
+.texto2 p {
     font-size: 24px;
     font-weight: 300;
 }
 
-.imagens_combo{
+.imagens_combo {
     position: absolute;
     left: 53px;
     top: 2541px;
 }
 
-.imagens_combo img{
+.imagens_combo img {
     width: 650px;
     border-radius: 10px;
     height: 974.496px;
 }
 
-.imagens_combo1{
+.imagens_combo1 {
     position: absolute;
     left: 738px;
     top: 2541px;
     right: 52px;
 }
 
-.imagens_combo1 img{
+.imagens_combo1 img {
     width: 650px;
     border-radius: 10px;
     height: 974.496px;
 }
 
-.banner{
+.banner {
     position: absolute;
     left: 53px;
     right: 53px;
     top: 3548px;
 }
-.banner img{
+
+.banner img {
     border-radius: 10px;
     width: 1334px;
     height: 751px;
 }
 
-.combo2{
+.combo2 {
     position: absolute;
     left: 53px;
     top: 4339px;
 }
 
-.combo2 img{
+.combo2 img {
     border-radius: 10px;
     width: 650px;
     height: 977px;
 }
 
-.combo3{
+.combo3 {
     position: absolute;
     left: 737px;
     top: 4339px;
 }
 
-.combo3 img{
+.combo3 img {
     border-radius: 10px;
     width: 650px;
     height: 539.17px;
 }
 
-.combo4{
+.combo4 {
     position: absolute;
     top: 4918px;
     left: 737px;
 }
 
-.combo4 img{
+.combo4 img {
     border-radius: 10px;
     width: 650px;
     height: 397.054px;
 }
 
-.combo5{
+.combo5 {
     position: absolute;
     left: 53px;
     top: 5356px;
 }
 
-.combo5 img{
+.combo5 img {
     border-radius: 10px;
     width: 650px;
     height: 432.863px;
 }
 
-.combo6{
+.combo6 {
     position: absolute;
     left: 737px;
     top: 5356px;
 }
 
-.combo6 img{
+.combo6 img {
     width: 650px;
     height: 433px;
     border-radius: 10px;
 }
 
-.combo7{
+.combo7 {
     position: absolute;
     left: 53px;
     top: 5829px;
 }
 
-.combo8{
+.combo8 {
     position: absolute;
     left: 53px;
     top: 6684px;
 }
 
-.combo8 img{
+.combo8 img {
     width: 1334px;
     height: 752px;
     border-radius: 10px;
 }
 
-.combo9{
+.combo9 {
     position: absolute;
     left: 53px;
     top: 7476px;
 }
 
-.combo9 img{
+.combo9 img {
     border-radius: 10px;
     width: 1334px;
     height: 814.273px;
 }
 
-.combo10{
+.combo10 {
     position: absolute;
     left: 53px;
     top: 8330px;
 }
 
-.combo10 img{
+.combo10 img {
     object-fit: cover;
     border-radius: 10px;
     width: 650px;
     height: 433px;
 }
 
-.combo11{
+.combo11 {
     position: absolute;
     left: 737px;
     top: 8330px;
 }
 
-.combo11 img{
+.combo11 img {
     border-radius: 10px;
-    width:650px ;
+    width: 650px;
     height: 433px;
 }
 
-.combo12{
+.combo12 {
     position: absolute;
     left: 53px;
     top: 8803px;
 }
 
-.combo12 img{
+.combo12 img {
     width: 1334px;
     height: 750.511px;
     border-radius: 10px;
@@ -349,7 +354,7 @@ body {
 
 
 .orcamento {
-    top:9594px;
+    top: 9594px;
     position: absolute;
     width: 1334px;
     height: 332px;
@@ -388,7 +393,7 @@ body {
     text-decoration: none;
     color: black;
     border-radius: 50px;
-    background-color:#D9D9D9;
+    background-color: #D9D9D9;
     cursor: pointer;
     font-weight: bold;
     padding: 0px 25px;
@@ -467,4 +472,91 @@ footer {
     font-weight: 500;
     margin-top: -25px;
     left: 1120px;
+}
+
+
+@media (max-width:400px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Manrope', sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    body {
+        width: 120%;
+        height: 100%;
+        min-width: 320px;
+    }
+
+    .banner_right{
+        position: absolute;
+        right: -8.5%;
+        left:-13%;
+        top: -5%;
+    }
+
+    .banner_right img {
+        width: 90%;
+        height: 450px;
+    }
+
+    .especificacao {
+        background-color: #FFFB00;
+        top: 70%;
+        width: 57%;
+        height: 23px;
+        margin-left: 10%;
+    }
+
+    .especificacao p {
+        position: relative;
+        margin-left: 4px;
+        color: #000;
+        font-family: Big Shoulders Display;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.6px;
+        width: 187px;
+        height: 9px;
+        flex-shrink: 0;
+    }
+
+    .titulo{
+        margin-left: 10%;
+        top: 13.4%;
+    }
+
+    .titulo p {
+        width: 219px;
+        height: 28px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+    }
+
+    .descricao{
+        margin-left: 10%;
+        top: 13%;
+    }
+
+    .descricao p{
+        width: 285px;
+        height: 164px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Manrope;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 }

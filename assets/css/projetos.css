@@ -45,6 +45,7 @@ body{
     object-fit: cover;
 }
 
+
 .txt {
     position: absolute;
     width: 92px;
@@ -588,4 +589,24 @@ footer {
 
 .logo.hidden logo_ {
     opacity: 0;
+}
+
+@media (max-width:800px){
+
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Manrope', sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    
+    .texto{
+        width: 210px;
+    }
+
+    .texto p {
+        font-size: 17px;
+    }
 }
