@@ -1729,7 +1729,7 @@ footer {
         width: 310px;
         height: 2px;
         flex-shrink: 0;
-        top: 1072%;
+        bottom: -350%;
         left: 0;
     }
 

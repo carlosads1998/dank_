@@ -691,13 +691,13 @@ footer {
 
     .banner {
         position: absolute;
-        top: 265%;
+        top: 264%;
         left: 2%;
         right: 1.5%;
     }
 
     .banner img {
-        width: 97%;
+        width: 98%;
         height: 192.391px;
         flex-shrink: 0;
         border-radius: 10px;
@@ -707,7 +707,7 @@ footer {
         position: absolute;
         left: 2%;
         right:2% ;
-        top: 297%;
+        top: 295%;
     }
 
     .combo2 img {
@@ -721,7 +721,7 @@ footer {
         position: absolute;
         left: 50%;
         right: 2%;
-        top: 297%;
+        top: 295%;
     }
 
     .combo3 img {
@@ -734,7 +734,7 @@ footer {
     .combo4 {
         position: absolute;
         left: 50%;
-        top: 319%;
+        top: 316.8%;
         right: 2%;
     }
 
@@ -749,7 +749,7 @@ footer {
         position: absolute;
         left: 2%;
         right: 2%;
-        top:336% ;
+        top:334% ;
     }
 
     .combo5 img {
@@ -761,7 +761,7 @@ footer {
     .combo6{
         position: absolute;
         left: 50%;
-        top: 336%;
+        top: 334%;
     }
     .combo6 img{
         width: 174px;
@@ -769,36 +769,37 @@ footer {
         flex-shrink: 0;
     }
 
-
     .combo7{
         position: absolute;
-        left: 10%;
-        top: 360%;
+        left: 4.5%;
+        top: 352.5%;
     }
     .combo7 img{
-        width: 300px;
-        height: 240px;
+        width: 336px;
+        height: 208px;
         flex-shrink: 0;
+        border-radius: 10px;
     }
 
     .combo8{
         position: absolute;
         left: 2%;
-        top: 390%;
+        top: 384.5%;
     }
     .combo8 img{
-        width: 375px;
+        width: 353px;
         height: 192.647px;
         flex-shrink: 0;
     }
 
     .combo9{
         position: absolute;
-        top:414%;
+        top:415%;
         left: 2%;
+        right: 2%;
     }
     .combo9 img{
-        width: 375px;
+        width: 354px;
         height: 208.6px;
         flex-shrink: 0;
         border-radius: 10px;
@@ -806,7 +807,7 @@ footer {
 
     .combo10{
         position: absolute;
-        top: 440%;
+        top: 448%;
         left: 2%;
     }
     .combo10 img{
@@ -816,12 +817,12 @@ footer {
     }
 
     .combo11{
-        top: 440%;
+        top: 448%;
         left: 50%;
         position: absolute;
     }
     .combo11 img{
-        width: 187px;
+        width: 174px;
         height: 110.926px;
         flex-shrink: 0;
     }
@@ -829,10 +830,10 @@ footer {
     .combo12{
         position: absolute;
         left: 2%;
-        top: 455%;
+        top: 466.5%;
     }
     .combo12 img{
-        width: 375px;
+        width: 355.5px;
         height: 192.266px;
         flex-shrink: 0;
     }
@@ -840,8 +841,8 @@ footer {
     .orcamento{
         position: absolute;
         left: 2%;
-        top: 480%;
-        width: 375px;
+        top: 499%;
+        width: 355px;
         height: 217px;
         flex-shrink: 0;
     }
@@ -890,7 +891,7 @@ footer {
     .contato{
         position: absolute;
         left: -10%;
-        top: 508%;
+        top: 533%;
         line-height: normal;
     }
 
@@ -912,7 +913,7 @@ footer {
     }
 
     .botao-interativo{
-        top: 526%;
+        top: 556%;
         left: -38%;
     }
     .botao-interativo a{
@@ -928,14 +929,14 @@ footer {
     footer{
         position: absolute;
         width: 310px;
-        top: 600%;
+        top: 620%;
         height: 6px;
         flex-shrink: 0;
     }
 
     .divider{
         position: absolute;
-        bottom: 1130%;
+        bottom: 680%;
         height: 2px;
         width: 140%;
         left: 0;
@@ -943,16 +944,16 @@ footer {
 
     .right{
         position: absolute;
-        bottom: 2590%;
-        left: -8%;
+        bottom: 1470%;
+        left: -7%;
         height: 52px;
     }
 
     .left1{
         position: absolute;
-        bottom: 2530%;
+        bottom: 1330%;
         width: 249px;
         height: 41px;  
-        left: -8%;  
+        left: -7%;  
     }
 }
