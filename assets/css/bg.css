@@ -678,7 +678,7 @@ footer {
     .imagens_combo1 {
         position: absolute;
         top: 225%;
-        left: 53%;
+        left: 51.5%;
         right: 13%;
     }
 
@@ -693,11 +693,11 @@ footer {
         position: absolute;
         top: 265%;
         left: 2%;
-        right: 2%;
+        right: 1.5%;
     }
 
     .banner img {
-        width: 99%;
+        width: 97%;
         height: 192.391px;
         flex-shrink: 0;
         border-radius: 10px;
@@ -711,7 +711,7 @@ footer {
     }
 
     .combo2 img {
-        width: 166.517px;
+        width: 166px;
         height: 250.288px;
         flex-shrink: 0;
         border-radius: 10px;
@@ -725,7 +725,7 @@ footer {
     }
 
     .combo3 img {
-        width: 187px;
+        width: 174px;
         height: 138.119px;
         flex-shrink: 0;
         border-radius: 10px;
@@ -739,8 +739,8 @@ footer {
     }
 
     .combo4 img {
-        width: 187px;
-        height: 104px;
+        width: 174px;
+        height: 102px;
         flex-shrink: 0;
         border-radius: 10px;
     }
@@ -748,7 +748,8 @@ footer {
     .combo5 {
         position: absolute;
         left: 2%;
-        top:344% ;
+        right: 2%;
+        top:336% ;
     }
 
     .combo5 img {
@@ -760,10 +761,10 @@ footer {
     .combo6{
         position: absolute;
         left: 50%;
-        top: 344%;
+        top: 336%;
     }
     .combo6 img{
-        width: 187px;
+        width: 174px;
         height: 110.926px;
         flex-shrink: 0;
     }
