@@ -294,7 +294,7 @@ body {
 .combo8 {
     position: absolute;
     left: 53px;
-    top: 6684px;
+    top: 6920px;
 }
 
 .combo8 img {
@@ -306,7 +306,7 @@ body {
 .combo9 {
     position: absolute;
     left: 53px;
-    top: 7476px;
+    top: 7712px;
 }
 
 .combo9 img {
@@ -318,7 +318,7 @@ body {
 .combo10 {
     position: absolute;
     left: 53px;
-    top: 8330px;
+    top: 8560px;
 }
 
 .combo10 img {
@@ -331,7 +331,7 @@ body {
 .combo11 {
     position: absolute;
     left: 737px;
-    top: 8330px;
+    top: 8560px;
 }
 
 .combo11 img {
@@ -343,7 +343,7 @@ body {
 .combo12 {
     position: absolute;
     left: 53px;
-    top: 8803px;
+    top: 9035px;
 }
 
 .combo12 img {
@@ -354,7 +354,7 @@ body {
 
 
 .orcamento {
-    top: 9594px;
+    top: 9824px;
     position: absolute;
     width: 1334px;
     height: 332px;
@@ -406,7 +406,7 @@ body {
     width: 1334px;
     height: 233px;
     margin-left: 53px;
-    top: 9988px;
+    top: 10138px;
 }
 
 .frase {
@@ -417,14 +417,14 @@ body {
 }
 
 .botao-interativo {
-    display: grid;
-    justify-content: right;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     width: 1165px;
     height: 114px;
     margin-left: 160px;
-    top: 10051px;
-    grid-gap: 0px;
+    top: 10205px;
+    grid-gap: 15px;
 }
 
 .botao {
@@ -440,8 +440,8 @@ footer {
     position: absolute;
     padding: 20px;
     position: absolute;
-    width: 1320px;
-    top: 10178px;
+    width: 1360px;
+    top: 10298px;
 }
 
 .divider {
@@ -673,7 +673,7 @@ footer {
         flex-shrink: 0;
     }
 
-    .imagens_combo1{
+    .imagens_combo1 {
         position: absolute;
         top: 260%;
         left: 53%;
@@ -684,5 +684,267 @@ footer {
         height: 249.646px;
         flex-shrink: 0;
         border-radius: 10px;
+    }
+
+    .banner {
+        position: absolute;
+        top: 290%;
+        left: 2%;
+    }
+
+    .banner img {
+        width: 375.744px;
+        height: 192.391px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .combo2 {
+        position: absolute;
+        left: 2%;
+        top: 313.5%;
+    }
+
+    .combo2 img {
+        width: 166.517px;
+        height: 250.288px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .combo3 {
+        position: absolute;
+        left: 50%;
+        top: 313.5%;
+    }
+
+    .combo3 img {
+        width: 187px;
+        height: 138.119px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .combo4 {
+        position: absolute;
+        left: 50%;
+        top: 330.5%;
+    }
+
+    .combo4 img {
+        width: 187px;
+        height: 104px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .combo5 {
+        position: absolute;
+        left: 2%;
+        top:344% ;
+    }
+
+    .combo5 img {
+        width: 166.517px;
+        height: 110.891px;
+        flex-shrink: 0;
+    }
+
+    .combo6{
+        position: absolute;
+        left: 50%;
+        top: 344%;
+    }
+    .combo6 img{
+        width: 187px;
+        height: 110.926px;
+        flex-shrink: 0;
+    }
+
+
+    .combo7{
+        position: absolute;
+        left: 10%;
+        top: 360%;
+    }
+    .combo7 img{
+        width: 300px;
+        height: 240px;
+        flex-shrink: 0;
+    }
+
+    .combo8{
+        position: absolute;
+        left: 2%;
+        top: 390%;
+    }
+    .combo8 img{
+        width: 375px;
+        height: 192.647px;
+        flex-shrink: 0;
+    }
+
+    .combo9{
+        position: absolute;
+        top:414%;
+        left: 2%;
+    }
+    .combo9 img{
+        width: 375px;
+        height: 208.6px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .combo10{
+        position: absolute;
+        top: 440%;
+        left: 2%;
+    }
+    .combo10 img{
+        width: 170px;
+        height: 110.926px;
+        flex-shrink: 0;
+    }
+
+    .combo11{
+        top: 440%;
+        left: 50%;
+        position: absolute;
+    }
+    .combo11 img{
+        width: 187px;
+        height: 110.926px;
+        flex-shrink: 0;
+    }
+
+    .combo12{
+        position: absolute;
+        left: 2%;
+        top: 455%;
+    }
+    .combo12 img{
+        width: 375px;
+        height: 192.266px;
+        flex-shrink: 0;
+    }
+
+    .orcamento{
+        position: absolute;
+        left: 2%;
+        top: 480%;
+        width: 375px;
+        height: 217px;
+        flex-shrink: 0;
+    }
+    .msg{
+        position: absolute;
+        bottom: 10%;
+        right: 19%;
+        width: 264px;
+        height: 85px;
+        flex-shrink: 0;
+    }
+    .msg p{
+        color: #000;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .msg img{
+        width: 26px;
+        height: 23px;
+        flex-shrink: 0;
+        position: absolute;
+        right: 90%;
+        top: 260%;
+    }
+
+    .msg a{
+        width: 145px;
+        height: 30px;
+        flex-shrink: 0;
+        position: absolute;
+        right: -14%;
+        top: 255%;
+        margin-bottom: -10%;
+        color: #000;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-top: 8px;
+    }
+
+    .contato{
+        position: absolute;
+        left: -10%;
+        top: 508%;
+        line-height: normal;
+    }
+
+    .frase{
+        color: #000;
+        font-family: Manrope;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .contact , .rua{
+        color: #000;
+        font-family: Manrope;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .botao-interativo{
+        top: 526%;
+        left: -38%;
+    }
+    .botao-interativo a{
+        color: #000;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: left;
+    }
+
+    footer{
+        position: absolute;
+        width: 310px;
+        top: 600%;
+        height: 6px;
+        flex-shrink: 0;
+    }
+
+    .divider{
+        position: absolute;
+        bottom: 1130%;
+        height: 2px;
+        width: 140%;
+        left: 0;
+    }
+
+    .right{
+        position: absolute;
+        bottom: 2590%;
+        left: -8%;
+        height: 52px;
+    }
+
+    .left1{
+        position: absolute;
+        bottom: 2530%;
+        width: 249px;
+        height: 41px;  
+        left: -8%;  
     }
 }
