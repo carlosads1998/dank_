@@ -539,7 +539,7 @@ footer {
     .orcamento{
         left: 4.3%;
         right: 4.3%;
-        top: 655%;
+        top: 663%;
         width: 92%;
         height: 217px;
         flex-shrink: 0;
@@ -588,7 +588,7 @@ footer {
     .contato{
         position: absolute;
         left: -5%;
-        top: 685%;
+        top: 697%;
         line-height: normal;
     }
 
@@ -601,7 +601,7 @@ footer {
         line-height: normal;
     }
     .contact , .rua{
-        color: #000;
+        color: black;
         font-family: Manrope;
         font-size: 12px;
         font-style: normal;
@@ -613,7 +613,7 @@ footer {
         position: absolute;
         display: flex;
         flex-direction: column;
-        top: 709%;
+        top: 720%;
         margin-left: 8%;
     }
     .botao-interativo a{
@@ -629,28 +629,28 @@ footer {
     footer{
         position: absolute;
         width: 310px;
-        top: 780%;
+        top: 750%;
         height: 6px;
         flex-shrink: 0;
     }
     
     .divider{
         position: absolute;
-        bottom: 890%;
+        bottom: 300%;
         height: 2px;
         width: 140%;
         left: 0;
     }
     .right{
         position: absolute;
-        bottom: 1850%;
+        bottom: 450%;
         left: -3.8%;
         height: 52px;
     }
 
     .left1{
         position: absolute;
-        bottom:1780%;
+        bottom:380%;
         width: 220px;
         height: 41px;  
         left: -3.8%;  
