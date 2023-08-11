@@ -537,10 +537,9 @@ footer {
     }
 
     .orcamento{
-        position: absolute;
         left: 4.3%;
         right: 4.3%;
-        top: 600%;
+        top: 655%;
         width: 92%;
         height: 217px;
         flex-shrink: 0;
@@ -588,8 +587,8 @@ footer {
     }
     .contato{
         position: absolute;
-        left: -8%;
-        top: 630%;
+        left: -5%;
+        top: 685%;
         line-height: normal;
     }
 
@@ -611,8 +610,11 @@ footer {
     }
 
     .botao-interativo{
-        top: 650%;
-        right: 63%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 709%;
+        margin-left: 8%;
     }
     .botao-interativo a{
         color: #000;
@@ -627,30 +629,30 @@ footer {
     footer{
         position: absolute;
         width: 310px;
-        top: 690%;
+        top: 780%;
         height: 6px;
         flex-shrink: 0;
     }
     
     .divider{
         position: absolute;
-        bottom: 490%;
+        bottom: 890%;
         height: 2px;
         width: 140%;
         left: 0;
     }
     .right{
         position: absolute;
-        bottom: 950%;
-        left: -5.5%;
+        bottom: 1850%;
+        left: -3.8%;
         height: 52px;
     }
 
     .left1{
         position: absolute;
-        bottom: 880%;
+        bottom:1780%;
         width: 220px;
         height: 41px;  
-        left: -5.5%;  
+        left: -3.8%;  
     }
 }
