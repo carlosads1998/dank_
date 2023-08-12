@@ -323,9 +323,10 @@ footer {
     left: 1216px;
 }
 
-@media (max-width:414px){
+
+@media (max-width:555px){
     * {
-        padding: 0;
+        padding: 0 auto;
         margin: 0;
         font-family: 'Manrope', sans-serif;
         text-decoration: none;
@@ -335,32 +336,33 @@ footer {
     body {
         width: 120%;
         height: 100%;
-        min-width: 320px;
+
     }
 
     .banner_right {
-        position: absolute;
-        right: -8.5%;
-        left: -13%;
+        right: 3%;
+        left: -10%;
         top: -5%;
     }
 
     .banner_right img {
-        width: 90%;
+        width: 100%;
         height: 450px;
     }
 
     .especificacao {
         background-color: #FFFB00;
-        top: 58%;
-        width: 43%;
+        margin-top: 106%;
+        width: 33%;
         height: 23px;
-        margin-left: 10%;
+        margin-left: 8.5%;
+        position:static;
     }
 
     .especificacao p {
-        position: relative;
-        margin-left: 4px;
+        position: static;
+        margin-left: 3%;
+        padding-top: 2%;
         color: #000;
         font-family: Big Shoulders Display;
         font-size: 12px;
@@ -374,8 +376,9 @@ footer {
     }
 
     .titulo {
-        margin-left: 10%;
-        top: 13.4%;
+        position: static;
+        margin-left: 9%;
+        margin-top: 3.4%;
     }
 
     .titulo p {
@@ -392,13 +395,14 @@ footer {
     }
 
     .descricao {
-        margin-left: 10%;
-        top: 13%;
+        position: static;
+        margin-left: 9%;
+        margin-top: 0%;
     }
 
     .descricao p {
-        width: 415px;
-        height: 184px;
+        width: 315px;
+        height: 164px;
         flex-shrink: 0;
         color: #000;
         font-family: Manrope;
@@ -409,25 +413,33 @@ footer {
     }
 
     .logo_ {
+        z-index: 9999;
         width: 85px;
         position: fixed;
-        height: 25px;
+        height: auto;
         flex-shrink: 0;
-        left: 0.4%;
-        top: -2.5%;
+        left: 1%;
+        top: -10%;
+        transition: opacity 0.3s ease-in-out;
     }
 
     .menu {
-        width: 230.048px;
-        height: 34.571px;
+        z-index: 9999;
+        width: 13%;
+        height: 34px;
+        display: flex;
+        border-radius: 100px;
         flex-shrink: 0;
         background: rgba(255, 255, 255, 0.3);
         backdrop-filter: blur(40px);
         position: fixed;
-        left: 8.7%;
+        right: 79%;
         color: #ffffff00;
-        top: -2.5%;
+        top: -10%;
+    }
 
+    .logo.hidden logo_ {
+        opacity: 0;
     }
 
     .nav-item {
@@ -449,9 +461,9 @@ footer {
 
 
     .content-1 {
-        position: absolute;
-        top: 100%;
-        left: 11%;
+        position: static;
+        margin-top: 24%;
+        margin-left: 9.3%;
     }
 
     .content-1 p {
@@ -466,13 +478,13 @@ footer {
     .texto {
         height: 277px;
         flex-shrink: 0;
-        position: absolute;
-        top: 105%;
-        left: 11%;
+        position: static;
+        margin-top: 5%;
+        margin-left: 9%;
     }
 
     .texto p {
-        width: 320px;
+        width: 270px;
         color: #000;
         font-family: Manrope;
         font-size: 20px;
@@ -482,12 +494,12 @@ footer {
     }
 
     .capa_meio {
-        position: absolute;
-        top: 154%;
+        position: static;
+        margin-top: 40%;
     }
 
     .capa_meio img {
-        width: 100%;
+        width: 84%;
         height: 225px;
         flex-shrink: 0;
     }
@@ -495,9 +507,9 @@ footer {
     .texto2 {
         height: 293px;
         flex-shrink: 0;
-        position: absolute;
-        left: 11%;
-        top: 190%;
+        position: static;
+        margin-left: 9%;
+        margin-top: 4%;
     }
 
     .texto2 p {
@@ -512,30 +524,31 @@ footer {
     }
 
     .grid-fotos{
-        position: absolute;
-        left: 2.8%;
-        right: 4.3%;
-        top: 240%;
+        position: static;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 3%;
         grid-gap: 1%;
     }
 
     .grid-fotos img{
-        width: 340px;
+        width: 83%;
         border-radius: 10px;
     }
 
     .orcamento{
-        position: absolute;
-        left: 2%;
-        top: 600%;
-        width: 345px;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 75%;
+        width: 81.5%;
         height: 217px;
         flex-shrink: 0;
+        position: static;
     }
     .msg{
-        position: absolute;
-        bottom: 10%;
-        right: 19%;
+        position: relative;
+        top: 10%;
+        right: 23%;
         width: 264px;
         height: 85px;
         flex-shrink: 0;
@@ -574,9 +587,9 @@ footer {
         padding-top: 8px;
     }
     .contato{
-        position: absolute;
-        left: -8%;
-        top: 630%;
+        position: static;
+        margin-left: 8.7%;
+        top: 697%;
         line-height: normal;
     }
 
@@ -589,7 +602,7 @@ footer {
         line-height: normal;
     }
     .contact , .rua{
-        color: #000;
+        color: black;
         font-family: Manrope;
         font-size: 12px;
         font-style: normal;
@@ -598,8 +611,11 @@ footer {
     }
 
     .botao-interativo{
-        top: 650%;
-        right: 63%;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        margin-top: -25%;
+        margin-left: 8%;
     }
     .botao-interativo a{
         color: #000;
@@ -612,33 +628,41 @@ footer {
     }
 
     footer{
-        position: absolute;
+        position: static;
         width: 310px;
-        top: 710%;
+        margin-top: 30%;
         height: 6px;
         flex-shrink: 0;
     }
     
     .divider{
-        position: absolute;
-        bottom: 800%;
+        position: static;
         height: 2px;
-        width: 140%;
-        left: 0;
+        width: 180%;
+        margin-top: -50%;
+        margin-left: -30%;
     }
     .right{
-        position: absolute;
-        bottom: 1650%;
-        left: -5.5%;
         height: 52px;
+        position: static;
+        width: 220px;
+        height: 41px;  
+        margin-top: -40%;
+        margin-left: 7%;
     }
 
     .left1{
-        position: absolute;
-        bottom: 1600%;
-        width: 220px;
-        height: 41px;  
-        left: -5.5%;  
+        position: static;
+        margin-top:10% ;
+        margin-left: 7%;
     }
 
+
+    .left{
+        position: static;
+        margin-bottom:-80%;
+        width: 220px;
+        height: 41px;  
+        left: -3.8%;  
+    }
 }

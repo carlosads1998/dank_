@@ -428,7 +428,7 @@ footer {
 
     .menu {
         z-index: 9999;
-        width: 13%;
+        width: 17%;
         height: 34px;
         display: flex;
         border-radius: 100px;
@@ -436,9 +436,13 @@ footer {
         background: rgba(255, 255, 255, 0.3);
         backdrop-filter: blur(40px);
         position: fixed;
-        right: 79%;
+        right: 75%;
         color: #ffffff00;
         top: -2.5%;
+    }
+    .menu:hover {
+        background: rgba(255, 251, 0, 0.4);
+        width: 17%;
     }
 
     .logo.hidden logo_ {
@@ -641,7 +645,7 @@ footer {
     .divider{
         position: static;
         height: 2px;
-        width: 140%;
+        width: 180%;
         margin-top: -50%;
         margin-left: -30%;
     }
