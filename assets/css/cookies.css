@@ -350,7 +350,7 @@ footer {
 
     .especificacao {
         background-color: #FFFB00;
-        margin-top: 106%;
+        margin-top: 100%;
         width: 37%;
         height: 23px;
         margin-left: 8.5%;
@@ -417,7 +417,7 @@ footer {
         height: auto;
         flex-shrink: 0;
         left: 1%;
-        top: 0;
+        top: -2%;
         transition: opacity 0.3s ease-in-out;
     }
 
@@ -433,7 +433,7 @@ footer {
         position: fixed;
         right: 72%;
         color: #ffffff00;
-        top: 0;
+        top:-2%;
     }
 
     .menu:hover {
@@ -464,7 +464,7 @@ footer {
 
     .content-1 {
         position: static;
-        margin-top: 24%;
+        margin-top: 12%;
         margin-left: 9.3%;
     }
 
@@ -530,7 +530,7 @@ footer {
         margin-left: 1%;
         margin-right: 2%;
         margin-top: 37%;
-        grid-gap: 1%;
+        grid-gap: 0.5%;
     }
 
     .grid-fotos img{

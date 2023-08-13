@@ -610,3 +610,85 @@ footer {
         font-size: 17px;
     }
 }
+
+
+@media (max-width:555px){
+    .texto{
+        width: 20%;
+        position: static;
+        margin-left: 3%;
+    }
+
+    .foto1{
+        position: static;
+        width: 29.3%;
+        margin-left: 0.5%;
+        top: 10%;
+    }
+    .txt{
+        position: static;
+        margin-top: -0.5%;
+        margin-left: 1%;
+    }
+    .mensagem{
+        position: static;
+        opacity: 1;
+        margin-top: -2%;
+        margin-left: 18.5%;
+    }
+
+    .foto2{
+        position: static;
+        width: 29.3%;
+        margin-left: 0.5%;
+        margin-top: 0.5%;
+    }
+    .txt1{
+        position: static;
+        margin-top: 48%;
+        margin-left: -110.5%;
+    }
+    .mensagem1{
+        opacity: 1;
+        margin-top: 49%;
+        margin-left: -124%;
+    }
+
+    .foto3{
+        position: static;
+        margin-top: 2.5%;
+        width:29.3% ;
+        margin-left: 0.5%;
+    }
+    .txt2{
+        margin-top: 167.5%;
+        margin-left: -211.7%;
+    }
+    .mensagem2{
+        opacity: 1;
+        margin-top: 168%;
+        margin-left: -224%;
+    }
+
+    .foto4{
+        position: static;
+        margin-top: 2%;
+        margin-left:0.5% ;
+        width: 29.3%;
+    }
+    .txt3{
+        margin-top: 178%;
+        margin-left: -9.5%;
+    }
+    .mensagem3{
+        opacity: 1;
+        margin-top: 179%;
+        margin-left: -22%;
+    }
+
+
+    
+    .foto7, .orcamento{
+        margin-top: 300%;
+    }
+}
