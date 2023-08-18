@@ -500,7 +500,7 @@ footer {
 
     .capa_meio {
         position: static;
-        margin-top: 1%;
+        margin-top: 4%;
     }
 
     .capa_meio img {
@@ -514,7 +514,7 @@ footer {
         flex-shrink: 0;
         position: static;
         margin-left: 13%;
-        margin-top: 4%;
+        margin-top: 4.5%;
     }
 
     .texto2 p {
@@ -553,7 +553,7 @@ footer {
     .msg{
         position: relative;
         top: 10%;
-        right: 23%;
+        right: 20%;
         width: 264px;
         height: 85px;
         flex-shrink: 0;
@@ -579,10 +579,8 @@ footer {
         width: 145px;
         height: 30px;
         flex-shrink: 0;
-        position: absolute;
-        right: -14%;
-        top: 255%;
-        margin-bottom: -10%;
+        margin-left: 40%;
+        margin-top: 21%;
         color: #000;
         font-family: Manrope;
         font-size: 14px;

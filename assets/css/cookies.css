@@ -478,7 +478,7 @@ footer {
     }
 
     .texto {
-        height: 277px;
+        height: 200px;
         flex-shrink: 0;
         position: static;
         margin-top: 5%;
@@ -486,7 +486,7 @@ footer {
     }
 
     .texto p {
-        width: 270px;
+        width: 300px;
         color: #000;
         font-family: Manrope;
         font-size: 20px;
@@ -497,7 +497,7 @@ footer {
 
     .capa_meio {
         position: static;
-        margin-top: 45%;
+        margin-top: 55%;
     }
 
     .capa_meio img {
@@ -511,7 +511,7 @@ footer {
         flex-shrink: 0;
         position: static;
         margin-left: 9%;
-        margin-top: 4%;
+        margin-top: 6%;
     }
 
     .texto2 p {
@@ -529,7 +529,7 @@ footer {
         position: static;
         margin-left: 1%;
         margin-right: 2%;
-        margin-top: 37%;
+        margin-top: 40%;
         grid-gap: 0.5%;
     }
 
@@ -640,31 +640,29 @@ footer {
     
     .divider{
         position: static;
-        height: 2px;
-        width: 180%;
-        margin-top: -50%;
-        margin-left: -30%;
+        height: 1px;
+        width: 105%;
+        margin-top: -45%;
+        margin-left: 1%;
     }
     .right{
         height: 52px;
         position: static;
-        width: 220px;
-        height: 41px;  
-        margin-top: -40%;
-        margin-left: 18%;
+        margin-top: -25%;
+        margin-left: 15%;
     }
 
     .left1{
         position: static;
         margin-top:10% ;
-        margin-left: 18%;
+        margin-left: 15%;
     }
 
 
     .left{
         position: static;
         margin-bottom:-80%;
-        width: 220px;
+        width: 265px;
         height: 41px;  
         left: -3.8%;  
     }

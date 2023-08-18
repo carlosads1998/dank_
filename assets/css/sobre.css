@@ -141,17 +141,36 @@
     display: none;
 }
 
-.banner-sobre img,
-.banner-sobre2 img,
-.banner-sobre4 img {
+.banner-sobre img{
     width: 785px;
     height: 523px;
 }
 
-.banner-sobre1 img,
-.banner-sobre3 {
+.banner-sobre2 img{
+    width: 500px;
+    height: 700px;
+    border-radius: 10px;
+}
+
+
+.banner-sobre1 img{
     width: 480px;
     height: 611px;
+}
+
+.banner-sobre3 img{
+    border-radius: 10px;
+}
+
+.banner-sobre4 img{
+    border-radius: 10px;
+}
+
+.banner-sobre5 img{
+    border-radius: 10px;
+}
+.banner-sobre6 img{
+    border-radius: 10px;
 }
 
 .container2 {
@@ -279,8 +298,11 @@
     width: 205px;
 }
 
+.mensagem3{
+    opacity: 0;
+}
 .grid-container .mensagem,
-.mensagem1 {
+.mensagem2 {
     font-size: 12px;
     display: flex;
     color: black;
@@ -609,7 +631,6 @@ footer {
     .logo_ {
         position: fixed;
         z-index: 9999;
-        height: auto;
         top:15.95%;
         left: 1%;
         transition: opacity 0.3s ease-in-out;
@@ -871,12 +892,19 @@ footer {
         line-height: normal;
     }
 
-    .mensagem1 {
+    .mensagem2 {
         opacity: 0;
     }
 
+    .mensagem3{
+        opacity: 1;
+        position: static;
+        margin-top: -24%;
+        margin-left: 61%;
+    }
+
     .grid-container .mensagem,
-    .mensagem1 {
+    .mensagem3 {
         font-size: 10px;
         font-style: normal;
         font-weight: 300;
@@ -885,8 +913,7 @@ footer {
 
 
 
-    .mensagem,
-    .mensagem1 {
+    .mensagem{
         position: absolute;
         display: flex;
         color: #000;
@@ -1314,19 +1341,40 @@ footer {
         display: none;
     }
 
-    .banner-sobre img,
-    .banner-sobre2 img,
-    .banner-sobre4 img {
+    .banner-sobre img{
         width: 207px;
         height: 138px;
     }
 
-    .banner-sobre4 img {
-        margin-left: -354px;
+    .banner-sobre2 img{
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .banner-sobre3 img {
+        object-fit: cover;
+        border-radius: 10px;
     }
 
-    .banner-sobre1 img,
-    .banner-sobre3 img {
+    .banner-sobre4 img {
+        margin-left: -4px;
+        border-radius: 10px;
+        width: 120px;
+        height: 180px;
+    }
+
+    .banner-sobre5 img{
+        border-radius: 10px;
+        width: 120px;
+        height: 165px;
+    }
+
+    .banner-sobre6 img{
+        border-radius: 10px;
+        width: 170px;
+        height: 140px;
+    }
+
+    .banner-sobre1 img{
         width: 126px;
         height: 161px;
     }
@@ -1687,14 +1735,15 @@ footer {
     }
 
     .contato{
-        margin-left: 3%;
-        top: 1045%;
+        margin-left: 5%;
+        margin-top: 1315%;
         gap: 20px;
+        position: static;
 
     }
     .frase{
-        position: absolute;
-        top: -20px;
+        position: static;
+        margin-top: 1220px;
     }
     
     .contato p{
@@ -1702,16 +1751,16 @@ footer {
         margin-bottom: 5px;
     }
     .endereco{
-        position: absolute;
-        top: 19%;
+        position: static;
+        margin-top: -90%;
     }
 
     
     .botao-interativo{
-        position: absolute;
-        top: 1055%;
+        position: static;
+        margin-top:-30%;
         height: 15%;
-        left: 3%;
+        margin-left: 5%;
         right: 60%;
         display: flex;
         flex-direction: column;
@@ -1725,34 +1774,34 @@ footer {
     }
 
     footer{
-        position: absolute;
-        width: 310px;
-        height: 2px;
+        position: static;
         flex-shrink: 0;
-        bottom: -350%;
+        bottom: 350%;
         left: 0;
     }
 
     .divider{
-        margin-left: 0px;
-        width:250%;
-        height: 2px;
+        margin-left: 3%;
+        width:115%;
+        margin-top: 0%;
+        height: 1px;
         flex-shrink: 0;
+        position: static;
     }
     .right{
-        position: absolute;
+        position: static;
         font-size:16px;
         font-weight: 500;
         color: black;
-        top: 2%;
-        right: 10%;
+        margin-top: -33%;
+        margin-left: -5%;
         width: 70%;
     }
 
     .left{
-        position: absolute;
-        top: 20px;
-        left: 4%;
+        position: static;
+        margin-top:10%;
+        margin-left: 6%;
         width: 220px;
         color: #000;
         font-family: Manrope;

@@ -491,23 +491,26 @@ footer {
     }
 
     .banner_right {
-        position: absolute;
-        right: -8.5%;
-        left: -13%;
-        top: -5%;
+        position: static;
+        margin-right: 8.5%;
+        margin-left: 1%;
+        margin-top: -113%;
     }
 
     .banner_right img {
         width: 90%;
         height: 450px;
+        position: static;
     }
 
     .especificacao {
         background-color: #FFFB00;
-        top: 58%;
-        width: 57%;
+        margin-top: 110%;
+        width: 43%;
+        padding-top: 0.5%;
         height: 23px;
         margin-left: 10%;
+        position: static;
     }
 
     .especificacao p {
@@ -526,8 +529,9 @@ footer {
     }
 
     .titulo {
-        margin-left: 10%;
-        top: 13.4%;
+        margin-left:10%;
+        margin-top: 18%;
+        position: static;
     }
 
     .titulo p {
@@ -544,8 +548,9 @@ footer {
     }
 
     .descricao {
+        position: static;
         margin-left: 10%;
-        top: 13%;
+        margin-top: 1%;
     }
 
     .descricao p {
@@ -592,16 +597,16 @@ footer {
         line-height: 24px;
         /* 266.667% */
         letter-spacing: 0.9px;
-        margin-left: -12%;
+        margin-left: -10%;
         margin-right: 14%;
         margin-top: -1%;
     }
 
 
     .content-1 {
-        position: absolute;
-        top: 100%;
-        left: 11%;
+        position: static;
+        margin-top: 20%;
+        margin-left: 10.5%;
     }
 
     .content-1 p {
@@ -617,9 +622,9 @@ footer {
         width: 270px;
         height: 277px;
         flex-shrink: 0;
-        position: absolute;
-        top: 105%;
-        left: 11%;
+        position: static;
+        margin-top: 2%;
+        margin-left: 10%;
     }
 
     .texto p {
@@ -632,8 +637,8 @@ footer {
     }
 
     .capa_meio {
-        position: absolute;
-        top: 145%;
+        position: static;
+        margin-top: 5%;
     }
 
     .capa_meio img {
@@ -646,9 +651,9 @@ footer {
         width: 274px;
         height: 293px;
         flex-shrink: 0;
-        position: absolute;
-        left: 11%;
-        top: 179%;
+        position: static;
+        margin-left: 10%;
+        margin-top: 5.5%;
     }
 
     .texto2 p {
@@ -661,95 +666,92 @@ footer {
     }
 
     .imagens_combo {
-        position: absolute;
-        top: 225%;
-        left: 2%;
+        position: static;
+        margin-top: 0%;
+        margin-left: 2%;
         right: 55%;
 
     }
 
     .imagens_combo img {
-        width: 105%;
+        width: 37%;
         height: 249.646px;
         border-radius: 10px;
         flex-shrink: 0;
     }
 
     .imagens_combo1 {
-        position: absolute;
-        top: 225%;
-        left: 51.5%;
+        position: static;
+        margin-top: -55%;
+        margin-left: 45%;
         right: 13%;
     }
 
     .imagens_combo1 img {
-        width: 166px;
-        height: 249.646px;
+        width: 67%;
+        height: 252px;
         flex-shrink: 0;
         border-radius: 10px;
     }
 
     .banner {
-        position: absolute;
-        top: 264%;
-        left: 2%;
+        position: static;
+        margin-top: 4%;
+        margin-left: 2%;
         right: 1.5%;
     }
 
     .banner img {
-        width: 98%;
+        width: 81.5%;
         height: 192.391px;
         flex-shrink: 0;
         border-radius: 10px;
     }
 
     .combo2 {
-        position: absolute;
-        left: 2%;
-        right:2% ;
-        top: 295%;
+        position: static;
+        margin-left: 2%;
+        margin-top:4%;
     }
 
     .combo2 img {
-        width: 166px;
+        width: 37%;
         height: 250.288px;
         flex-shrink: 0;
         border-radius: 10px;
     }
 
     .combo3 {
-        position: absolute;
-        left: 50%;
-        right: 2%;
-        top: 295%;
+        position: static;
+        margin-left: 45.5%;
+        margin-top: -55%;
     }
 
     .combo3 img {
-        width: 174px;
+        width: 67%;
         height: 138.119px;
         flex-shrink: 0;
         border-radius: 10px;
     }
 
     .combo4 {
-        position: absolute;
-        left: 50%;
-        top: 316.8%;
-        right: 2%;
+        position: static;
+        margin-left: 45.5%;
+        top: 918%;
     }
 
     .combo4 img {
-        width: 174px;
+        width: 67%;
         height: 102px;
         flex-shrink: 0;
         border-radius: 10px;
     }
 
     .combo5 {
-        position: absolute;
-        left: 2%;
+        position: static;
+        margin-left: 2%;
         right: 2%;
-        top:334% ;
+        margin-top:4% ;
     }
 
     .combo5 img {
@@ -759,56 +761,56 @@ footer {
     }
 
     .combo6{
-        position: absolute;
-        left: 50%;
-        top: 334%;
+        position: static;
+        margin-left: 45%;
+        margin-top: -25%;
     }
     .combo6 img{
-        width: 174px;
+        width: 170px;
         height: 110.926px;
         flex-shrink: 0;
     }
 
     .combo7{
-        position: absolute;
-        left: 4.5%;
-        top: 352.5%;
+        position: static;
+        margin-left: 5%;
+        margin-top: 4%;
     }
     .combo7 img{
-        width: 336px;
+        width: 306px;
         height: 208px;
         flex-shrink: 0;
         border-radius: 10px;
     }
 
     .combo8{
-        position: absolute;
-        left: 2%;
-        top: 384.5%;
+        position: static;
+        margin-left: 1%;
+        margin-top: 4%;
     }
     .combo8 img{
-        width: 353px;
+        width: 82%;
         height: 192.647px;
         flex-shrink: 0;
     }
 
     .combo9{
-        position: absolute;
-        top:415%;
-        left: 2%;
+        position: static;
+        margin-top:4%;
+        margin-left: 1%;
         right: 2%;
     }
     .combo9 img{
-        width: 354px;
+        width: 82%;
         height: 208.6px;
         flex-shrink: 0;
         border-radius: 10px;
     }
 
     .combo10{
-        position: absolute;
-        top: 448%;
-        left: 2%;
+        position: static;
+        margin-top: 4%;
+        margin-left: 2%;
     }
     .combo10 img{
         width: 170px;
@@ -817,39 +819,39 @@ footer {
     }
 
     .combo11{
-        top: 448%;
-        left: 50%;
-        position: absolute;
+        margin-top: -25.5%;
+        margin-left: 45%;
+        position: static;
     }
     .combo11 img{
-        width: 174px;
-        height: 110.926px;
+        width: 170px;
+        height: 112px;
         flex-shrink: 0;
     }
 
     .combo12{
-        position: absolute;
-        left: 2%;
-        top: 466.5%;
+        position: static;
+        margin-left: 2%;
+        margin-top: 4%;
     }
     .combo12 img{
-        width: 355.5px;
+        width: 370px;
         height: 192.266px;
         flex-shrink: 0;
     }
 
     .orcamento{
-        position: absolute;
-        left: 2%;
-        top: 499%;
-        width: 355px;
+        position: static;
+        margin-left: 2%;
+        margin-top: -10%;
+        width: 370px;
         height: 217px;
         flex-shrink: 0;
     }
     .msg{
-        position: absolute;
-        bottom: 10%;
-        right: 19%;
+        position: relative;
+        top: 7%;
+        right: 22%;
         width: 264px;
         height: 85px;
         flex-shrink: 0;
@@ -889,9 +891,9 @@ footer {
     }
 
     .contato{
-        position: absolute;
-        left: -10%;
-        top: 533%;
+        position: static;
+        margin-left: 5%;
+        top: 933%;
         line-height: normal;
     }
 
@@ -913,8 +915,12 @@ footer {
     }
 
     .botao-interativo{
-        top: 556%;
-        left: -38%;
+        position: static;
+        margin-top: -25%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
     }
     .botao-interativo a{
         color: #000;
@@ -927,33 +933,34 @@ footer {
     }
 
     footer{
-        position: absolute;
+        position: static;
         width: 310px;
-        top: 620%;
+        top: 765%;
         height: 6px;
         flex-shrink: 0;
     }
 
     .divider{
-        position: absolute;
-        bottom: 680%;
+        position: static;
+        margin-top: -8%;
         height: 2px;
-        width: 140%;
+        width: 115%;
         left: 0;
+        height: 1px;
     }
 
     .right{
-        position: absolute;
-        bottom: 1470%;
-        left: -7%;
+        position: static;
+        margin-top: 775%;
+        margin-left: -5.5%;
         height: 52px;
     }
 
     .left1{
         position: absolute;
-        bottom: 1330%;
+        margin-top: 780%;
         width: 249px;
         height: 41px;  
-        left: -7%;  
+        margin-left: -5.5%;  
     }
 }

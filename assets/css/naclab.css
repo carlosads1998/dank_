@@ -163,6 +163,10 @@ body {
     color: #000
 }
 
+.texto1{
+    opacity: 0;
+}
+
 .capa_meio{
     position: absolute;
     top: 1261px;
@@ -486,10 +490,19 @@ footer {
         position: static;
         margin-top: 5%;
         margin-left: 9%;
+        opacity: 0;
+    }
+    .texto1 {
+        height: 277px;
+        flex-shrink: 0;
+        position: static;
+        margin-top: -56%;
+        margin-left: 9%;
+        opacity: 1;
     }
 
-    .texto p {
-        width: 270px;
+    .texto1 p {
+        width: 290px;
         color: #000;
         font-family: Manrope;
         font-size: 20px;
@@ -500,7 +513,7 @@ footer {
 
     .capa_meio {
         position: static;
-        margin-top: 40%;
+        margin-top: 16%;
     }
 
     .capa_meio img {
@@ -532,7 +545,7 @@ footer {
         position: static;
         margin-left: 1%;
         margin-right: 1%;
-        margin-top: 3%;
+        margin-top: 7%;
         grid-gap: 0.5%;
     }
 
@@ -544,8 +557,8 @@ footer {
     .orcamento{
         margin-left: 1%;
         margin-right: 1%;
-        margin-top: 30%;
-        width: 81.5%;
+        margin-top: 35%;
+        width: 85.5%;
         height: 217px;
         flex-shrink: 0;
         position: static;
@@ -553,7 +566,7 @@ footer {
     .msg{
         position: relative;
         top: 10%;
-        right: 23%;
+        right: 17%;
         width: 264px;
         height: 85px;
         flex-shrink: 0;
@@ -579,7 +592,6 @@ footer {
         width: 145px;
         height: 30px;
         flex-shrink: 0;
-        position: absolute;
         right: -25%;
         top: 255%;
         margin-bottom: -10%;
@@ -642,30 +654,30 @@ footer {
     
     .divider{
         position: static;
-        height: 2px;
-        width: 180%;
+        height: 1px;
+        width: 118%;
         margin-top: -50%;
-        margin-left: -30%;
+        margin-left: -2%;
     }
     .right{
         height: 52px;
         position: static;
         width: 220px;
         height: 41px;  
-        margin-top: -40%;
+        margin-top: -42%;
         margin-left: 7%;
     }
 
     .left1{
         position: static;
-        margin-top:10% ;
+        margin-top:13%;
         margin-left: 7%;
     }
 
 
     .left{
         position: static;
-        margin-bottom:-80%;
+        margin-bottom:-75%;
         width: 220px;
         height: 41px;  
         left: -3.8%;  

@@ -85,7 +85,7 @@ body{
 }
 
 .logo {
-    position: absolute;
+    position: static;
     height: auto;
     bottom: 151px;
     left: 71px;
@@ -110,7 +110,9 @@ body{
     margin-top: 114px;
     margin-bottom: 115.77px;
     display: flex;
+    position: static;
     width: 1420px;
+    margin-left: 0.2%;
 }
 
 .container img {
@@ -669,6 +671,7 @@ footer {
         margin: 0;
         font-family: 'Manrope', sans-serif;
         text-decoration: none;   
+        outline: none;
     }
 
     .body {
@@ -709,8 +712,8 @@ footer {
         height: 34px;
         top: 20%;
         width: 13%;
-        right:76%;
-        display: flex;
+        margin-right:70%;
+        display:flex;
         list-style: none;
         background: rgba(255, 255, 255, 0.3);
         border-radius: 100px;
@@ -1061,8 +1064,8 @@ footer {
 
     .botao-interativo{
         left: 0;
-        top: 63%;
-        position: absolute;
+        margin-top: 5%;
+        position: static;
         gap: 6%;
         display: flex;
         flex-direction: column;
@@ -1076,31 +1079,35 @@ footer {
 
     footer{
         width: 100%;
-        top: 363%;
-        right: 0;
+        margin-top: 10%;
+        margin-left: -5%;
         height: 40%;
+        position: static;
     }
 
     .divider{
         width: 100%;
+        margin-top: 3%;
+        position: static;
+        height: 1%;
     }
     
     .right{
-        position: absolute;
+        position: static;
         font-size:16px;
         font-weight: 500;
         color: black;
-        top: 27%;
-        left: 9.5%;
+        margin-top:-20%;
+        margin-left: -14%;
+        width: 50%;
     }
 
     .left1{
         font-weight: 500;
         color: black;
         font-size: 16px;
-        position: absolute;
-        left: 9.5%;
-        width: 44%;
-        top: 34%;
+        position: static;
+        margin-left: -9.5%;
+        width: 70%;
     }
 }

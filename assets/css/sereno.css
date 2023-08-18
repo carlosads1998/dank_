@@ -60,6 +60,9 @@ body {
     font-weight: 300;
     color: #000;
 }
+.descricao-mob{
+    opacity: 0;
+}
 
 .descricao {
     position: absolute;
@@ -352,8 +355,8 @@ footer {
 
     .especificacao {
         background-color: #FFFB00;
-        margin-top: 106%;
-        width: 60%;
+        margin-top: 100%;
+        width: 55%;
         height: 23px;
         margin-left: 8%;
         position:static;
@@ -394,14 +397,19 @@ footer {
 
     }
 
-    .descricao {
+    .descricao{
+        opacity: 0;
+    }
+
+    .descricao-mob {
         position: static;
         margin-left: 8.5%;
         margin-top: 0%;
+        opacity: 1;
     }
 
-    .descricao p {
-        width: 285px;
+    .descricao-mob p {
+        width: 370px;
         height: 164px;
         flex-shrink: 0;
         color: #000;
@@ -466,7 +474,7 @@ footer {
 
     .content-1 {
         position: static;
-        margin-top: 55%;
+        margin-top: 20%;
         margin-left: 9%;
     }
 
@@ -484,7 +492,7 @@ footer {
         flex-shrink: 0;
         position: static;
         margin-top: 5%;
-        margin-left: 13%;
+        margin-left: 9%;
     }
 
     .texto p {
@@ -512,7 +520,7 @@ footer {
         height: 293px;
         flex-shrink: 0;
         position: static;
-        margin-left: 13%;
+        margin-left: 9%;
         margin-top: 4%;
     }
 
@@ -577,8 +585,7 @@ footer {
         width: 145px;
         height: 30px;
         flex-shrink: 0;
-        position: absolute;
-        right: -14%;
+        right: -22%;
         top: 255%;
         margin-bottom: -10%;
         color: #000;
@@ -640,23 +647,23 @@ footer {
     
     .divider{
         position: static;
-        height: 2px;
-        width: 180%;
-        margin-top: -50%;
-        margin-left: -30%;
+        height: 1px;
+        width: 110%;
+        margin-top: -55%;
+        margin-left: -0%;
     }
     .right{
         height: 52px;
         position: static;
         width: 220px;
         height: 41px;  
-        margin-top: -40%;
+        margin-top: -28%;
         margin-left: 7%;
     }
 
     .left1{
         position: static;
-        margin-top:10% ;
+        margin-top:12% ;
         margin-left: 7%;
     }
 
@@ -664,7 +671,7 @@ footer {
     .left{
         position: static;
         margin-bottom:-80%;
-        width: 220px;
+        width: 245px;
         height: 41px;  
         left: -3.8%;  
     }

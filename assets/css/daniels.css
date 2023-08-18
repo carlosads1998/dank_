@@ -39,7 +39,8 @@ body {
     margin-left: 50px;
     border-radius: 10px;
 }
-.banner_right img{
+
+.banner_right img {
     width: 668px;
     height: 879px;
     border-radius: 10px;
@@ -104,8 +105,10 @@ body {
 }
 
 .menu:hover {
-    background: rgba(255, 251, 0, 0.4);;
+    background: rgba(255, 251, 0, 0.4);
+    ;
 }
+
 .nav-item {
     height: 20px;
     padding: 10px;
@@ -132,7 +135,7 @@ body {
     font-size: 14px;
 }
 
-.content-1{
+.content-1 {
     position: absolute;
     width: 171px;
     height: 20px;
@@ -140,14 +143,14 @@ body {
     left: 61px;
 }
 
-.content-1 p{
+.content-1 p {
     font-size: 16px;
     font-family: 'Big Shoulders Display', sans-serif;
     color: #000;
     letter-spacing: 0.1rem;
 }
 
-.texto{
+.texto {
     width: 806px;
     height: 121px;
     position: absolute;
@@ -157,26 +160,30 @@ body {
     flex-shrink: 0;
 }
 
-.texto p{
+.texto-mob {
+    opacity: 0;
+}
+
+.texto p {
     width: 1221px;
     font-size: 24px;
     font-weight: 300;
     color: #000;
-    
+
 }
 
-.capa_meio{
+.capa_meio {
     position: absolute;
     top: 1377px;
 }
 
-.capa_meio img{
-    width:1443px;
+.capa_meio img {
+    width: 1443px;
     height: 902px;
     border-radius: 10px;
 }
 
-.texto2{
+.texto2 {
     position: absolute;
     width: 9366px;
     height: 140px;
@@ -184,12 +191,14 @@ body {
     top: 2322px;
     left: 360px;
 }
-.texto2 p{
+
+.texto2 p {
     font-size: 24px;
     font-weight: 300;
 }
 
-.grid-fotos{
+
+.grid-fotos {
     position: absolute;
     display: grid;
     grid-template-columns: 1fr;
@@ -199,13 +208,14 @@ body {
     right: 53px;
 }
 
-.grid-fotos img{
+.grid-fotos img {
     width: 1334px;
     border-radius: 33px;
 }
 
 .orcamento {
-    top:13226.50px; /*46px*/
+    top: 13226.50px;
+    /*46px*/
     position: absolute;
     width: 1334px;
     height: 332px;
@@ -244,7 +254,7 @@ body {
     text-decoration: none;
     color: black;
     border-radius: 50px;
-    background-color:#D9D9D9;
+    background-color: #D9D9D9;
     cursor: pointer;
     font-weight: bold;
     padding: 0px 25px;
@@ -325,7 +335,7 @@ footer {
     left: 1206px;
 }
 
-@media (max-width:555px){
+@media (max-width:555px) {
     * {
         padding: 0 auto;
         margin: 0;
@@ -353,11 +363,11 @@ footer {
 
     .especificacao {
         background-color: #FFFB00;
-        margin-top: 106%;
+        margin-top: 100%;
         width: 45%;
         height: 23px;
         margin-left: 10.5%;
-        position:static;
+        position: static;
     }
 
     .especificacao p {
@@ -438,6 +448,7 @@ footer {
         color: #ffffff00;
         top: 1.5%;
     }
+
     .menu:hover {
         background: rgba(255, 251, 0, 0.4);
         width: 15%;
@@ -467,7 +478,7 @@ footer {
 
     .content-1 {
         position: static;
-        margin-top: 35%;
+        margin-top: 30%;
         margin-left: 12%;
     }
 
@@ -481,15 +492,20 @@ footer {
     }
 
     .texto {
+        opacity: 0;
+    }
+
+    .texto-mob {
+        opacity: 1;
         height: 277px;
         flex-shrink: 0;
         position: static;
         margin-top: 5%;
-        margin-left: 13%;
+        margin-left: 12%;
     }
 
-    .texto p {
-        width: 310px;
+    .texto-mob p {
+        width: 320px;
         color: #000;
         font-family: Manrope;
         font-size: 20px;
@@ -500,29 +516,50 @@ footer {
 
     .capa_meio {
         position: static;
-        margin-top: 52%;
+        margin-top: 32%;
+    }
+
+    .texto2 {
+        opacity: 1;
+        height: 293px;
+        flex-shrink: 0;
+        position: static;
+        margin-left: 12%;
+        margin-top: 4%;
+    }
+
+    .texto2 p {
+        color: #000;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        width: 300px;
+
     }
 
     .capa_meio img {
-        width: 100%;
+        width: 85%;
         height: 225px;
         flex-shrink: 0;
+        object-fit: cover;
     }
 
-    .grid-fotos{
+    .grid-fotos {
         position: static;
         margin-left: 1%;
         margin-right: 1%;
-        margin-top: -4%;
+        margin-top: 30%;
         grid-gap: 0.5%;
     }
 
-    .grid-fotos img{
+    .grid-fotos img {
         width: 83%;
         border-radius: 10px;
     }
 
-    .orcamento{
+    .orcamento {
         margin-left: 1%;
         margin-right: 1%;
         margin-top: 35%;
@@ -531,7 +568,8 @@ footer {
         flex-shrink: 0;
         position: static;
     }
-    .msg{
+
+    .msg {
         position: relative;
         top: 10%;
         right: 23%;
@@ -539,7 +577,8 @@ footer {
         height: 85px;
         flex-shrink: 0;
     }
-    .msg p{
+
+    .msg p {
         color: #000;
         font-family: Manrope;
         font-size: 20px;
@@ -547,7 +586,8 @@ footer {
         font-weight: 300;
         line-height: normal;
     }
-    .msg img{
+
+    .msg img {
         width: 26px;
         height: 23px;
         flex-shrink: 0;
@@ -556,7 +596,7 @@ footer {
         top: 260%;
     }
 
-    .msg a{
+    .msg a {
         width: 145px;
         height: 30px;
         flex-shrink: 0;
@@ -572,14 +612,15 @@ footer {
         line-height: normal;
         padding-top: 8px;
     }
-    .contato{
+
+    .contato {
         position: static;
         margin-left: 8.7%;
         top: 697%;
         line-height: normal;
     }
 
-    .frase{
+    .frase {
         color: #000;
         font-family: Manrope;
         font-size: 12px;
@@ -587,7 +628,9 @@ footer {
         font-weight: 800;
         line-height: normal;
     }
-    .contact , .rua{
+
+    .contact,
+    .rua {
         color: black;
         font-family: Manrope;
         font-size: 12px;
@@ -596,14 +639,15 @@ footer {
         line-height: normal;
     }
 
-    .botao-interativo{
+    .botao-interativo {
         position: static;
         display: flex;
         flex-direction: column;
         margin-top: -25%;
         margin-left: 8%;
     }
-    .botao-interativo a{
+
+    .botao-interativo a {
         color: #000;
         font-family: Manrope;
         font-size: 24px;
@@ -613,42 +657,43 @@ footer {
         text-align: left;
     }
 
-    footer{
+    footer {
         position: static;
         width: 310px;
         margin-top: 30%;
         height: 6px;
         flex-shrink: 0;
     }
-    
-    .divider{
+
+    .divider {
         position: static;
         height: 2px;
         width: 180%;
         margin-top: -50%;
         margin-left: -30%;
     }
-    .right{
+
+    .right {
         height: 52px;
         position: static;
         width: 220px;
-        height: 41px;  
+        height: 41px;
         margin-top: -40%;
         margin-left: 7%;
     }
 
-    .left1{
+    .left1 {
         position: static;
-        margin-top:10% ;
+        margin-top: 10%;
         margin-left: 7%;
     }
 
 
-    .left{
+    .left {
         position: static;
-        margin-bottom:-80%;
+        margin-bottom: -80%;
         width: 220px;
-        height: 41px;  
-        left: -3.8%;  
+        height: 41px;
+        left: -3.8%;
     }
 }
