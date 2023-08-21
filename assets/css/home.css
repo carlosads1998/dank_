@@ -1087,7 +1087,7 @@ footer {
 
     .divider{
         width: 99%;
-        margin-top:60%;
+        margin-top:40%;
         position: static;
         height: 1px;
     }
@@ -1097,8 +1097,8 @@ footer {
         font-size:16px;
         font-weight: 500;
         color: black;
-        margin-top:-20%;
-        margin-left: -18%;
+        margin-top:-21%;
+        margin-left: -14%;
         width: 50%;
     }
 
@@ -1107,7 +1107,7 @@ footer {
         color: black;
         font-size: 16px;
         position: static;
-        margin-left: -9.5%;
-        width: 70%;
+        margin-left: -11%;
+        width: 71%;
     }
 }

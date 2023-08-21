@@ -327,7 +327,7 @@ footer {
 }
 
 
-@media (max-width:600px) and (min-width:375px){
+@media (max-width:600px) and (min-width:37px){
     * {
         padding: 0 auto;
         margin: 0;
