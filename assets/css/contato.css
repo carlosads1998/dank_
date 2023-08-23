@@ -272,7 +272,7 @@ input[type="image"] {
   .back_ {
     position: fixed;
     width: 105%;
-    top:1%;
+    top:.5%;
     height: 1.8%;
     margin-left: -11%;
     display: flex;
@@ -390,7 +390,7 @@ input[type="image"] {
     height: 22.641px;
     flex-shrink: 0;
     position: static;
-    margin-top: 10%;
+    margin-top: 15%;
 
   }
 
@@ -404,7 +404,7 @@ input[type="image"] {
     position: static;
     display: flex;
     flex-direction: column;
-    margin-top: 63%;
+    margin-top: 76%;
     margin-left: 3%;
   }
 
