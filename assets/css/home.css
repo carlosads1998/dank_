@@ -9,7 +9,7 @@
 body{
     width: 1440px;
     height: 4584px;
-    background-color: #f4f4f4;
+    background-color: rgb(239, 239, 239);
 }
 
 
@@ -121,6 +121,7 @@ body{
     height: 343.23px;
     left: 258px;
     top: 1016px;
+    background-color: #f5f5f5;
 }
 
 .texto {
