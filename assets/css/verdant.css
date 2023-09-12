@@ -1,0 +1,997 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color:#f4f4f4;
+    width: 1443px;
+    height: 11728px;
+    overflow-x: hidden;
+}
+
+.especificacao {
+    position: absolute;
+    background-color: #FFFB00;
+    border-radius: 50px;
+    width: 305px;
+    height: 31px;
+    margin-top: 50px;
+    margin-left: 815px;
+    margin-right: 355px;
+}
+
+.especificacao p {
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin-left: 14px;
+    font-size: 16px;
+    margin-top: 4px;
+    letter-spacing: 0.1rem;
+}
+
+.banner_right {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.banner_right img{
+    width: 668px;
+    height: 879px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.titulo {
+    position: absolute;
+    display: flex;
+    width: 299px;
+    height: 43px;
+    margin-left: 828px;
+    margin-top: 428px;
+}
+
+.titulo p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+}
+
+.descricao {
+    position: absolute;
+    margin-left: 828px;
+    margin-top: 471px;
+    width: 493px;
+    height: 137px;
+}
+
+.descricao p {
+    font-size: 56px;
+    color: #000;
+}
+
+.logo_ {
+    position: fixed;
+    z-index: 9999;
+    height: auto;
+    margin-top: 700px;
+    left: 71px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.logo.hidden logo_ {
+    opacity: 0;
+}
+
+.menu {
+    z-index: 9999;
+    position: fixed;
+    height: 48px;
+    margin-top: 700px;
+    width: 361px;
+    right: 71px;
+    display: flex;
+    list-style: none;
+    padding: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+    backdrop-filter: blur(40px);
+}
+
+.menu:hover {
+    background: rgba(255, 251, 0, 0.4);;
+}
+.nav-item {
+    height: 20px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.nav-item a {
+    padding: 22px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
+.nav-item a:hover {
+    font-weight: bold;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
+.content-1{
+    position: absolute;
+    width: 171px;
+    height: 20px;
+    top: 999px;
+    left: 61px;
+}
+
+.content-1 p{
+    font-size: 16px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: #000;
+    letter-spacing: 0.1rem;
+
+}
+
+.texto{
+    height: 121px;
+    position: absolute;
+    top: 999px;
+    left: 360px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.texto p{
+    width: 991px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+    
+}
+
+.capa_meio{
+    position: absolute;
+    top: 1261px;
+}
+
+.capa_meio img{
+    width:1443px;
+    height: 902px;
+    border-radius: 10px;
+}
+
+.texto2{
+    position: absolute;
+    width: 9366px;
+    height: 140px;
+    display: flex;
+    top: 2282px;
+    left: 360px;
+}
+.texto2 p{
+    font-size: 24px;
+    font-weight: 300;
+}
+.grid-fotos{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 35px;
+    top: 2198px;
+    left: 53px;
+    right: 53px;
+}
+
+.grid-fotos img{
+    width: 1334px;
+    border-radius: 33px;
+}
+
+.orcamento {
+    top:11032px;
+    position: absolute;
+    width: 1334px;
+    height: 332px;
+    left: 50px;
+    right: 115px;
+    background-color: #EEE;
+    border-radius: 33px;
+}
+
+.msg {
+    align-items: center;
+    color: black;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 300;
+    line-height: 55px;
+    margin-left: 116px;
+    margin-top: 84px;
+    margin-bottom: 84px;
+    position: absolute;
+}
+
+.orcamento img {
+    margin-left: 727px;
+    margin-top: -76px;
+    position: absolute;
+    width: 54px;
+    height: 47px;
+}
+
+.meu-botao {
+    margin-left: 838px;
+    font-size: 24px;
+    margin-top: -76px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    background-color:#D9D9D9;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0px 25px;
+    position: absolute;
+}
+
+
+.contato {
+    position: absolute;
+    width: 1334px;
+    height: 233px;
+    margin-left: 50px;
+    top: 11422px;
+}
+
+.frase {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 30px;
+}
+
+.botao-interativo {
+    display: grid;
+    justify-content: right;
+    position: absolute;
+    width: 1165px;
+    height: 114px;
+    margin-left: 210px;
+    top: 11485px;
+    grid-gap: 0px;
+}
+
+.botao {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 24px;
+    color: black;
+    text-align: right;
+}
+
+footer {
+    position: absolute;
+    padding: 20px;
+    position: absolute;
+    width: 1410px;
+    top: 11585px;
+}
+
+.divider {
+    margin-left: 0px;
+    font-size: 16px;
+    height: 2px;
+    background-color: #1E1E1E;
+}
+
+.left {
+    position: absolute;
+    text-align: left;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    left: 50px;
+    top: 32px;
+    width: 526px;
+    height: 19px;
+}
+
+.right {
+    width: 324px;
+    height: 19px;
+    position: absolute;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-top: -25px;
+    left: 1176px;
+}
+
+@media (max-width:555px){
+    * {
+        padding: 0 auto;
+        margin: 0;
+        font-family: 'Manrope', sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    body {
+        width: 120%;
+        height: 100%;
+
+    }
+
+    .banner_right {
+        right: 3%;
+        left: -10%;
+        top: -5%;
+    }
+
+    .banner_right img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .especificacao {
+        background-color: #FFFB00;
+        margin-top: 100%;
+        width: 45%;
+        height: 23px;
+        margin-left: 10.5%;
+        position:static;
+    }
+
+    .especificacao p {
+        position: static;
+        margin-left: 3%;
+        padding-top: 2%;
+        color: #000;
+        font-family: Big Shoulders Display;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.6px;
+        width: 227px;
+        height: 9px;
+        flex-shrink: 0;
+    }
+
+    .titulo {
+        position: static;
+        margin-left: 11.8%;
+        margin-top: 3.4%;
+    }
+
+    .titulo p {
+        width: 219px;
+        height: 28px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+    }
+
+    .descricao {
+        position: static;
+        margin-left: 10.5%;
+        margin-top: 0%;
+    }
+
+    .descricao p {
+        width: 285px;
+        height: 164px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Manrope;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .logo_ {
+        z-index: 9999;
+        width: 85px;
+        position: fixed;
+        height: auto;
+        flex-shrink: 0;
+        left: 1%;
+        top: -2.5%;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .menu {
+        z-index: 9999;
+        width: 17%;
+        height: 34px;
+        display: flex;
+        border-radius: 100px;
+        flex-shrink: 0;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(40px);
+        position: fixed;
+        right: 75%;
+        color: #ffffff00;
+        top: -2.5%;
+    }
+    .menu:hover {
+        background: rgba(255, 251, 0, 0.4);
+        width: 17%;
+    }
+
+    .logo.hidden logo_ {
+        opacity: 0;
+    }
+
+    .nav-item {
+        width: 56px;
+        height: 17px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Manrope;
+        font-size: 5px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        /* 266.667% */
+        letter-spacing: 0.9px;
+        margin-left: -12%;
+        margin-right: 14%;
+        margin-top: -1%;
+    }
+
+
+    .content-1 {
+        position: static;
+        margin-top: 15%;
+        margin-left: 10.5%;
+    }
+
+    .content-1 p {
+        color: #000;
+        font-family: Big Shoulders Display;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .texto {
+        height: 277px;
+        flex-shrink: 0;
+        position: static;
+        margin-top: 5%;
+        margin-left: 10.5%;
+    }
+
+    .texto p {
+        width: 310px;
+        color: #000;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .capa_meio {
+        position: static;
+        margin-top: 35%;
+    }
+
+    .capa_meio img {
+        width: 100%;
+        height: 225px;
+        flex-shrink: 0;
+    }
+
+    .grid-fotos{
+        position: static;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 3%;
+        grid-gap: 0.5%;
+    }
+
+    .grid-fotos img{
+        width: 83%;
+        border-radius: 10px;
+    }
+
+    .orcamento{
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 35%;
+        width: 81.5%;
+        height: 217px;
+        flex-shrink: 0;
+        position: static;
+    }
+    .msg{
+        position: relative;
+        top: 10%;
+        right: 23%;
+        width: 264px;
+        height: 85px;
+        flex-shrink: 0;
+    }
+    .msg p{
+        color: #000;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .msg img{
+        width: 26px;
+        height: 23px;
+        flex-shrink: 0;
+        position: absolute;
+        right: 90%;
+        top: 260%;
+    }
+
+    .msg a{
+        width: 145px;
+        height: 30px;
+        flex-shrink: 0;
+        right: -22%;
+        top: 255%;
+        margin-bottom: -10%;
+        color: #000;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-top: 8px;
+    }
+    .contato{
+        position: static;
+        margin-left: 8.7%;
+        top: 697%;
+        line-height: normal;
+    }
+
+    .frase{
+        color: #000;
+        font-family: Manrope;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .contact , .rua{
+        color: black;
+        font-family: Manrope;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .botao-interativo{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        margin-top: -25%;
+        margin-left: 8%;
+    }
+    .botao-interativo a{
+        color: #000;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: left;
+    }
+
+    footer{
+        position: static;
+        width: 310px;
+        margin-top: 30%;
+        height: 6px;
+        flex-shrink: 0;
+    }
+    
+    .divider{
+        position: static;
+        height: 1px;
+        width: 118%;
+        margin-top: -55%;
+        margin-left: -2%;
+    }
+    .right{
+        height: 52px;
+        position: static;
+        width: 220px;
+        height: 41px;  
+        margin-top: -28%;
+        margin-left: 7%;
+    }
+
+    .left1{
+        position: static;
+        margin-top:10% ;
+        margin-left: 7%;
+    }
+
+
+    .left{
+        position: static;
+        margin-bottom:-80%;
+        width: 235px;
+        height: 41px;  
+        left: -3.8%;  
+    }
+}
+@media (max-width:374px) and (min-width:320){
+    * {
+        padding: 0 auto;
+        margin: 0;
+        font-family: 'Manrope', sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    body {
+        width: 120%;
+        height: 100%;
+        min-height: 375px;
+
+    }
+
+    .banner_right {
+        right: 3%;
+        left: -10%;
+        top: -5%;
+    }
+
+    .banner_right img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .especificacao {
+        background-color: #FFFB00;
+        margin-top: 110%;
+        width: 50%;
+        height: 23px;
+        margin-left: 10.5%;
+        position:static;
+    }
+
+    .especificacao p {
+        position: static;
+        margin-left: 3%;
+        padding-top: 2%;
+        color: #000;
+        font-family: Big Shoulders Display;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.6px;
+        width: 227px;
+        height: 9px;
+        flex-shrink: 0;
+    }
+
+    .titulo {
+        position: static;
+        margin-left: 11.8%;
+        margin-top: 3.4%;
+    }
+
+    .titulo p {
+        width: 219px;
+        height: 28px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+    }
+
+    .descricao {
+        position: static;
+        margin-left: 11.5%;
+        margin-top: 0%;
+    }
+
+    .descricao p {
+        width: 285px;
+        height: 164px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Manrope;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .logo_ {
+        z-index: 9999;
+        width: 85px;
+        position: fixed;
+        height: auto;
+        flex-shrink: 0;
+        left: 1%;
+        top: -3%;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .menu {
+        z-index: 9999;
+        width: 17%;
+        height: 34px;
+        display: flex;
+        border-radius: 100px;
+        flex-shrink: 0;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(40px);
+        position: fixed;
+        right: 74%;
+        color: #ffffff00;
+        top: -3%;
+    }
+    .menu:hover {
+        background: rgba(255, 251, 0, 0.4);
+        width: 17%;
+    }
+
+    .logo.hidden logo_ {
+        opacity: 0;
+    }
+
+    .nav-item {
+        width: 56px;
+        height: 17px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Manrope;
+        font-size: 5px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        /* 266.667% */
+        letter-spacing: 0.9px;
+        margin-left: -12%;
+        margin-right: 14%;
+        margin-top: -1%;
+    }
+
+
+    .content-1 {
+        position: static;
+        margin-top: 9%;
+        margin-left: 12%;
+    }
+
+    .content-1 p {
+        color: #000;
+        font-family: Big Shoulders Display;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .texto {
+        height: 277px;
+        flex-shrink: 0;
+        position: static;
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    .texto p {
+        width: 310px;
+        color: #000;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .capa_meio {
+        position: static;
+        margin-top: -7.5%;
+        width: 90%;
+    }
+
+    .capa_meio img {
+        width: 100%;
+        height: 225px;
+        flex-shrink: 0;
+    }
+
+    .texto2 {
+        height: 293px;
+        flex-shrink: 0;
+        position: static;
+        margin-left: 12%;
+        margin-top: 4%;
+    }
+
+    .texto2 p {
+        color: #000;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        width: 300px;
+
+    }
+
+    .grid-fotos{
+        position: static;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 5%;
+        grid-gap: 0.5%;
+    }
+
+    .grid-fotos img{
+        width: 83%;
+        border-radius: 10px;
+    }
+
+    .orcamento{
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 40%;
+        width: 81.5%;
+        height: 217px;
+        flex-shrink: 0;
+        position: static;
+    }
+    .msg{
+        position: relative;
+        top: 10%;
+        right: 29%;
+        width: 264px;
+        height: 85px;
+        flex-shrink: 0;
+    }
+    .msg p{
+        color: #000;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .msg img{
+        width: 26px;
+        height: 23px;
+        flex-shrink: 0;
+        position: absolute;
+        right: 90%;
+        top: 260%;
+    }
+
+    .msg a{
+        width: 145px;
+        height: 30px;
+        flex-shrink: 0;
+        margin-left: 50%;
+        margin-top: 22%;
+        color: #000;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-top: 4%;
+    }
+    .contato{
+        position: static;
+        margin-left: 8.7%;
+        top: 697%;
+        line-height: normal;
+    }
+
+    .frase{
+        color: #000;
+        font-family: Manrope;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .contact , .rua{
+        color: black;
+        font-family: Manrope;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .botao-interativo{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        margin-top: -25%;
+        margin-left: 8%;
+    }
+    .botao-interativo a{
+        color: #000;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: left;
+    }
+
+    footer{
+        position: static;
+        width: 310px;
+        margin-top: 30%;
+        height: 6px;
+        flex-shrink: 0;
+    }
+    
+    .divider{
+        position: static;
+        height: 2px;
+        width: 180%;
+        margin-top: -50%;
+        margin-left: -30%;
+    }
+    .right{
+        height: 52px;
+        position: static;
+        width: 220px;
+        height: 41px;  
+        margin-top: -40%;
+        margin-left: 7%;
+    }
+
+    .left1{
+        position: static;
+        margin-top:10% ;
+        margin-left: 7%;
+    }
+
+
+    .left{
+        position: static;
+        margin-bottom:-80%;
+        width: 220px;
+        height: 41px;  
+        left: -3.8%;  
+    }
+}

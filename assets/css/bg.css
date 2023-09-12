@@ -1,0 +1,966 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #f4f4f4;
+    width: 1443px;
+    height: 10328px;
+    overflow-x: hidden;
+}
+
+.especificacao {
+    position: absolute;
+    background-color: #FFFB00;
+    border-radius: 50px;
+    width: 305px;
+    height: 31px;
+    margin-top: 50px;
+    margin-left: 815px;
+    margin-right: 355px;
+}
+
+.especificacao p {
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin-left: 14px;
+    font-size: 16px;
+    margin-top: 4px;
+    letter-spacing: 0.1rem;
+}
+
+.banner_right {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 53px;
+}
+
+.banner_right img {
+    border-radius: 10px;
+}
+
+.titulo {
+    position: absolute;
+    display: flex;
+    width: 299px;
+    height: 43px;
+    margin-left: 828px;
+    margin-top: 428px;
+}
+
+.titulo p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+}
+
+.descricao {
+    position: absolute;
+    margin-left: 828px;
+    margin-top: 471px;
+    width: 493px;
+    height: 137px;
+}
+
+.descricao p {
+    font-size: 56px;
+    color: #000;
+}
+
+.logo_ {
+    position: fixed;
+    z-index: 9999;
+    height: auto;
+    margin-top: 700px;
+    left: 71px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.logo.hidden logo_ {
+    opacity: 0;
+}
+
+.menu {
+    z-index: 9999;
+    position: fixed;
+    height: 48px;
+    margin-top: 700px;
+    width: 361px;
+    right: 71px;
+    display: flex;
+    list-style: none;
+    padding: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+    backdrop-filter: blur(40px);
+}
+
+.menu:hover {
+    background: rgba(255, 251, 0, 0.4);
+    ;
+}
+
+.nav-item {
+    height: 20px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.nav-item a {
+    padding: 22px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+}
+
+.nav-item a:hover {
+    font-weight: bold;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
+.content-1 {
+    position: absolute;
+    width: 171px;
+    height: 20px;
+    top: 1021px;
+    left: 61px;
+}
+
+.content-1 p {
+    font-size: 16px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    color: #000;
+    letter-spacing: 0.1rem;
+
+}
+
+.texto {
+    width: 836px;
+    height: 121px;
+    position: absolute;
+    top: 1021px;
+    left: 360px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.texto p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #000;
+
+}
+
+.capa_meio {
+    position: absolute;
+    top: 1261px;
+}
+
+.capa_meio img {
+    width: 1443px;
+    height: 902px;
+}
+
+.texto2 {
+    position: absolute;
+    width: 836px;
+    height: 140px;
+    display: flex;
+    top: 2282px;
+    left: 360px;
+}
+
+.texto2 p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.imagens_combo {
+    position: absolute;
+    left: 53px;
+    top: 2541px;
+}
+
+.imagens_combo img {
+    width: 650px;
+    border-radius: 10px;
+    height: 974.496px;
+}
+
+.imagens_combo1 {
+    position: absolute;
+    left: 738px;
+    top: 2541px;
+    right: 52px;
+}
+
+.imagens_combo1 img {
+    width: 650px;
+    border-radius: 10px;
+    height: 974.496px;
+}
+
+.banner {
+    position: absolute;
+    left: 53px;
+    right: 53px;
+    top: 3548px;
+}
+
+.banner img {
+    border-radius: 10px;
+    width: 1334px;
+    height: 751px;
+}
+
+.combo2 {
+    position: absolute;
+    left: 53px;
+    top: 4339px;
+}
+
+.combo2 img {
+    border-radius: 10px;
+    width: 650px;
+    height: 977px;
+}
+
+.combo3 {
+    position: absolute;
+    left: 737px;
+    top: 4339px;
+}
+
+.combo3 img {
+    border-radius: 10px;
+    width: 650px;
+    height: 539.17px;
+}
+
+.combo4 {
+    position: absolute;
+    top: 4918px;
+    left: 737px;
+}
+
+.combo4 img {
+    border-radius: 10px;
+    width: 650px;
+    height: 397.054px;
+}
+
+.combo5 {
+    position: absolute;
+    left: 53px;
+    top: 5356px;
+}
+
+.combo5 img {
+    border-radius: 10px;
+    width: 650px;
+    height: 432.863px;
+}
+
+.combo6 {
+    position: absolute;
+    left: 737px;
+    top: 5356px;
+}
+
+.combo6 img {
+    width: 650px;
+    height: 433px;
+    border-radius: 10px;
+}
+
+.combo7 {
+    position: absolute;
+    left: 53px;
+    top: 5829px;
+}
+
+.combo8 {
+    position: absolute;
+    left: 53px;
+    top: 6920px;
+}
+
+.combo8 img {
+    width: 1334px;
+    height: 752px;
+    border-radius: 10px;
+}
+
+.combo9 {
+    position: absolute;
+    left: 53px;
+    top: 7712px;
+}
+
+.combo9 img {
+    border-radius: 10px;
+    width: 1334px;
+    height: 814.273px;
+}
+
+.combo10 {
+    position: absolute;
+    left: 53px;
+    top: 8560px;
+}
+
+.combo10 img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 650px;
+    height: 433px;
+}
+
+.combo11 {
+    position: absolute;
+    left: 737px;
+    top: 8560px;
+}
+
+.combo11 img {
+    border-radius: 10px;
+    width: 650px;
+    height: 433px;
+}
+
+.combo12 {
+    position: absolute;
+    left: 53px;
+    top: 9035px;
+}
+
+.combo12 img {
+    width: 1334px;
+    height: 750.511px;
+    border-radius: 10px;
+}
+
+
+.orcamento {
+    top: 9824px;
+    position: absolute;
+    width: 1334px;
+    height: 332px;
+    left: 53px;
+    right: 115px;
+    background-color: #EEE;
+    border-radius: 33px;
+}
+
+.msg {
+    align-items: center;
+    color: black;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 300;
+    line-height: 55px;
+    margin-left: 116px;
+    margin-top: 84px;
+    margin-bottom: 84px;
+    position: absolute;
+}
+
+.orcamento img {
+    margin-left: 727px;
+    margin-top: -76px;
+    position: absolute;
+    width: 54px;
+    height: 47px;
+}
+
+.meu-botao {
+    margin-left: 838px;
+    font-size: 24px;
+    margin-top: -76px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0px 25px;
+    position: absolute;
+}
+
+
+.contato {
+    position: absolute;
+    width: 1334px;
+    height: 233px;
+    margin-left: 53px;
+    top: 10138px;
+}
+
+.frase {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 30px;
+}
+
+.botao-interativo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1165px;
+    height: 114px;
+    margin-left: 160px;
+    top: 10205px;
+    grid-gap: 15px;
+}
+
+.botao {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 24px;
+    color: black;
+    text-align: right;
+}
+
+footer {
+    position: absolute;
+    padding: 20px;
+    position: absolute;
+    width: 1360px;
+    top: 10298px;
+}
+
+.divider {
+    margin-left: -10px;
+    font-size: 16px;
+    height: 2px;
+    background-color: #1E1E1E;
+}
+
+.left {
+    position: absolute;
+    text-align: left;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    left: 53px;
+    top: 52px;
+    width: 526px;
+    height: 19px;
+}
+
+.right {
+    width: 324px;
+    height: 19px;
+    position: absolute;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-top: -25px;
+    left: 1120px;
+}
+
+
+@media (max-width:450px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Manrope', sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    body {
+        width: 120%;
+        height: 100%;
+        min-width: 320px;
+    }
+
+    .banner_right {
+        position: static;
+        margin-right: 8.5%;
+        margin-left: 1%;
+        margin-top: -113%;
+    }
+
+    .banner_right img {
+        width: 90%;
+        height: 450px;
+        position: static;
+    }
+
+    .especificacao {
+        background-color: #FFFB00;
+        margin-top: 110%;
+        width: 43%;
+        padding-top: 0.5%;
+        height: 23px;
+        margin-left: 10%;
+        position: static;
+    }
+
+    .especificacao p {
+        position: relative;
+        margin-left: 4px;
+        color: #000;
+        font-family: Big Shoulders Display;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.6px;
+        width: 187px;
+        height: 9px;
+        flex-shrink: 0;
+    }
+
+    .titulo {
+        margin-left:10%;
+        margin-top: 18%;
+        position: static;
+    }
+
+    .titulo p {
+        width: 219px;
+        height: 28px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+    }
+
+    .descricao {
+        position: static;
+        margin-left: 10%;
+        margin-top: 1%;
+    }
+
+    .descricao p {
+        width: 285px;
+        height: 164px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Manrope;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .logo_ {
+        width: 85px;
+        position: fixed;
+        height: 25px;
+        flex-shrink: 0;
+        left: 0.4%;
+    }
+
+    .menu {
+        width: 230.048px;
+        height: 34.571px;
+        flex-shrink: 0;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(40px);
+        position: fixed;
+        left: 8.7%;
+        color: #ffffff00;
+
+    }
+
+    .nav-item {
+        width: 56px;
+        height: 17px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Manrope;
+        font-size: 5px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        /* 266.667% */
+        letter-spacing: 0.9px;
+        margin-left: -10%;
+        margin-right: 14%;
+        margin-top: -1%;
+    }
+
+
+    .content-1 {
+        position: static;
+        margin-top: 20%;
+        margin-left: 10.5%;
+    }
+
+    .content-1 p {
+        color: #000;
+        font-family: Big Shoulders Display;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .texto {
+        width: 270px;
+        height: 277px;
+        flex-shrink: 0;
+        position: static;
+        margin-top: 2%;
+        margin-left: 10%;
+    }
+
+    .texto p {
+        color: #000;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .capa_meio {
+        position: static;
+        margin-top: 5%;
+    }
+
+    .capa_meio img {
+        width: 100%;
+        height: 225px;
+        flex-shrink: 0;
+    }
+
+    .texto2 {
+        width: 274px;
+        height: 293px;
+        flex-shrink: 0;
+        position: static;
+        margin-left: 10%;
+        margin-top: 5.5%;
+    }
+
+    .texto2 p {
+        color: #000;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .imagens_combo {
+        position: static;
+        margin-top: 0%;
+        margin-left: 2%;
+        right: 55%;
+
+    }
+
+    .imagens_combo img {
+        width: 37%;
+        height: 249.646px;
+        border-radius: 10px;
+        flex-shrink: 0;
+    }
+
+    .imagens_combo1 {
+        position: static;
+        margin-top: -55%;
+        margin-left: 45%;
+        right: 13%;
+    }
+
+    .imagens_combo1 img {
+        width: 67%;
+        height: 252px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .banner {
+        position: static;
+        margin-top: 4%;
+        margin-left: 2%;
+        right: 1.5%;
+    }
+
+    .banner img {
+        width: 81.5%;
+        height: 192.391px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .combo2 {
+        position: static;
+        margin-left: 2%;
+        margin-top:4%;
+    }
+
+    .combo2 img {
+        width: 37%;
+        height: 250.288px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .combo3 {
+        position: static;
+        margin-left: 45.5%;
+        margin-top: -55%;
+    }
+
+    .combo3 img {
+        width: 67%;
+        height: 138.119px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .combo4 {
+        position: static;
+        margin-left: 45.5%;
+        top: 918%;
+    }
+
+    .combo4 img {
+        width: 67%;
+        height: 102px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .combo5 {
+        position: static;
+        margin-left: 2%;
+        right: 2%;
+        margin-top:4% ;
+    }
+
+    .combo5 img {
+        width: 166.517px;
+        height: 110.891px;
+        flex-shrink: 0;
+    }
+
+    .combo6{
+        position: static;
+        margin-left: 45%;
+        margin-top: -25%;
+    }
+    .combo6 img{
+        width: 170px;
+        height: 110.926px;
+        flex-shrink: 0;
+    }
+
+    .combo7{
+        position: static;
+        margin-left: 5%;
+        margin-top: 4%;
+    }
+    .combo7 img{
+        width: 306px;
+        height: 208px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .combo8{
+        position: static;
+        margin-left: 1%;
+        margin-top: 4%;
+    }
+    .combo8 img{
+        width: 82%;
+        height: 192.647px;
+        flex-shrink: 0;
+    }
+
+    .combo9{
+        position: static;
+        margin-top:4%;
+        margin-left: 1%;
+        right: 2%;
+    }
+    .combo9 img{
+        width: 82%;
+        height: 208.6px;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .combo10{
+        position: static;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    .combo10 img{
+        width: 170px;
+        height: 110.926px;
+        flex-shrink: 0;
+    }
+
+    .combo11{
+        margin-top: -25.5%;
+        margin-left: 45%;
+        position: static;
+    }
+    .combo11 img{
+        width: 170px;
+        height: 112px;
+        flex-shrink: 0;
+    }
+
+    .combo12{
+        position: static;
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+    .combo12 img{
+        width: 370px;
+        height: 192.266px;
+        flex-shrink: 0;
+    }
+
+    .orcamento{
+        position: static;
+        margin-left: 2%;
+        margin-top: -10%;
+        width: 370px;
+        height: 217px;
+        flex-shrink: 0;
+    }
+    .msg{
+        position: relative;
+        top: 7%;
+        right: 22%;
+        width: 264px;
+        height: 85px;
+        flex-shrink: 0;
+    }
+    .msg p{
+        color: #000;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .msg img{
+        width: 26px;
+        height: 23px;
+        flex-shrink: 0;
+        position: absolute;
+        right: 90%;
+        top: 260%;
+    }
+
+    .msg a{
+        width: 145px;
+        height: 30px;
+        flex-shrink: 0;
+        position: absolute;
+        right: -14%;
+        top: 255%;
+        margin-bottom: -10%;
+        color: #000;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-top: 8px;
+    }
+
+    .contato{
+        position: static;
+        margin-left: 5%;
+        top: 933%;
+        line-height: normal;
+    }
+
+    .frase{
+        color: #000;
+        font-family: Manrope;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .contact , .rua{
+        color: #000;
+        font-family: Manrope;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .botao-interativo{
+        position: static;
+        margin-top: -25%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 3%;
+    }
+    .botao-interativo a{
+        color: #000;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: left;
+    }
+
+    footer{
+        position: static;
+        width: 310px;
+        top: 765%;
+        height: 6px;
+        flex-shrink: 0;
+    }
+
+    .divider{
+        position: static;
+        margin-top: -8%;
+        height: 2px;
+        width: 115%;
+        left: 0;
+        height: 1px;
+    }
+
+    .right{
+        position: static;
+        margin-top: 775%;
+        margin-left: -5.5%;
+        height: 52px;
+    }
+
+    .left1{
+        position: absolute;
+        margin-top: 780%;
+        width: 249px;
+        height: 41px;  
+        margin-left: -5.5%;  
+    }
+}
